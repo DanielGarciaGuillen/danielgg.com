@@ -22,7 +22,7 @@ export default TemplateWrapper
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 2fr 5fr 3fr;
+  grid-template-columns: 2fr 5fr 2fr;
   grid-template-rows: 180px auto 80px 30px;
   grid-template-areas:
     '... header ...'
@@ -46,7 +46,6 @@ const Grid = styled.div`
     img {
       max-width: 980px;
       max-height: 550px;
-      padding-bottom: 30px;
       text-align: center;
     }
     text-decoration: none;

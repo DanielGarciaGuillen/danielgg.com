@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'gatsby-link'
+
 
 
 const Subtitle = styled.div`
@@ -9,6 +11,7 @@ const Subtitle = styled.div`
 
 const Title = styled.div`
   font-size: 40px;
+  color: #333;
   font-weight: 900;
   margin-top: -20px;
   font-family: 'Tajawal', sans-serif;
@@ -16,9 +19,11 @@ const Title = styled.div`
 const Menu = styled.div`
 display: flex;
 flex-direction: column;
+
 `
 const LinkMenu = styled.a` 
   pointer: hand;
+  padding-bottom: 30px;
   opacity: 0.8;
   :hover {
     opacity: 1;
@@ -34,9 +39,11 @@ const HeaderDiv = styled.div`
 
 const Header = () => (
   <HeaderDiv>
+    <Link to="/">
     <Title>Daniel Garcia
     <Subtitle> Front End Developer </Subtitle>
     </Title>
+    </Link>
    <Menu>
     <LinkMenu href="https://github.com/DanielGarciaGuillen">
       <img
