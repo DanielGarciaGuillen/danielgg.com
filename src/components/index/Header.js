@@ -10,14 +10,14 @@ const Subtitle = styled.div`
 const Title = styled.div`
   font-size: 40px;
   font-weight: 900;
+  margin-top: -20px;
   font-family: 'Tajawal', sans-serif;
 `
 const Menu = styled.div`
 display: flex;
 flex-direction: column;
-
 `
-const LinkMenu = styled.div` 
+const LinkMenu = styled.a` 
   pointer: hand;
   opacity: 0.8;
   :hover {
@@ -26,8 +26,7 @@ const LinkMenu = styled.div`
 `
 
 const HeaderDiv = styled.div`
-  grid-column: 2/3;
-  grid-row: 1;
+  grid-area: header;  
   display: flex;
   align-content: space-between;
   justify-content: space-between;

@@ -31,7 +31,7 @@ const Grid = styled.div`
   grid-template-columns: 2fr 5fr 2fr;
   grid-template-rows: 180px 600px 80px 400px 80px auto 80px 30px 10px;
   grid-template-areas:
-    '... ... menu'
+    '... header ...'
     'particles intro ...'
     '... ... ...'
     '... blog ...'

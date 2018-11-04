@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-
 import styled from 'styled-components'
 
 import dedd from '../../images/dedd/dedd.png'
 import ott from '../../images/ottawatech/ott.png'
-
 import reactimage from '../../images/icons/64px-React-icon.svg.png'
 import styledimage from '../../images/icons/styled.jpeg'
 import giphy from '../../images/icons/giphy.png'
@@ -40,6 +38,8 @@ const Title = styled.h1`
   grid-row: 1;
   align-self: end;
   justify-self: center;
+  font-size: 35px;
+  font-weight: 900;
 `
 
 const DeddCopy = styled.div`
@@ -57,6 +57,7 @@ const ProjectTitle = styled.a`
   text-align: center;
   text-decoration: none;
   color: #60b3d8;
+  font-weight: 900;
   :visited,
   :hover {
     color: #48abd4;
@@ -111,7 +112,7 @@ class Portfo extends Component {
 
         <DeddCopy>
           <ProjectTitle href="http://dedd.co/">
-            <h2>Dedd.co</h2>
+           Dedd.co
           </ProjectTitle>
           <p>Do you need some inspiration? The answer are GIFs!</p>
           <p> Using... </p>
@@ -131,7 +132,7 @@ class Portfo extends Component {
         <OttawaCopy>
           {' '}
           <ProjectTitle href="http://dedd.co/">
-            <h2>OttawaTech</h2>
+           OttawaTech
           </ProjectTitle>
           <p>Looking for a Tech Job in Ottawa?</p>
           <p>Check this directory with 200+ Tech Companies</p>
