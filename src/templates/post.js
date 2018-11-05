@@ -3,17 +3,79 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import styled from 'styled-components'
 
-export const BlogPostTemplate = ({
-  content,
-  categories,
-  tags,
-  title,
-  date,
-  helmet,
-}) => {
+const Post = styled.div`
+grid-area: blog;
+`
+
+const ContentPost = styled.div`
+padding-top: 20px;
+line-height: 1.5;
+p :{
+  font-size: 20px;
+}
+}
+`
+
+const TitlePost = styled.div`
+  font-size: 40px;
+  font-weight: 900;
+  align-self: end; 
+`
+
+
+const BlogPost = ({ data }) => {
+  const { wordpressPost: post } = data
   return (
-    <section className="section">
+    <Layout>     
+      <Post>
+        <TitlePost dangerouslySetInnerHTML={{ __html: post.title }} />
+          <ContentPost dangerouslySetInnerHTML={{ __html: post.content }} />
+      </Post> 
+    </Layout>
+  )
+}
+
+BlogPost.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
+}
+
+export default BlogPost
+
+export const pageQuery = graphql`
+  fragment PostFields on wordpress__POST {
+    id
+    slug
+    content
+    date(formatString: "MMMM DD, YYYY")
+    title
+  }
+  query BlogPostByID($id: String!) {
+    wordpressPost(id: { eq: $id }) {
+      id
+      title
+      slug
+      content
+      date(formatString: "MMMM DD, YYYY")
+      categories {
+        name
+        slug
+      }
+      tags {
+        name
+        slug
+      }
+    }
+  }
+`
+
+
+
+
+{/* <section className="section">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
@@ -54,64 +116,4 @@ export const BlogPostTemplate = ({
           </div>
         </div>
       </div>
-    </section>
-  )
-}
-
-BlogPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  title: PropTypes.string,
-  helmet: PropTypes.instanceOf(Helmet),
-}
-
-const BlogPost = ({ data }) => {
-  const { wordpressPost: post } = data
-
-  return (
-    <Layout>
-      <BlogPostTemplate
-        content={post.content}
-        helmet={<Helmet title={`${post.title} | Blog`} />}
-        categories={post.categories}
-        tags={post.tags}
-        title={post.title}
-        date={post.date}
-      />
-    </Layout>
-  )
-}
-
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
-export default BlogPost
-
-export const pageQuery = graphql`
-  fragment PostFields on wordpress__POST {
-    id
-    slug
-    content
-    date(formatString: "MMMM DD, YYYY")
-    title
-  }
-  query BlogPostByID($id: String!) {
-    wordpressPost(id: { eq: $id }) {
-      id
-      title
-      slug
-      content
-      date(formatString: "MMMM DD, YYYY")
-      categories {
-        name
-        slug
-      }
-      tags {
-        name
-        slug
-      }
-    }
-  }
-`
+    </section> */}
