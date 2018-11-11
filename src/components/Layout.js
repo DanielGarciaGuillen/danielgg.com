@@ -41,6 +41,15 @@ const Grid = styled.div`
     text-align: center;
     border-radius: 5px;
   }
+  p {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  h1,h2,h3,h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+  }
 
   a {
     img {
@@ -58,5 +67,6 @@ const Grid = styled.div`
     h4 {
       width: 200px;
     }
+   
     
 `

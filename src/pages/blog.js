@@ -8,6 +8,16 @@ const BlogPosts = styled.div`
 grid-area: blog;
 `
 
+const Title = styled.div`
+  font-size: 33px;
+  color: #5bc0eb;
+  padding: 15px 0px 15px 0;
+  font-weight: bold;
+  line-height: 40px;
+  &:hover {
+    color: #9c6ccc;
+  }
+`
 const PostListContainer = styled.div`
   margin: 0 0 120px;
   p{
@@ -31,22 +41,17 @@ const PostListContainer = styled.div`
     width: 900px;
     object-fit: cover;
     border-radius: 2px;
+    :hover {
+      transform: scale(1.02);
+
+    }
   }
   .title-link {
  font-size: 25px;
   }
+
 `
 
-const Title = styled.div`
-  font-size: 33px;
-  color: #5bc0eb;
-  padding: 15px 0px 15px 0;
-  font-weight: bold;
-  line-height: 40px;
-  &:hover {
-    color: #9c6ccc;
-  }
-`
 
 
 export default class IndexPage extends React.Component {
@@ -82,7 +87,8 @@ export default class IndexPage extends React.Component {
         <BlogPosts>
             {postList.map((post) => (
               <PostListContainer>
-              <Link className="post-link"  to={post.slug}  key={post.title}>
+             
+                    <Link className="post-link"  to={post.slug}  key={post.title}>
       
               {post.featuredImageUrl !== '' ? (
                 <img
@@ -94,8 +100,8 @@ export default class IndexPage extends React.Component {
                 <div />
               )}
                 <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-              </Link>
-  
+                    </Link>  
+               
               <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
   
               <Link to={post.slug} >
