@@ -7,7 +7,11 @@ import Layout from '../components/Layout'
 const BlogPosts = styled.div`
   grid-area: blog;
 `
-
+const Excerpt = styled.div`
+  p {
+    padding-top: 20px;
+  }
+`
 const Title = styled.div`
   font-size: 33px;
   color: #5bc0eb;
@@ -17,6 +21,8 @@ const Title = styled.div`
   &:hover {
     color: #9c6ccc;
   }
+  @media (max-width: 700px) {
+    font-size: 25px;
 `
 const PostListContainer = styled.div`
   margin: 0 0 120px;
@@ -38,7 +44,7 @@ const PostListContainer = styled.div`
     flex-direction: column;
   }
   .featured-image {
-    max-height: 550px;
+    max-height: 950px;
     object-fit: cover;
     border-radius: 2px;
     :hover {
@@ -48,6 +54,17 @@ const PostListContainer = styled.div`
 
   .title-link {
     font-size: 25px;
+  }
+
+  @media (max-width: 700px) {
+    .featured-image {
+      max-height: 550px;
+      object-fit: cover;
+      border-radius: 2px;
+      :hover {
+        transform: scale(1.005);
+      }
+    }
   }
 `
 
@@ -99,7 +116,7 @@ export default class IndexPage extends React.Component {
                 <Title dangerouslySetInnerHTML={{ __html: post.title }} />
               </Link>
 
-              <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+              <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
 
               <Link to={post.slug}>
                 <h4 className="title-link">Read More</h4>

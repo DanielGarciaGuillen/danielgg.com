@@ -37,12 +37,18 @@ const Grid = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 
   p {
     font-size: 20px;
     padding-top: 20px;
   }
-  h1,h2,h3,h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
@@ -59,20 +65,5 @@ const Grid = styled.div`
     h4 {
       width: 200px;
     }
-
-
-    @media (max-width: 700px) {
-      grid-template-columns: 1fr;
-      grid-template-rows: 180px auto 80px 30px;
-      grid-template-areas:
-      'header'
-      'blog'
-      'footer'
-      'footer2';
-      img {
-        max-width: 300px;
-      }
-    }
-
-
+  }
 `
