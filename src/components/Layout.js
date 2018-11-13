@@ -2,23 +2,24 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
-import Header from '../components/index/Header'
+import Header from './index/Header'
 import './all.sass'
 
-const TemplateWrapper = ({ children }) => (
+const Layout = ({ children }) => (
   <Grid>
- <Helmet>
-          <title>🤙 Daniel Garcia Front End Dev</title>
-          <meta name="description" content="Daniel Garcia Front End Developer Personal Website" />
-        </Helmet>
-  <Header/>
-  {children}
-</Grid>
+    <Helmet>
+      <title>🤙 Daniel Garcia Front End Dev</title>
+      <meta
+        name="description"
+        content="Daniel Garcia Front End Developer Personal Website"
+      />
+    </Helmet>
+    <Header />
+    {children}
+  </Grid>
 )
 
-export default TemplateWrapper
-
-
+export default Layout
 
 const Grid = styled.div`
   display: grid;
@@ -26,7 +27,7 @@ const Grid = styled.div`
   grid-template-rows: 180px auto 80px 30px;
   grid-template-areas:
     '... header ...'
-    '... blog ...'    
+    '... blog ...'
     '... footer ...'
     '... footer2 ...';
   grid-column-gap: 30px;
@@ -35,28 +36,25 @@ const Grid = styled.div`
   font-family: 'Catamaran', sans-serif;
   justify-content: center;
   align-items: center;
-  img {
-    max-width: 980px;
-    max-height: 550px;
-    text-align: center;
-    border-radius: 5px;
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
   }
+
   p {
     font-size: 20px;
     padding-top: 20px;
   }
-  h1,h2,h3,h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
   }
 
   a {
-    img {
-      max-width: 980px;
-      max-height: 550px;
-      text-align: center;
-    }
     text-decoration: none;
     color: #5bc0eb;
   }
@@ -67,6 +65,5 @@ const Grid = styled.div`
     h4 {
       width: 200px;
     }
-   
-    
+  }
 `

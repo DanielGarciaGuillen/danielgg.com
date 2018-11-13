@@ -1,13 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styled from 'styled-components'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import styled from 'styled-components'
 
 const BlogPosts = styled.div`
-grid-area: blog;
+  grid-area: blog;
 `
-
+const Excerpt = styled.div`
+  p {
+    padding-top: 20px;
+  }
+`
 const Title = styled.div`
   font-size: 33px;
   color: #5bc0eb;
@@ -17,10 +21,12 @@ const Title = styled.div`
   &:hover {
     color: #9c6ccc;
   }
+  @media (max-width: 700px) {
+    font-size: 25px;
 `
 const PostListContainer = styled.div`
   margin: 0 0 120px;
-  p{
+  p {
     font-size: 20px;
   }
   a {
@@ -33,34 +39,45 @@ const PostListContainer = styled.div`
   h3 {
     position: relative;
   }
-  post-link{
-    display:flex;
+  post-link {
+    display: flex;
     flex-direction: column;
   }
   .featured-image {
-    width: 900px;
+    max-height: 950px;
     object-fit: cover;
     border-radius: 2px;
     :hover {
-      transform: scale(1.02);
-
+      transform: scale(1.005);
     }
   }
+
   .title-link {
- font-size: 25px;
+    font-size: 25px;
   }
 
+  @media (max-width: 700px) {
+    .featured-image {
+      max-height: 550px;
+      object-fit: cover;
+      border-radius: 2px;
+      :hover {
+        transform: scale(1.005);
+      }
+    }
+  }
 `
 
-
-
 export default class IndexPage extends React.Component {
-
   getPostList() {
     const postList = []
-    console.log("prop", this.props)
-    const {data:{allWordpressPost:{edges:posts}}} = this.props
-   posts.forEach(post => {
+    console.log('prop', this.props)
+    const {
+      data: {
+        allWordpressPost: { edges: posts },
+      },
+    } = this.props
+    posts.forEach(post => {
       postList.push({
         slug: post.node.slug,
         cover: post.node.cover,
@@ -76,46 +93,42 @@ export default class IndexPage extends React.Component {
     })
     return postList
   }
+
   render() {
-  
     const postList = this.getPostList()
 
-    console.log("postList",postList)
+    console.log('postList', postList)
 
     return (
       <Layout>
         <BlogPosts>
-            {postList.map((post) => (
-              <PostListContainer>
-             
-                    <Link className="post-link"  to={post.slug}  key={post.title}>
-      
-              {post.featuredImageUrl !== '' ? (
-                <img
-                  className="featured-image"
-                  src={post.featuredImageUrl}
-                  alt=""
-                />
-              ) : (
-                <div />
-              )}
+          {postList.map(post => (
+            <PostListContainer>
+              <Link className="post-link" to={post.slug} key={post.title}>
+                {post.featuredImageUrl !== '' ? (
+                  <img
+                    className="featured-image"
+                    src={post.featuredImageUrl}
+                    alt=""
+                  />
+                ) : (
+                  <div />
+                )}
                 <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-                    </Link>  
-               
-              <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-  
-              <Link to={post.slug} >
+              </Link>
+
+              <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+
+              <Link to={post.slug}>
                 <h4 className="title-link">Read More</h4>
               </Link>
             </PostListContainer>
-            ))}
-         </BlogPosts>
+          ))}
+        </BlogPosts>
       </Layout>
     )
   }
 }
-
-
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -147,14 +160,14 @@ export const pageQuery = graphql`
               }
             }
           }
-          date(formatString: "MMMM DD, YYYY")          
+          date(formatString: "MMMM DD, YYYY")
         }
       }
     }
   }
 `
 
-/*  
+/*
 
 class PostListing extends React.Component {
   getPostList() {
@@ -180,7 +193,6 @@ class PostListing extends React.Component {
     const postList = this.getPostList()
     return (
       <Blog>
-       
         postList.map(post => (
           <PostListContainer>
             <Link className="post-link" to={post.path} key={post.title}>
@@ -212,7 +224,6 @@ const Blog = styled.div`
 
 `
 */
-
 
 /*
 

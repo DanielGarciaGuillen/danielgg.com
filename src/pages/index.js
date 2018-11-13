@@ -1,20 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import Helmet from 'react-helmet'
 import Intro from '../components/index/Intro'
 import ParticlesHead from '../components/index/ParticlesHead'
 import Blog from '../components/index/Blog'
 import Portfolio from '../components/index/Portfolio'
 import Footer from '../components/index/Footer'
 import Header from '../components/index/Header'
-import Helmet from 'react-helmet'
-
 
 const IndexPage = () => (
   <Grid>
     <Helmet>
-          <title>🤙 Daniel Garcia Front End Dev</title>
-          <meta name="description" content="Daniel Garcia Front End Developer Personal Website" />
-        </Helmet>
+      <title>🤙 Daniel Garcia Front End Dev</title>
+      <meta
+        name="description"
+        content="Daniel Garcia Front End Developer Personal Website"
+      />
+    </Helmet>
     <Header />
     <ParticlesHead />
     <Intro />

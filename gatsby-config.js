@@ -7,9 +7,9 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    
+
+
     {
-      
       resolve: `gatsby-source-wordpress`,
       options: {
         /*
@@ -32,7 +32,7 @@ module.exports = {
     },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    `gatsby-transformer-sharp`, 
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],

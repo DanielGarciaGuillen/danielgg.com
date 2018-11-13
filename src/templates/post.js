@@ -1,36 +1,39 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
 import styled from 'styled-components'
+import Layout from '../components/Layout'
 
 const Post = styled.div`
-grid-area: blog;
+  grid-area: blog;
 `
 
 const ContentPost = styled.div`
-padding-top: 20px;
-line-height: 1.5;
+  padding-top: 20px;
+  line-height: 1.5;
 
-}
+  @media (max-width: 700px) {
+    font-size: 18px;
+  }
 `
 
 const TitlePost = styled.div`
   font-size: 40px;
   font-weight: 900;
-  align-self: end; 
+  align-self: end;
+  @media (max-width: 700px) {
+    font-size: 25px;
+  }
 `
-
 
 const BlogPost = ({ data }) => {
   const { wordpressPost: post } = data
   return (
-    <Layout>     
+    <Layout>
       <Post>
         <TitlePost dangerouslySetInnerHTML={{ __html: post.title }} />
-          <ContentPost dangerouslySetInnerHTML={{ __html: post.content }} />
-      </Post> 
+        <ContentPost dangerouslySetInnerHTML={{ __html: post.content }} />
+      </Post>
     </Layout>
   )
 }
@@ -69,6 +72,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-
-

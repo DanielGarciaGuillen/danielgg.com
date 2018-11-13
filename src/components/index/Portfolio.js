@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import dedd from '../../images/dedd/dedd.png'
 import ott from '../../images/ottawatech/ott.png'
-import reactimage from '../../images/icons/64px-React-icon.svg.png'
+import reactimage from '../../images/icons/react.png'
 import styledimage from '../../images/icons/styled.jpeg'
 import giphy from '../../images/icons/giphy.png'
 import firebase from '../../images/icons/firebase.png'
@@ -111,9 +111,7 @@ class Portfo extends Component {
         </DeddImages>
 
         <DeddCopy>
-          <ProjectTitle href="http://dedd.co/">
-           Dedd.co
-          </ProjectTitle>
+          <ProjectTitle href="http://dedd.co/">Dedd.co</ProjectTitle>
           <p>Do you need some inspiration? The answer are GIFs!</p>
           <p> Using... </p>
           <IconDiv>
@@ -131,9 +129,7 @@ class Portfo extends Component {
 
         <OttawaCopy>
           {' '}
-          <ProjectTitle href="http://dedd.co/">
-           OttawaTech
-          </ProjectTitle>
+          <ProjectTitle href="http://dedd.co/">OttawaTech</ProjectTitle>
           <p>Looking for a Tech Job in Ottawa?</p>
           <p>Check this directory with 200+ Tech Companies</p>
           <p> Using... </p>
