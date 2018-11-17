@@ -6,7 +6,7 @@ import trian3 from '../../images/assets/trianglify.png'
 
 const BlogDiv = styled.div`
   grid-area: blog;
-  height: 400px;  
+  height: 400px;
   border-radius: 2px;
   width: 1000px;
   display: flex;
@@ -14,6 +14,10 @@ const BlogDiv = styled.div`
   align-items: center;
   align-self: center;
   justify-self: center;
+
+  @media (max-width: 800px) {
+    width: 300px;
+  }
 `
 
 const Triangles = styled.div`
@@ -31,6 +35,10 @@ const Triangles = styled.div`
   &:hover {
     width: 1000px;
     height: 400px;
+  }
+
+  @media (max-width: 800px) {
+    width: 300px;
   }
 `
 

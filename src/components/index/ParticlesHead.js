@@ -8,6 +8,10 @@ const Parti = styled.div`
   justify-self: end;
   align-self: center;
   padding-left: 50px;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `
 
 class ParticlesHead extends Component {

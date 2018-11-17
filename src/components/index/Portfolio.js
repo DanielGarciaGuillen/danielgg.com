@@ -31,6 +31,10 @@ const PortfolioGrid = styled.div`
   font-family: 'Catamaran', sans-serif;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+    display: none;
+  }
 `
 
 const Title = styled.h1`

@@ -31,6 +31,9 @@ const LineGradient = styled.div`
       background-position: 0% 50%;
     }
   }
+  @media (max-width: 800px) {
+    width: 300px;
+  }
 `
 const Footer2Div = styled.div`
   align-self: center;

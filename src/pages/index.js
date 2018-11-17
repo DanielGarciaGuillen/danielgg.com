@@ -48,4 +48,14 @@ const Grid = styled.div`
   font-family: 'Catamaran', sans-serif;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 180px 600px 400px 100px;
+    grid-template-areas:
+      '... header ...'
+      '... intro ...'
+      '... blog ...'
+      '... footer ...';
+  }
 `
