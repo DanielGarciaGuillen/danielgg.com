@@ -1,13 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Daniel GG. Front End Developer.',
   },
 
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
-
 
     {
       resolve: `gatsby-source-wordpress`,
@@ -30,10 +28,28 @@ module.exports = {
         useACF: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-126229271-1',
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        // Enables Google Optimize using your container Id
+        optimizeId: 'YOUR_GOOGLE_OPTIMIZE_TRACKING_ID',
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'danielgg.com',
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

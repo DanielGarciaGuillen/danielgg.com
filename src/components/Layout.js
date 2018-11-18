@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
 import Header from './index/Header'
-import './all.sass'
 
 const Layout = ({ children }) => (
   <Grid>
@@ -38,7 +37,7 @@ const Grid = styled.div`
   align-items: center;
 
   @media (max-width: 700px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
   }
 
   p {

@@ -14,6 +14,9 @@ const ContentPost = styled.div`
 
   @media (max-width: 700px) {
     font-size: 18px;
+    img {
+      max-width: 300px;
+    }
   }
 `
 

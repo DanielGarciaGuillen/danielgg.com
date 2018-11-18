@@ -58,7 +58,7 @@ const PostListContainer = styled.div`
 
   @media (max-width: 700px) {
     .featured-image {
-      max-height: 550px;
+      max-width: 350px;
       object-fit: cover;
       border-radius: 2px;
       :hover {
@@ -109,7 +109,7 @@ export default class IndexPage extends React.Component {
                   <img
                     className="featured-image"
                     src={post.featuredImageUrl}
-                    alt=""
+                    alt="featured-image"
                   />
                 ) : (
                   <div />
@@ -166,90 +166,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-/*
-
-class PostListing extends React.Component {
-  getPostList() {
-    const postList = []
-    this.props.postEdges.forEach(postEdge => {
-      postList.push({
-        path: postEdge.node.slug,
-        cover: postEdge.node.cover,
-        title: postEdge.node.title,
-        date: postEdge.node.date,
-        excerpt: postEdge.node.excerpt,
-        mainCategory: postEdge.node.categories[0].name,
-        featuredImageUrl:
-          postEdge.node.featured_media !== null
-            ? postEdge.node.featured_media.source_url
-            : '',
-        authorName: postEdge.node.author.name,
-      })
-    })
-    return postList
-  }
-  render() {
-    const postList = this.getPostList()
-    return (
-      <Blog>
-        postList.map(post => (
-          <PostListContainer>
-            <Link className="post-link" to={post.path} key={post.title}>
-              {post.featuredImageUrl !== '' ? (
-                <img
-                  className="featured-image"
-                  src={post.featuredImageUrl}
-                  alt=""
-                />
-              ) : (
-                <div />
-              )}
-              <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-            </Link>
-
-            <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-
-            <Link to={post.path}>
-              <h4 className="title-link">Read More</h4>
-            </Link>
-          </PostListContainer>
-        ))}
-      </Blog>
-    )
-  }
-}
-
-const Blog = styled.div`
-
-`
-*/
-
-/*
-
-<div
-                className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.slug}>
-                    {post.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.date}</small>
-                </p>
-                <div>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: post.excerpt.replace(/<p class="link-more., ''),
-                    }}
-                  />
-                  <Link className="button is-small" to={post.slug}>
-                    Keep Reading →
-                  </Link>
-                </div>
-              </div>
-
-
-  */
