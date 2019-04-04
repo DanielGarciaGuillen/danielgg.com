@@ -71,7 +71,6 @@ const PostListContainer = styled.div`
 export default class IndexPage extends React.Component {
   getPostList() {
     const postList = []
-    console.log('prop', this.props)
     const {
       data: {
         allWordpressPost: { edges: posts },

@@ -4,15 +4,19 @@ import styled from 'styled-components'
 
 import Header from './index/Header'
 import './all.sass'
+import favicon from '../images/icons/favicon.png'
 
 const Layout = ({ children }) => (
   <Grid>
     <Helmet>
-      <title>🤙 Daniel Garcia Front End Dev</title>
+      <title>Daniel Garcia. Front End Stuff</title>
       <meta
         name="description"
         content="Daniel Garcia Front End Developer Personal Website"
       />
+      <link rel="canonical" href="http://danielgg.com" />
+      <link rel="shortcut icon" type='image/png' href={favicon} />
+
     </Helmet>
     <Header />
     {children}

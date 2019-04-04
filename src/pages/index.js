@@ -7,15 +7,18 @@ import Blog from '../components/index/Blog'
 import Portfolio from '../components/index/Portfolio'
 import Footer from '../components/index/Footer'
 import Header from '../components/index/Header'
+import favicon from '../images/icons/favicon.png'
 
 const IndexPage = () => (
   <Grid>
     <Helmet>
-      <title>🤙 Daniel Garcia Front End Dev</title>
+      <title>Daniel Garcia Front End Dev</title>
       <meta
         name="description"
         content="Daniel Garcia Front End Developer Personal Website"
       />
+      <link rel="canonical" href="http://danielgg.com" />
+      <link rel="shortcut icon" type='image/png' href={favicon} />
     </Helmet>
     <Header />
     <ParticlesHead />

@@ -52,7 +52,11 @@ const Intro = () => (
       <p>You have less than 20 seconds to grab your users attention...</p>
       <p>Your website needs to make a good impression in your users.</p>
       <p>
-        My passion is to create amazing websites that your users <br /> will
+        My passion is to create amazing websites that your users 
+        {' '}
+        <br />
+        {' '}
+will
         remember and will help them achieve your goals.
       </p>
 
