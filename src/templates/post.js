@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Layout from '../components/Layout'
 
@@ -11,11 +11,21 @@ const Post = styled.div`
 const ContentPost = styled.div`
   padding-top: 20px;
   line-height: 1.5;
-
+  
+  img {
+    width: 700px;
+    @media (max-width: 900px) {
+      width: 500px;
+    }
+    @media (max-width: 600px) {
+      width: 350px;
+    }
+  }
   @media (max-width: 700px) {
     font-size: 18px;
   }
 `
+
 
 const TitlePost = styled.div`
   font-size: 40px;
