@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 
-
-
 const Subtitle = styled.div`
   font-size: 20px;
   font-weight: 400;
@@ -11,7 +9,6 @@ const Subtitle = styled.div`
 
 const Title = styled.div`
   font-size: 40px;
-  color: #333;
   font-weight: 900;
   margin-top: -20px;
   font-family: 'Tajawal', sans-serif;
@@ -37,9 +34,15 @@ const HeaderDiv = styled.div`
   justify-content: space-between;
 `
 
+const linkStyles ={
+  textDecoration : "none",
+  color: '#333',
+  opacity: '0.9',
+}
+
 const Header = () => (
   <HeaderDiv>
-    <Link to="/">
+    <Link to="/" style={linkStyles}>
       <Title>
 Daniel Garcia
         <Subtitle> Front End Developer </Subtitle>

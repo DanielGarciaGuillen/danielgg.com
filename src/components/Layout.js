@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
 import Header from './index/Header'
-import './all.sass'
 import favicon from '../images/icons/favicon.png'
 
 const Layout = ({ children }) => (

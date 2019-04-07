@@ -102,7 +102,7 @@ const TechIcon = styled.img`
   border-radius: 3px;
 `
 
-class Portfo extends Component {
+class Portfolio extends Component {
   render() {
     return (
       <PortfolioGrid>
@@ -116,7 +116,7 @@ class Portfo extends Component {
 
         <DeddCopy>
           <ProjectTitle href="http://dedd.co/">Dedd.co</ProjectTitle>
-          <p>Do you need some inspiration? The answer are GIFs!</p>
+          <p>Do you need some inspiration? The answer is an GIF!</p>
           <p> Using... </p>
           <IconDiv>
             <a href="https://reactjs.org/">
@@ -160,4 +160,4 @@ class Portfo extends Component {
   }
 }
 
-export default Portfo
+export default Portfolio;
