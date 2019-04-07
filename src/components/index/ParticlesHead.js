@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
+import './particles.css'
 
 const Parti = styled.div`
   grid-area: particles;
@@ -9,8 +10,10 @@ const Parti = styled.div`
   align-self: center;
   padding-left: 50px;
 
-  @media (max-width: 900px) {
-    display: none;
+  @media (max-width: 1000px) {
+    grid-area: particles;
+    justify-self: center;
+    padding-left: 0;
   }
 `
 
@@ -19,12 +22,10 @@ class ParticlesHead extends Component {
     return (
       <Parti>
         <Particles
-          width="110px"
-          height="600px"
           params={{
             particles: {
               number: {
-                value: 120,
+                value: 155,
                 density: { enable: true, value_area: 900 },
               },
               color: { value: '#3a4750' },
@@ -52,8 +53,7 @@ class ParticlesHead extends Component {
             },
             interactivity: {
               detect_on: 'canvas',
-              events: {
-                onhover: { enable: true, mode: 'repulse' },
+              events: {               
                 onclick: { enable: true, mode: 'bubble' },
                 resize: true,
               },
@@ -70,10 +70,10 @@ class ParticlesHead extends Component {
                   speed: 10,
                   line_linked: { color: '#3A4750' },
                 },
-                repulse: { distance: 100, duration: 0.4, color: '#3CA9D1' },
               },
             },
           }}
+          className="canvita"
           style={{
             /*   background: "black", */
             width: '100%',

@@ -46,7 +46,7 @@ const Footer2Div = styled.div`
 const Footer =() => (
   <FooterDiv>
     <LineGradient />
-    <Footer2Div>2018 Daniel Garcia</Footer2Div>
+    <Footer2Div>2019 Daniel Garcia</Footer2Div>
   </FooterDiv>
   )
 

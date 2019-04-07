@@ -24,8 +24,23 @@ const Title = styled.div`
   @media (max-width: 700px) {
     font-size: 25px;
 `
-const PostListContainer = styled.div`
-  margin: 0 0 120px;
+
+const FeaturedImage = styled.img`
+  width: 700px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    }
+  @media (max-width: 900px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 350px;
+  }
+
+`
+const PostListContainer = styled.div` 
+  padding-bottom: 100px;
   p {
     font-size: 20px;
   }
@@ -43,28 +58,9 @@ const PostListContainer = styled.div`
     display: flex;
     flex-direction: column;
   }
-  .featured-image {
-    max-height: 950px;
-    object-fit: cover;
-    border-radius: 2px;
-    :hover {
-      transform: scale(1.005);
-    }
-  }
-
-  .title-link {
+    .title-link {
     font-size: 25px;
   }
-
-  @media (max-width: 700px) {
-    .featured-image {
-      max-height: 550px;
-      object-fit: cover;
-      border-radius: 2px;
-      :hover {
-        transform: scale(1.005);
-      }
-    }
   }
 `
 
@@ -96,22 +92,20 @@ export default class IndexPage extends React.Component {
   render() {
     const postList = this.getPostList()
 
-    console.log('postList', postList)
 
     return (
       <Layout>
         <BlogPosts>
           {postList.map(post => (
-            <PostListContainer>
+            <PostListContainer>            
               <Link className="post-link" to={post.slug} key={post.title}>
                 {post.featuredImageUrl !== '' ? (
-                  <img
-                    className="featured-image"
+                  <FeaturedImage
                     src={post.featuredImageUrl}
                     alt=""
                   />
                 ) : (
-                  <div />
+                  null
                 )}
                 <Title dangerouslySetInnerHTML={{ __html: post.title }} />
               </Link>
@@ -165,90 +159,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
-/*
-
-class PostListing extends React.Component {
-  getPostList() {
-    const postList = []
-    this.props.postEdges.forEach(postEdge => {
-      postList.push({
-        path: postEdge.node.slug,
-        cover: postEdge.node.cover,
-        title: postEdge.node.title,
-        date: postEdge.node.date,
-        excerpt: postEdge.node.excerpt,
-        mainCategory: postEdge.node.categories[0].name,
-        featuredImageUrl:
-          postEdge.node.featured_media !== null
-            ? postEdge.node.featured_media.source_url
-            : '',
-        authorName: postEdge.node.author.name,
-      })
-    })
-    return postList
-  }
-  render() {
-    const postList = this.getPostList()
-    return (
-      <Blog>
-        postList.map(post => (
-          <PostListContainer>
-            <Link className="post-link" to={post.path} key={post.title}>
-              {post.featuredImageUrl !== '' ? (
-                <img
-                  className="featured-image"
-                  src={post.featuredImageUrl}
-                  alt=""
-                />
-              ) : (
-                <div />
-              )}
-              <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-            </Link>
-
-            <div dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-
-            <Link to={post.path}>
-              <h4 className="title-link">Read More</h4>
-            </Link>
-          </PostListContainer>
-        ))}
-      </Blog>
-    )
-  }
-}
-
-const Blog = styled.div`
-
-`
-*/
-
-/*
-
-<div
-                className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.slug}>
-                    {post.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.date}</small>
-                </p>
-                <div>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: post.excerpt.replace(/<p class="link-more., ''),
-                    }}
-                  />
-                  <Link className="button is-small" to={post.slug}>
-                    Keep Reading →
-                  </Link>
-                </div>
-              </div>
-
-
-  */
