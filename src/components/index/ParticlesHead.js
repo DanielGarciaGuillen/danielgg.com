@@ -10,7 +10,7 @@ const Parti = styled.div`
   align-self: center;
   padding-left: 50px;
 
-  @media (max-width: 900px) {
+  @media (max-width: 1000px) {
     grid-area: particles;
     justify-self: center;
     padding-left: 0;

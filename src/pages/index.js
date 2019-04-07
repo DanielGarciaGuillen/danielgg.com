@@ -54,12 +54,13 @@ const Grid = styled.div`
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 180px 100px 600px 400px 100px;
+    grid-template-rows: 180px 100px 600px 300px auto 100px;
     grid-template-areas:
       '... header ...'
       '... particles ...'
       '... intro ...'
       '... blog ...'
+      '... portfolio ...'
       '... footer ...';
   }
 `
