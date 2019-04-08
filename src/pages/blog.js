@@ -8,9 +8,9 @@ const BlogPosts = styled.div`
   grid-area: blog;
 `
 const Excerpt = styled.div`
-  p {
-    padding-top: 20px;
-  }
+  line-height: 1.5;
+  margin-top: -25px;
+  margin-bottom: -25px;  
 `
 const Title = styled.div`
   font-size: 33px;

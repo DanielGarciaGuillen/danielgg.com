@@ -10,9 +10,10 @@ const Post = styled.div`
 
 const ContentPost = styled.div`
   padding-top: 20px;
-  line-height: 1.5;
-  
+  line-height: 1.5;  
   img {
+    max-width: 100%;
+    height: auto;
     width: 700px;
     @media (max-width: 900px) {
       width: 500px;
