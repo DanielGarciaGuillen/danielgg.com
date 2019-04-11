@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 
 import Header from './index/Header'
+import Footer from './index/Footer'
 import favicon from '../images/icons/favicon.png'
 
 const Layout = ({ children }) => (
@@ -19,6 +20,7 @@ const Layout = ({ children }) => (
     </Helmet>
     <Header />
     {children}
+    <Footer />
   </Grid>
 )
 

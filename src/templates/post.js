@@ -32,6 +32,7 @@ const TitlePost = styled.div`
   font-size: 40px;
   font-weight: 900;
   align-self: end;
+  color: #5bc0eb;
   @media (max-width: 700px) {
     font-size: 25px;
   }
