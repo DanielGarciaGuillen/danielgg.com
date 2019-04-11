@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 import './particles.css'

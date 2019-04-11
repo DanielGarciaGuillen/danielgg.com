@@ -7,17 +7,6 @@ import styledimage from '../../images/icons/styled.jpeg'
 import giphy from '../../images/icons/giphy.png'
 import firebase from '../../images/icons/firebase.png'
 
-const Rotate = styled.img`
-  width: 100px;
-  heigth: 100px;
-  -webkit-animation:spin 8s linear infinite;
-    -moz-animation:spin 8s linear infinite;
-    animation:spin 8s linear infinite;
-    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);
-`
-
 const PortfolioGrid = styled.div`
   grid-area: portfolio;
   display: grid;
@@ -39,7 +28,8 @@ const Title = styled.h1`
   grid-row: 1;
   align-self: end;
   justify-self: center;
-  font-size: 35px;
+  font-size: 40px;
+  opacity: 0.8;
   font-weight: 900;
 `
 
@@ -71,11 +61,32 @@ const IconDiv = styled.div`
 display: flex;
 justify-content:space-evenly;
 padding-bottom: 80px
-}
+
 `
 
+
+const TechIcon = styled.img`
+  width: 80px;
+  border-radius: 3px;
+`
+
+
+const Rotate = styled.img`
+  width: 100px;
+  -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);
+`
+
+
+
+
+
 const ProjectImage = styled.img`  
-  width: 700px;
+  width: 800px;
   transition: all .2s ease-in-out;
   &:hover {
     transform: scale(1.05);
@@ -88,13 +99,10 @@ const ProjectImage = styled.img`
   @media (max-width: 600px) {
     width: 350px;
   }
-
+  
 `
 
-const TechIcon = styled.img`
-  width: 80px;
-  border-radius: 3px;
-`
+
 
 class Portfolio extends Component {
   render() {

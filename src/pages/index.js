@@ -15,7 +15,7 @@ const IndexPage = () => (
       <title>Daniel Garcia Front End Dev</title>
       <meta
         name="description"
-        content="Daniel Garcia Front End Developer Personal Website"
+        content="Daniel Garcia. Front End Dev."
       />
       <link rel="canonical" href="http://danielgg.com" />
       <link rel="shortcut icon" type='image/png' href={favicon} />
