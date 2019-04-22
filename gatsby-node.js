@@ -1,43 +1,13 @@
 const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const createPaginatedPages = require('gatsby-paginate')
+
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   return graphql(`
-    {
-      allWordpressPage {
-        edges {
-          node {
-            id
-            slug
-            status
-            template
-          }
-        }
-      }
-    }
-  `)
-    .then(result => {
-      if (result.errors) {
-        result.errors.forEach(e => console.error(e.toString()))
-        return Promise.reject(result.errors)
-      }
-
-      const pageTemplate = path.resolve(`./src/templates/page.js`)
-
-      _.each(result.data.allWordpressPage.edges, edge => {
-        createPage({
-          path: `/${edge.node.slug}/`,
-          component: pageTemplate,
-          context: {
-            id: edge.node.id,
-          },
-        })
-      })
-    })
-    .then(() => graphql(`
         {
           allWordpressPost {
             edges {
@@ -57,12 +27,21 @@ exports.createPages = ({ actions, graphql }) => {
             }
           }
         }
-      `))
+      `)
     .then(result => {
       if (result.errors) {
         result.errors.forEach(e => console.error(e.toString()))
         return Promise.reject(result.errors)
       }
+      createPaginatedPages({
+        edges: result.data.allWordpressPost.edges,
+        createPage,
+        pageTemplate: 'src/templates/blogList.js',
+        pageLength: 6, // This is optional and defaults to 10 if not used
+        pathPrefix: 'blog',
+        buildPath: (index, pathPrefix) =>
+          index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`, 
+      })
 
       const postTemplate = path.resolve(`./src/templates/post.js`)
 

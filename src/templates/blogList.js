@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link, graphql } from 'gatsby'
@@ -64,7 +64,7 @@ const PostListContainer = styled.div`
   }
 `
 
-export default class IndexPage extends React.Component {
+export default class BlogList extends React.Component {
   getPostList() {
     const postList = []
     const {
@@ -90,6 +90,8 @@ export default class IndexPage extends React.Component {
   }
 
   render() {
+
+    console.log(this.props)
     const postList = this.getPostList()
 
 
@@ -123,7 +125,7 @@ export default class IndexPage extends React.Component {
   }
 }
 
-IndexPage.propTypes = {
+BlogList.propTypes = {
   data: PropTypes.shape({
     allWordpressPost: PropTypes.shape({
       edges: PropTypes.array,
@@ -158,4 +160,53 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+` */
+
+import React, { Component } from 'react'
+import Link from 'gatsby-link'
+
+const NavLink = props => {
+  if (!props.test) {
+    return <Link to={props.url}>{props.text}</Link>
+  } 
+    return <span>{props.text}</span>
+  
+}
+
+const IndexPage = ({pageContext}) => {
+
+  console.log(pageContext)
+  
+  const { group, index, first, last, pageCount, pathPrefix } = pageContext
+  const previousUrl = index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
+  const nextUrl =  `${pathPrefix}/${(index  + 1).toString()}`
+
+  return (
+    
+    <div>
+      <h4>
+        {pageCount}
+        {' '}
+Pages
+      </h4>
+      
+
+      {group.map(({ node }) => (
+        <div key={node.id} className="blogListing">
+         
+          <Link className="blogUrl" to={node.slug}>
+            {node.slug}
+          </Link>
+    
+        </div>
+      ))}
+      <div className="previousLink">
+        <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+      </div>
+      <div className="nextLink">
+        <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+      </div>
+    </div>
+  )
+}
+export default IndexPage
