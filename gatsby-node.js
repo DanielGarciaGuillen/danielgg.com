@@ -14,14 +14,10 @@ exports.createPages = ({ actions, graphql }) => {
               node {
                 id
                 slug
-                modified
-                tags {
+                title
+                excerpt
+                author {
                   name
-                  slug
-                }
-                categories {
-                  name
-                  slug
                 }
               }
             }

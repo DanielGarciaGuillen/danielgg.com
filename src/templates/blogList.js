@@ -1,69 +1,10 @@
-/* import React from 'react'
+/*  import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout' */
 
-const BlogPosts = styled.div`
-  grid-area: blog;
-`
-const Excerpt = styled.div`
-  line-height: 1.5;
-  margin-top: -25px;
-  margin-bottom: -25px;  
-`
-const Title = styled.div`
-  font-size: 33px;
-  color: #5bc0eb;
-  padding: 15px 0px 15px 0;
-  font-weight: bold;
-  line-height: 40px;
-  &:hover {
-    color: #9c6ccc;
-  }
-  @media (max-width: 700px) {
-    font-size: 25px;
-`
-
-const FeaturedImage = styled.img`
-  width: 700px;
-  transition: all .2s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-    }
-  @media (max-width: 900px) {
-    width: 500px;
-  }
-  @media (max-width: 600px) {
-    width: 350px;
-  }
-
-`
-const PostListContainer = styled.div` 
-  padding-bottom: 100px;
-  p {
-    font-size: 20px;
-  }
-  a {
-    text-decoration: none;
-    color: #5bc0eb;
-    &:hover {
-      color: #9c6ccc;
-    }
-  }
-  h3 {
-    position: relative;
-  }
-  post-link {
-    display: flex;
-    flex-direction: column;
-  }
-    .title-link {
-    font-size: 25px;
-  }
-  }
-`
-
+/*
 export default class BlogList extends React.Component {
   getPostList() {
     const postList = []
@@ -164,6 +105,68 @@ export const pageQuery = graphql`
 
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+import Layout from '../components/Layout'
+
+const BlogPosts = styled.div`
+  grid-area: blog;
+`
+const Excerpt = styled.div`
+  line-height: 1.5;
+  margin-top: -25px;
+  margin-bottom: -25px;  
+`
+const Title = styled.div`
+  font-size: 33px;
+  color: #5bc0eb;
+  padding: 15px 0px 15px 0;
+  font-weight: bold;
+  line-height: 40px;
+  &:hover {
+    color: #9c6ccc;
+  }
+  @media (max-width: 700px) {
+    font-size: 25px;
+`
+
+const FeaturedImage = styled.img`
+  width: 700px;
+  transition: all .2s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    }
+  @media (max-width: 900px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 350px;
+  }
+
+`
+const PostListContainer = styled.div` 
+  padding-bottom: 100px;
+  p {
+    font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: #5bc0eb;
+    &:hover {
+      color: #9c6ccc;
+    }
+  }
+  h3 {
+    position: relative;
+  }
+  post-link {
+    display: flex;
+    flex-direction: column;
+  }
+    .title-link {
+    font-size: 25px;
+  }
+  }
+`
 
 const NavLink = props => {
   if (!props.test) {
@@ -181,9 +184,43 @@ const IndexPage = ({pageContext}) => {
   const previousUrl = index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
   const nextUrl =  `${pathPrefix}/${(index  + 1).toString()}`
 
+  const post = group.map(item => console.log(item))
+
   return (
+    <Layout>
+      <BlogPosts>
+        {group.map(({node}) => (
+          <PostListContainer>            
+            <Link className="post-link" to={node.slug} key={node.title}>
+              {node.featuredImageUrl !== '' ? (
+                <FeaturedImage
+                  src={node.featuredImageUrl}
+                  alt=""
+                />
+            ) : (
+              null
+            )}
+              <Title dangerouslySetInnerHTML={{ __html: node.title }} />
+            </Link>
+
+            <Excerpt dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+
+            <Link to={node.slug}>
+              <h4 className="title-link">Read More</h4>
+            </Link>
+          </PostListContainer>
+      ))}
+      </BlogPosts>
+      <div className="previousLink">
+        <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
+      </div>
+      <div className="nextLink">
+        <NavLink test={last} url={nextUrl} text="Go to Next Page" />
+      </div>
     
-    <div>
+    </Layout>
+    
+   /*  <div>
       <h4>
         {pageCount}
         {' '}
@@ -206,7 +243,7 @@ Pages
       <div className="nextLink">
         <NavLink test={last} url={nextUrl} text="Go to Next Page" />
       </div>
-    </div>
+    </div> */
   )
 }
 export default IndexPage
