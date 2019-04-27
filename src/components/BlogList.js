@@ -25,11 +25,7 @@ const Title = styled.div`
 `
 
 const FeaturedImage = styled.img`
-  width: 700px;
-  transition: all .2s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-    }
+  width: 700px; 
   @media (max-width: 900px) {
     width: 500px;
   }
@@ -39,6 +35,10 @@ const FeaturedImage = styled.img`
 
 `
 const PostListContainer = styled.div` 
+  transition: all .2s ease-in-out;
+    &:hover {
+  transform: scale(1.05);
+  }
   padding-bottom: 100px;
   p {
     font-size: 20px;

@@ -124,10 +124,6 @@ const Title = styled.div`
 
 const FeaturedImage = styled.img`
   width: 700px;
-  transition: all .2s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-    }
   @media (max-width: 900px) {
     width: 500px;
   }
@@ -137,7 +133,11 @@ const FeaturedImage = styled.img`
 
 `
 const PostListContainer = styled.div` 
-  padding-bottom: 100px;
+  transition: all .2s ease-in-out;
+    &:hover {
+  transform: scale(1.05);
+  }
+  margin-bottom: 100px;
   p {
     font-size: 20px;
   }
@@ -159,6 +159,12 @@ const PostListContainer = styled.div`
     font-size: 25px;
   }
   }
+`
+const Pagination = styled.div`
+  grid-area: blog;
+  align-self: flex-end;
+  display: flex;
+  place-content: space-evenly;
 `
 
 const NavLink = props => {
@@ -204,76 +210,18 @@ const IndexPage = ({pageContext}) => {
           </PostListContainer>
       ))}
       </BlogPosts>
-      <div className="previousLink">
-        <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
-      </div>
-      <div className="nextLink">
-        <NavLink test={last} url={nextUrl} text="Go to Next Page" />
-      </div>
+      <Pagination>
+        <div>
+          <NavLink test={first} url={previousUrl} text="Previous Page" />
+        </div>
+        <div>
+          <NavLink test={last} url={nextUrl} text="Next Page" />
+        </div>
+      </Pagination>
     
     </Layout>
-    
-   /*  <div>
-      <h4>
-        {pageCount}
-        {' '}
-Pages
-      </h4>
-      
-
-      {group.map(({ node }) => (
-        <div key={node.id} className="blogListing">
-         
-          <Link className="blogUrl" to={node.slug}>
-            {node.slug}
-          </Link>
-    
-        </div>
-      ))}
-      <div className="previousLink">
-        <NavLink test={first} url={previousUrl} text="Go to Previous Page" />
-      </div>
-      <div className="nextLink">
-        <NavLink test={last} url={nextUrl} text="Go to Next Page" />
-      </div>
-    </div> */
   )
 }
-
-export const query = graphql`
-  query wordpressPosts($skip: Int!, $limit: Int!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allWordpressPost(
-      filter: { status: { eq: "publish" } }
-      sort: { fields: [date], order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
-      edges {
-        node {
-          wordpress_id
-          title
-          slug
-          excerpt
-          featured_media {
-            media_type
-            localFile {
-              childImageSharp {
-                fixed(width: 700) {
-                  src
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-`;
 
 
 export default IndexPage

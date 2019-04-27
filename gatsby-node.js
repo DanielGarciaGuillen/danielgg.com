@@ -37,7 +37,7 @@ exports.createPages = ({ actions, graphql }) => {
         edges: result.data.allWordpressPost.edges,
         createPage,
         pageTemplate: 'src/templates/blogList.js',
-        pageLength: 6, // This is optional and defaults to 10 if not used
+        pageLength: 4, // This is optional and defaults to 10 if not used
         pathPrefix: 'blog',
         buildPath: (index, pathPrefix) =>
           index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`, 
