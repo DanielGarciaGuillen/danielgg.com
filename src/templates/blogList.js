@@ -88,13 +88,6 @@ export const pageQuery = graphql`
           }
           featured_media {
             source_url
-            localFile {
-              childImageSharp {
-                resolutions(width: 500, height: 300) {
-                  ...GatsbyImageSharpResolutions_withWebp
-                }
-              }
-            }
           }
           date(formatString: "MMMM DD, YYYY")
         }
@@ -192,9 +185,9 @@ const IndexPage = ({pageContext}) => {
         {group.map(({node}) => (
           <PostListContainer>            
             <Link className="post-link" to={node.slug} key={node.title}>
-              {node.featuredImageUrl !== '' ? (
+              {node.featured_media !== '' ? (
                 <FeaturedImage
-                  src={node.featuredImageUrl}
+                  src={node.featured_media.source_url}
                   alt=""
                 />
             ) : (
@@ -246,4 +239,41 @@ Pages
     </div> */
   )
 }
+
+export const query = graphql`
+  query wordpressPosts($skip: Int!, $limit: Int!) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allWordpressPost(
+      filter: { status: { eq: "publish" } }
+      sort: { fields: [date], order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
+      edges {
+        node {
+          wordpress_id
+          title
+          slug
+          excerpt
+          featured_media {
+            media_type
+            localFile {
+              childImageSharp {
+                fixed(width: 700) {
+                  src
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+
 export default IndexPage

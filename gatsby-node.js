@@ -19,6 +19,10 @@ exports.createPages = ({ actions, graphql }) => {
                 author {
                   name
                 }
+                featured_media {
+                  source_url
+                }
+                date(formatString: "MMMM DD, YYYY")
               }
             }
           }
