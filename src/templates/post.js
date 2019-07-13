@@ -14,7 +14,7 @@ const ContentPost = styled.div`
   img {
     max-width: 100%;
     height: auto;
-    width: 700px;
+    width: 900px;
     @media (max-width: 900px) {
       width: 500px;
     }

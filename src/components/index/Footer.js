@@ -12,9 +12,10 @@ const FooterDiv = styled.div`
 const LineGradient = styled.div`
   background-color: pink;
   text-aling: center;
-  width: 700px;
+  width: 1000px;
   height: 10px;
   justify-self: center;
+  border-radius: 4px;
   background: linear-gradient(-45deg, #feac5e, #c779d0, #4bc0c8);
   background-size: 400% 400%;
   -webkit-animation: Gradient 25s ease infinite;
@@ -36,7 +37,7 @@ const LineGradient = styled.div`
   }
 `
 const Footer2Div = styled.div`
-  align-self: center;
+  align-self: end;
   display: flex;
   text-aling: center;
   justify-content: center;
@@ -46,7 +47,9 @@ const Footer2Div = styled.div`
 const Footer =() => (
   <FooterDiv>
     <LineGradient />
-    <Footer2Div>2019 Daniel Garcia</Footer2Div>
+    <Footer2Div>
+      <b>2019 - Daniel Garcia</b> 
+    </Footer2Div>
   </FooterDiv>
   )
 

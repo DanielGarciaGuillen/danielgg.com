@@ -1,102 +1,4 @@
-/*  import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout' */
-
-/*
-export default class BlogList extends React.Component {
-  getPostList() {
-    const postList = []
-    const {
-      data: {
-        allWordpressPost: { edges: posts },
-      },
-    } = this.props
-    posts.forEach(post => {
-      postList.push({
-        slug: post.node.slug,
-        cover: post.node.cover,
-        title: post.node.title,
-        date: post.node.date,
-        excerpt: post.node.excerpt,
-        featuredImageUrl:
-          post.node.featured_media !== null
-            ? post.node.featured_media.source_url
-            : '',
-        authorName: post.node.author.name,
-      })
-    })
-    return postList
-  }
-
-  render() {
-
-    console.log(this.props)
-    const postList = this.getPostList()
-
-
-    return (
-      <Layout>
-        <BlogPosts>
-          {postList.map(post => (
-            <PostListContainer>            
-              <Link className="post-link" to={post.slug} key={post.title}>
-                {post.featuredImageUrl !== '' ? (
-                  <FeaturedImage
-                    src={post.featuredImageUrl}
-                    alt=""
-                  />
-                ) : (
-                  null
-                )}
-                <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-              </Link>
-
-              <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-
-              <Link to={post.slug}>
-                <h4 className="title-link">Read More</h4>
-              </Link>
-            </PostListContainer>
-          ))}
-        </BlogPosts>
-      </Layout>
-    )
-  }
-}
-
-BlogList.propTypes = {
-  data: PropTypes.shape({
-    allWordpressPost: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allWordpressPost(sort: { fields: date, order: DESC }) {
-      edges {
-        node {
-          id
-          slug
-          title
-          excerpt
-          author {
-            name
-          }
-          featured_media {
-            source_url
-          }
-          date(formatString: "MMMM DD, YYYY")
-        }
-      }
-    }
-  }
-` */
-
-import React, { Component } from 'react'
+import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import Layout from '../components/Layout'
@@ -123,7 +25,7 @@ const Title = styled.div`
 `
 
 const FeaturedImage = styled.img`
-  width: 700px;
+  width: 900px;
   @media (max-width: 900px) {
     width: 500px;
   }
@@ -167,23 +69,22 @@ const Pagination = styled.div`
   place-content: space-evenly;
 `
 
-const NavLink = props => {
-  if (!props.test) {
-    return <Link to={props.url}>{props.text}</Link>
+const NavLink = ({test, url, text}) => {
+  
+  if (!test) {
+    return <Link to={url}>{text}</Link>
   } 
-    return <span>{props.text}</span>
+    return <span>{text}</span>
   
 }
 
 const IndexPage = ({pageContext}) => {
 
-  console.log(pageContext)
   
-  const { group, index, first, last, pageCount, pathPrefix } = pageContext
+  const { group, index, first, last, pathPrefix } = pageContext
   const previousUrl = index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
   const nextUrl =  `${pathPrefix}/${(index  + 1).toString()}`
 
-  const post = group.map(item => console.log(item))
 
   return (
     <Layout>

@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
@@ -25,7 +24,7 @@ const Title = styled.div`
 `
 
 const FeaturedImage = styled.img`
-  width: 700px; 
+  width: 950px; 
   @media (max-width: 900px) {
     width: 500px;
   }
@@ -67,9 +66,8 @@ export default class BlogList extends React.Component {
  
 
   render() {
-console.log(this.props);
 
-const {postList} = this.props;
+const { postList } = this.props;
 
 
     return (
@@ -96,8 +94,7 @@ const {postList} = this.props;
             </Link>
           </PostListContainer>
           ))}
-      </BlogPosts>
-     
+      </BlogPosts>     
     )
   }
 }
