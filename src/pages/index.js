@@ -13,12 +13,9 @@ const IndexPage = () => (
   <Grid>
     <Helmet>
       <title>Daniel Garcia Front End Dev</title>
-      <meta
-        name="description"
-        content="Daniel Garcia. Front End Dev."
-      />
+      <meta name="description" content="Daniel Garcia. Front End Dev." />
       <link rel="canonical" href="http://danielgg.com" />
-      <link rel="shortcut icon" type='image/png' href={favicon} />
+      <link rel="shortcut icon" type="image/png" href={favicon} />
     </Helmet>
     <Header />
     <ParticlesHead />
@@ -53,7 +50,7 @@ const Grid = styled.div`
   align-items: center;
 
   @media (max-width: 900px) {
-    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-columns: 20px 1fr 20px;
     grid-template-rows: 180px 100px 600px 300px auto 100px;
     grid-template-areas:
       '... header ...'

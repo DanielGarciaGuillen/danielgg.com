@@ -2,16 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Copy = styled.div`
-  grid-area: intro; 
+  grid-area: intro;
   line-height: 2;
-  align-self: flex-start;
   font-size: 22px;
-  padding-left: 180px;
-  padding-top: 100px;
-
+  align-self: center;
+  justify-self: center;
   @media (max-width: 900px) {
-    padding-left: 0px;
-    padding-top: 0px;    
+    padding: 20px;
   }
 `
 
@@ -47,12 +44,12 @@ const Intro = () => (
     <p>You have less than 20 seconds to grab your users attention...</p>
     <p>Your website needs to make a good impression in your users.</p>
     <p>
-        My passion is to create amazing websites that your users 
+      My passion is to create amazing websites that your users 
       {' '}
       <br />
       {' '}
 will
-        remember and will help them achieve your goals.
+      remember and will help them achieve your goals.
     </p>
 
     <p>Do you want to make your users feel awesome? </p>

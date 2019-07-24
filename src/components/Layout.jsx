@@ -15,8 +15,7 @@ const Layout = ({ children }) => (
         content="Daniel Garcia Front End Developer Personal Website"
       />
       <link rel="canonical" href="http://danielgg.com" />
-      <link rel="shortcut icon" type='image/png' href={favicon} />
-
+      <link rel="shortcut icon" type="image/png" href={favicon} />
     </Helmet>
     <Header />
     {children}
@@ -42,7 +41,7 @@ const Grid = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     grid-template-columns: 1fr;
   }
 

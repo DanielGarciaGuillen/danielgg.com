@@ -2,9 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
 
-const Subtitle = styled.div`
-  font-size: 20px;
-  font-weight: 400;
+const HeaderDiv = styled.div`
+  grid-area: header;
+  display: flex;
+  place-content: space-between;
+  @media (max-width: 900px) {
+    place-content: space-evenly;
+  }
 `
 
 const Title = styled.div`
@@ -12,13 +16,24 @@ const Title = styled.div`
   font-weight: 900;
   margin-top: -20px;
   font-family: 'Tajawal', sans-serif;
+  @media (max-width: 900px) {
+    font-size: 30px;
+  }
 `
-const Menu = styled.div`
-display: flex;
-flex-direction: column;
 
+const Subtitle = styled.div`
+  font-size: 20px;
+  font-weight: 400;
+  @media (max-width: 900px) {
+    font-size: 18px;
+  }
 `
-const LinkMenu = styled.a` 
+
+const Menu = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+const LinkMenu = styled.a`
   pointer: hand;
   padding-bottom: 30px;
   opacity: 0.8;
@@ -27,15 +42,8 @@ const LinkMenu = styled.a`
   }
 `
 
-const HeaderDiv = styled.div`
-  grid-area: header;  
-  display: flex;
-  align-content: space-between;
-  justify-content: space-between;
-`
-
-const linkStyles ={
-  textDecoration : "none",
+const linkStyles = {
+  textDecoration: 'none',
   color: '#333',
   opacity: '0.9',
 }
@@ -44,7 +52,7 @@ const Header = () => (
   <HeaderDiv>
     <Link to="/" style={linkStyles}>
       <Title>
-Daniel Garcia
+        Daniel Garcia
         <Subtitle> Front End Developer </Subtitle>
       </Title>
     </Link>
