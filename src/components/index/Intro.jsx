@@ -8,7 +8,8 @@ const Copy = styled.div`
   align-self: center;
   justify-self: center;
   @media (max-width: 900px) {
-    padding: 20px;
+    font-size: 20px;
+    width: 80%;
   }
 `
 

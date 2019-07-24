@@ -9,6 +9,12 @@ const PortfolioItem = styled.div`
     transform: scale(1.02);
     border: 4px solid aliceblue;
   }
+  @media (max-width: 700px) {
+    width: 400px;
+  }
+  @media (max-width: 400px) {
+    width: 300px;
+  }
 `
 const Title = styled.a`
   text-decoration: none;
@@ -47,34 +53,32 @@ const TechIcon = styled.img`
 const ProjectImage = styled.img`
   width: 700px;
   border-radius: 10px;
-  @media (max-width: 900px) {
-    width: 500px;
+  @media (max-width: 700px) {
+    width: 400px;
   }
-  @media (max-width: 600px) {
-    width: 350px;
+  @media (max-width: 400px) {
+    width: 300px;
   }
 `
 
-const Project = ({ project: { title, subTitle, url, image, tech } }) => {
-  console.log(tech)
-  return (
-    <PortfolioItem>
-      <a href={url}>
-        <ProjectImage src={image} />
-      </a>
-      <TitleDiv>
-        <Title href={url}>{title}</Title>
-      </TitleDiv>
-      <SubtitleDiv>{subTitle}</SubtitleDiv>
-      <CreatedWith>Created with:</CreatedWith>
-      <IconDiv>
-        {tech.map(item => (
-          <a href={item.url} key={item.url}>
-            <TechIcon src={item.image} />
-          </a>
-        ))}
-      </IconDiv>
-    </PortfolioItem>
-  )
-}
+const Project = ({ project: { title, subTitle, url, image, tech } }) => (
+  <PortfolioItem>
+    <a href={url}>
+      <ProjectImage src={image} />
+    </a>
+    <TitleDiv>
+      <Title href={url}>{title}</Title>
+    </TitleDiv>
+    <SubtitleDiv>{subTitle}</SubtitleDiv>
+    <CreatedWith>Using</CreatedWith>
+    <IconDiv>
+      {tech.map(item => (
+        <a href={item.url} key={item.url}>
+          <TechIcon src={item.image} />
+        </a>
+      ))}
+    </IconDiv>
+  </PortfolioItem>
+)
+
 export default Project

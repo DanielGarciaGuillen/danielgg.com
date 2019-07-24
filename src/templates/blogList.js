@@ -9,7 +9,7 @@ const BlogPosts = styled.div`
 const Excerpt = styled.div`
   line-height: 1.5;
   margin-top: -25px;
-  margin-bottom: -25px;  
+  margin-bottom: -25px;
 `
 const Title = styled.div`
   font-size: 33px;
@@ -32,9 +32,10 @@ const FeaturedImage = styled.img`
   @media (max-width: 600px) {
     width: 350px;
   }
-
 `
-const PostListContainer = styled.div` 
+const PostListContainer = styled.div`
+  box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
   transition: all .2s ease-in-out;
     &:hover {
   transform: scale(1.05);
@@ -69,37 +70,28 @@ const Pagination = styled.div`
   place-content: space-evenly;
 `
 
-const NavLink = ({test, url, text}) => {
-  
+const NavLink = ({ test, url, text }) => {
   if (!test) {
     return <Link to={url}>{text}</Link>
-  } 
-    return <span>{text}</span>
-  
+  }
+  return <span>{text}</span>
 }
 
-const IndexPage = ({pageContext}) => {
-
-  
+const IndexPage = ({ pageContext }) => {
   const { group, index, first, last, pathPrefix } = pageContext
-  const previousUrl = index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
-  const nextUrl =  `${pathPrefix}/${(index  + 1).toString()}`
-
+  const previousUrl =
+    index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
+  const nextUrl = `${pathPrefix}/${(index + 1).toString()}`
 
   return (
     <Layout>
       <BlogPosts>
-        {group.map(({node}) => (
-          <PostListContainer>            
+        {group.map(({ node }) => (
+          <PostListContainer>
             <Link className="post-link" to={node.slug} key={node.title}>
               {node.featured_media !== '' ? (
-                <FeaturedImage
-                  src={node.featured_media.source_url}
-                  alt=""
-                />
-            ) : (
-              null
-            )}
+                <FeaturedImage src={node.featured_media.source_url} alt="" />
+              ) : null}
               <Title dangerouslySetInnerHTML={{ __html: node.title }} />
             </Link>
 
@@ -109,7 +101,7 @@ const IndexPage = ({pageContext}) => {
               <h4 className="title-link">Read More</h4>
             </Link>
           </PostListContainer>
-      ))}
+        ))}
       </BlogPosts>
       <Pagination>
         <div>
@@ -119,10 +111,8 @@ const IndexPage = ({pageContext}) => {
           <NavLink test={last} url={nextUrl} text="Next Page" />
         </div>
       </Pagination>
-    
     </Layout>
   )
 }
-
 
 export default IndexPage
