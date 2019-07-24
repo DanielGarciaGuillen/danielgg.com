@@ -10,7 +10,7 @@ const Post = styled.div`
 
 const ContentPost = styled.div`
   padding-top: 20px;
-  line-height: 1.5;  
+  line-height: 1.5;
   img {
     max-width: 100%;
     height: auto;
@@ -27,7 +27,6 @@ const ContentPost = styled.div`
   }
 `
 
-
 const TitlePost = styled.div`
   font-size: 40px;
   font-weight: 900;
@@ -38,7 +37,7 @@ const TitlePost = styled.div`
   }
 `
 
-const BlogPost = ({ data }) => {
+const PostView = ({ data }) => {
   const { wordpressPost: post } = data
   return (
     <Layout>
@@ -50,13 +49,13 @@ const BlogPost = ({ data }) => {
   )
 }
 
-BlogPost.propTypes = {
+PostView.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default BlogPost
+export default PostView
 
 export const pageQuery = graphql`
   fragment PostFields on wordpress__POST {
