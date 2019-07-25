@@ -42,7 +42,6 @@ const TitlePost = styled.div`
 
 const PostView = ({ data }) => {
   const { wordpressPost: post } = data
-  console.log(data)
   return (
     <Layout>
       <Post>
