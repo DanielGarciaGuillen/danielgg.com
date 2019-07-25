@@ -15,6 +15,7 @@ const ContentPost = styled.div`
     max-width: 100%;
     height: auto;
     width: 900px;
+    border-radius: 3px;
     @media (max-width: 900px) {
       width: 500px;
     }
@@ -24,6 +25,7 @@ const ContentPost = styled.div`
   }
   @media (max-width: 700px) {
     font-size: 18px;
+    width: 300px;
   }
 `
 
@@ -39,6 +41,7 @@ const TitlePost = styled.div`
 
 const PostView = ({ data }) => {
   const { wordpressPost: post } = data
+  console.log(data)
   return (
     <Layout>
       <Post>

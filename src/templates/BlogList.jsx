@@ -33,16 +33,9 @@ const PaginationButton = styled.button`
   border: ${props => (props.primary ? 'none' : '1px solid #4392f1')};
   border-radius: 3px;
 `
-/* 
-const NavLink = ({ test, url, text }) => {
-  if (!test) {
-    return <Link to={url}>{text}</Link>
-  }
-  return <span>{text}</span>
-}
- */
+
 const BlogList = ({ pageContext }) => {
-  const { group, index, first, last, pathPrefix } = pageContext
+  const { group, index, pathPrefix } = pageContext
   const previousUrl =
     index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
   const nextUrl = `${pathPrefix}/${(index + 1).toString()}`

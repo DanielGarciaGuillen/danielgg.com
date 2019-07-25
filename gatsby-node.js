@@ -50,9 +50,8 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Iterate over the array of posts
     _.each(result.data.allWordpressPost.edges, edge => {
-      // Add this post's categories and tags to the global list
-
       // Create the Gatsby page for this WordPress post
+      console.log(edge)
       createPage({
         path: `/${edge.node.slug}/`,
         component: postTemplate,

@@ -5900,6 +5900,14 @@ gatsby-transformer-sharp@^2.2.0-alpha.80a21f04:
     fs-extra "^4.0.2"
     probe-image-size "^4.0.0"
 
+gatsby-wordpress-inline-images@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-wordpress-inline-images/-/gatsby-wordpress-inline-images-1.0.0.tgz#c6d67936ef53c0fdc3f3400facadcad672a280f7"
+  integrity sha512-RaOQaR2f95jXsfqhV5IXpo5ABRdLvidySLte4WOoRKFHUdVXLeHXr9GQaBgTp9wphqQIJ63hOjLSbmxzYlkfXA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    cheerio "^1.0.0-rc.2"
+
 gatsby@^2.3.19:
   version "2.3.19"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.3.19.tgz#f5a4079fa7dc95c40c62c96115884d2c1334b352"

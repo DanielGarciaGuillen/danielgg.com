@@ -32,6 +32,13 @@ const FeaturedImage = styled.img`
   }
 `
 const PostListContainer = styled.div`
+  width: 900px;
+  @media (max-width: 900px) {
+    width: 500px;
+  }
+  @media (max-width: 600px) {
+    width: 350px;
+  }
   box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
