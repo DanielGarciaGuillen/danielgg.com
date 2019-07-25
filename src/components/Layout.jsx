@@ -47,7 +47,6 @@ const Grid = styled.div`
 
   p {
     font-size: 20px;
-    padding-top: 20px;
   }
   h1,
   h2,
@@ -57,17 +56,8 @@ const Grid = styled.div`
     font-weight: bold;
     padding-top: 20px;
   }
-
   a {
     text-decoration: none;
     color: #5bc0eb;
-  }
-  .tags {
-    display: flex;
-    flex-flow: row;
-    margin-top: 50px;
-    h4 {
-      width: 200px;
-    }
   }
 `

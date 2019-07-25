@@ -46,9 +46,6 @@ const PostListContainer = styled.div`
     transform: scale(1.05);
   }
   margin-bottom: 100px;
-  p {
-    font-size: 20px;
-  }
   a {
     text-decoration: none;
     color: #5bc0eb;
