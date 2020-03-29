@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
+import { useStaticQuery, graphql } from 'gatsby'
 
 import styled from 'styled-components'
 import trian3 from '../../images/assets/trianglify.png'
@@ -84,6 +85,7 @@ const ReadBlog = styled.button`
     100% {
       background-position: 0% 50%;
     }
+  }
 
     @keyframes Gradient {
       0% {
@@ -99,24 +101,50 @@ const ReadBlog = styled.button`
   }
 `
 
-class Blog extends Component {
-  render() {
-    return (
-      <BlogDiv>
-        <Triangles>
-          <Link
-            style={{
-              textDecoration: 'none',
-              color: 'white',
-            }}
-            to="/blog"
-          >
-            <ReadBlog>Read Blog</ReadBlog>
-          </Link>
-        </Triangles>
-      </BlogDiv>
-    )
-  }
+const Blog = () => {
+  const data = useStaticQuery(graphql`
+    query HeaderQuery {
+      allWordpressPost {
+        edges {
+          node {
+            id
+            slug
+            title
+            excerpt
+            author {
+              name
+            }
+            featured_media {
+              source_url
+            }
+            date(formatString: "MMMM DD, YYYY")
+          }
+        }
+      }
+    }
+  `)
+
+  const {
+    allWordpressPost: { edges },
+  } = data
+
+  const lastPosts = edges.slice(0, 4)
+
+  return (
+    <BlogDiv>
+      <Triangles>
+        <Link
+          style={{
+            textDecoration: 'none',
+            color: 'white',
+          }}
+          to="/blog"
+        >
+          <ReadBlog>Read Blog</ReadBlog>
+        </Link>
+      </Triangles>
+    </BlogDiv>
+  )
 }
 
 export default Blog

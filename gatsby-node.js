@@ -26,9 +26,9 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()))
+      result.errors.forEach((e) => console.error(e.toString()))
       return Promise.reject(result.errors)
     }
 
@@ -49,7 +49,7 @@ exports.createPages = ({ actions, graphql }) => {
     // Build a list of categories and tags
 
     // Iterate over the array of posts
-    _.each(result.data.allWordpressPost.edges, edge => {
+    _.each(result.data.allWordpressPost.edges, (edge) => {
       // Create the Gatsby page for this WordPress post
       console.log(edge)
       createPage({

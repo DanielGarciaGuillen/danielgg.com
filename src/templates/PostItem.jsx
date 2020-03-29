@@ -19,6 +19,7 @@ const Title = styled.div`
   }
   @media (max-width: 700px) {
     font-size: 25px;
+  }
 `
 
 const FeaturedImage = styled.img`
