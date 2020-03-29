@@ -52,7 +52,7 @@ const Header = () => (
   <HeaderDiv>
     <Link to="/" style={linkStyles}>
       <Title>
-        Daniel Garcia
+        Daniel GG
         <Subtitle> Front End Developer </Subtitle>
       </Title>
     </Link>
@@ -71,8 +71,7 @@ const Header = () => (
           width="36"
           alt="twitter"
           src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg"
-        />
-        {' '}
+        />{' '}
       </LinkMenu>
     </Menu>
   </HeaderDiv>
