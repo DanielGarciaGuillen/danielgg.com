@@ -40,14 +40,14 @@ const TitlePost = styled.div`
   }
 `
 
-const PostView = ({ data }) => {
-  const { wordpressPost: post } = data
+const PostView = (props) => {
+  console.log(props)
   return (
     <Layout>
-      <Post>
+      {/* <Post>
         <TitlePost dangerouslySetInnerHTML={{ __html: post.title }} />
         <ContentPost dangerouslySetInnerHTML={{ __html: post.content }} />
-      </Post>
+      </Post> */}
     </Layout>
   )
 }
@@ -61,27 +61,12 @@ PostView.propTypes = {
 export default PostView
 
 export const pageQuery = graphql`
-  fragment PostFields on wordpress__POST {
-    id
-    slug
-    content
-    date(formatString: "MMMM DD, YYYY")
-    title
-  }
-  query BlogPostByID($id: String!) {
-    wordpressPost(id: { eq: $id }) {
-      id
-      title
-      slug
-      content
-      date(formatString: "MMMM DD, YYYY")
-      categories {
-        name
-        slug
-      }
-      tags {
-        name
-        slug
+  query BlogPostByTitle($title: String!) {
+    markdownRemark(frontmatter: { title: { eq: $title } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        title
       }
     }
   }

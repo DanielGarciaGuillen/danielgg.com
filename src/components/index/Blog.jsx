@@ -102,34 +102,6 @@ const ReadBlog = styled.button`
 `
 
 const Blog = () => {
-  const data = useStaticQuery(graphql`
-    query HeaderQuery {
-      allWordpressPost {
-        edges {
-          node {
-            id
-            slug
-            title
-            excerpt
-            author {
-              name
-            }
-            featured_media {
-              source_url
-            }
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  `)
-
-  const {
-    allWordpressPost: { edges },
-  } = data
-
-  const lastPosts = edges.slice(0, 4)
-
   return (
     <BlogDiv>
       <Triangles>
