@@ -1,4 +1,5 @@
 const path = require('path')
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -34,12 +35,14 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(({ node }, index) => {
       const prev = index === 0 ? null : posts[index - 1].node
       const next = index === posts.length - 1 ? null : posts[index + 1].node
+      console.log(node.id)
       createPage({
-        path: node.frontmatter.title,
+        path: node.id,
         component: blogPostTemplate,
         context: {
           prev,
           next,
+          id: node.id,
         },
       })
     })

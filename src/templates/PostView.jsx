@@ -42,12 +42,20 @@ const TitlePost = styled.div`
 
 const PostView = (props) => {
   console.log(props)
+  const {
+    data: {
+      markdownRemark: {
+        html: content,
+        frontmatter: { title },
+      },
+    },
+  } = props
   return (
     <Layout>
-      {/* <Post>
-        <TitlePost dangerouslySetInnerHTML={{ __html: post.title }} />
-        <ContentPost dangerouslySetInnerHTML={{ __html: post.content }} />
-      </Post> */}
+      <Post>
+        <TitlePost dangerouslySetInnerHTML={{ __html: title }} />
+        <ContentPost dangerouslySetInnerHTML={{ __html: content }} />
+      </Post>
     </Layout>
   )
 }
@@ -61,8 +69,8 @@ PostView.propTypes = {
 export default PostView
 
 export const pageQuery = graphql`
-  query BlogPostByTitle($title: String!) {
-    markdownRemark(frontmatter: { title: { eq: $title } }) {
+  query BlogPostByTitle($id: String!) {
+    markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
