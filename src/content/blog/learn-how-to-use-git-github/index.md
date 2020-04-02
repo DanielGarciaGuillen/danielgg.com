@@ -1,9 +1,9 @@
 ---
-title: "Learn how to use Git & GitHub for the first time (+bonus)"
-date: "2018-01-09"
+title: 'Learn how to use Git & GitHub for the first time (+bonus)'
+date: '2018-01-09'
 ---
 
-[![](images/martin_shreder_34925_uursA-1024x576.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/martin_shreder_34925_uursA.jpg)Hey, let me ask you something.
+![GitImage](images/martin_shreder_34925_uursA-1024x576.jpg) Hey, let me ask you something.
 
 Have you heard about Git?
 
@@ -115,8 +115,6 @@ In the next screenshot you can see how I used:
 4. cd freebeer to access the freebeer folder
 
 [![](images/repo9-1024x576.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo9.jpg)
-
- 
 
 **On Mac:**
 
