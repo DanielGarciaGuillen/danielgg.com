@@ -16,6 +16,9 @@ exports.createPages = ({ actions, graphql }) => {
             excerpt(pruneLength: 250)
             html
             id
+            fields {
+              slug
+            }
             frontmatter {
               date
               title
@@ -35,18 +38,29 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(({ node }, index) => {
       const prev = index === 0 ? null : posts[index - 1].node
       const next = index === posts.length - 1 ? null : posts[index + 1].node
-      console.log(node.id)
       createPage({
-        path: node.id,
+        path: node.fields.slug,
         component: blogPostTemplate,
         context: {
           prev,
           next,
-          id: node.id,
+          slug: node.fields.slug,
         },
       })
     })
 
     return posts
   })
+}
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: slug,
+    })
+  }
 }
