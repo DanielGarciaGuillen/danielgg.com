@@ -9,7 +9,7 @@ const Post = styled.div`
 `
 
 const ContentPost = styled.div`
-  padding-top: 20px;
+  padding: 20px 0px 20px 0;
   line-height: 1.5;
   width: 900px;
   img {
