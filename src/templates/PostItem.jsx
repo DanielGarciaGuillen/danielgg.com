@@ -56,7 +56,7 @@ const PostListContainer = styled.div`
   }
 `
 const ReadMoreDiv = styled.div`
-  padding: 0 0 5px 15px;
+  padding: 0 0 5px 12px;
 `
 
 const PostItem = ({ post }) => (
