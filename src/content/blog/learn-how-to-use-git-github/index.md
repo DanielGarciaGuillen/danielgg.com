@@ -3,7 +3,7 @@ title: 'Learn how to use Git & GitHub for the first time (+bonus)'
 date: '2018-01-09'
 ---
 
-![GitImage](images/martin_shreder_34925_uursA-1024x576.jpg) Hey, let me ask you something.
+![GitImage](images/martin_shreder_34925_uursA-1024x576.jpg) Hey! let me ask you something.
 
 Have you heard about Git?
 
