@@ -1,9 +1,11 @@
 ---
-title: "Trabajar de animador en Japón con Marcos Salvatierra"
-date: "2015-10-08"
+title: 'Trabajar de animador en Japón con Marcos Salvatierra'
+date: '2015-10-08'
 ---
 
-[![Trabajar de animador en Japón](images/Marcos-Salvatiera.jpg "Trabajar de animador en Japón")](http://danielgguillen.com/wp-content/uploads/2015/10/Marcos-Salvatiera.jpg)El episodio 7 de [Game Stuff](http://www.ivoox.com/podcast-game-stuff_sq_f1174207_1.html) es uno de lo más interesantes de los que he tenido el place de hospedar. Hoy tenemos a Marcos Salvatierra, Senior Gameplay Animator en [Machine Games](http://www.machinegames.com/home.php?lang=es) (estudio perteneciente a Bethesda).
+![Trabajar de animador en Japón](images/Marcos-Salvatiera.jpg)
+
+El episodio 7 de [Game Stuff](http://www.ivoox.com/podcast-game-stuff_sq_f1174207_1.html) es uno de lo más interesantes de los que he tenido el place de hospedar. Hoy tenemos a Marcos Salvatierra, Senior Gameplay Animator en [Machine Games](http://www.machinegames.com/home.php?lang=es) (estudio perteneciente a Bethesda).
 
 Marcos es un profesional de la animación que ha tenido la oportunidad de participar el desarrollo de [Castlevania Lord of the Shadow](https://es.wikipedia.org/wiki/Castlevania:_Lords_of_Shadow), trabajar de animador en Japón en el desarrollo de [The Evil Within](http://theevilwithin.com/age) y actualmente trabajar en Suecia con la gente de [Machine Games](http://www.machinegames.com/home.php?lang=es), creadores de los últimos [Wolfstein](https://es.wikipedia.org/wiki/Wolfenstein:_The_New_Order).
 

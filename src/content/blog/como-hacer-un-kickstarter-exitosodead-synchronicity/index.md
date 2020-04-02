@@ -1,9 +1,10 @@
 ---
-title: "Cómo hacer un Kickstarter de éxito:Dead Synchronicity"
-date: "2015-03-19"
+title: 'Cómo hacer un Kickstarter de éxito:Dead Synchronicity'
+date: '2015-03-19'
 ---
 
-[![DEAD-SYNCHRONICITY ](images/DEAD-SYNCHRONICITY-test-3a.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/DEAD-SYNCHRONICITY-test-3a.jpg)Empezamos con el primer post, he puesto especial esfuerzo y dedicación para crear un análisis completo que os de información muy valiosa y os haga volver a por más, espero que os guste y este post sea una referencia por calidad de los venideros.
+![DEAD-SYNCHRONICITY ](images/DEAD-SYNCHRONICITY-test-3a.jpg)
+Empezamos con el primer post, he puesto especial esfuerzo y dedicación para crear un análisis completo que os de información muy valiosa y os haga volver a por más, espero que os guste y este post sea una referencia por calidad de los venideros.
 
 Con este fin contacté con Luis Oliván, PR y Product Manager de **Fictiorama Studios**, para analizar con profundidad como hicieron y qué factores influyeron para sacar adelante la campaña de Kickstarter de su juego, [**_Dead Synchronicity: Tomorrows come Today_**](http://www.deadsynchronicity.com/), que será publicado el próximo **10 de Abril**.
 
@@ -32,7 +33,7 @@ Fictiorama Studios es una desarrolladora de videojuegos indie afincada en Madrid
 - Alberto Oliván –Escrito y compositor
 - Luis Oliván –  Productor y PR Manager
 
-Todos ellos amantes de las aventuras gráficas deciden empezar a trabajar en su primer título llamado [_**Dead Synchronicity: Tomorrows come Today**_ ](http://www.deadsynchronicity.com/) que toma como base referencias del género como son _Monkey Island o Broken Sword._
+Todos ellos amantes de las aventuras gráficas deciden empezar a trabajar en su primer título llamado [**_Dead Synchronicity: Tomorrows come Today_** ](http://www.deadsynchronicity.com/) que toma como base referencias del género como son _Monkey Island o Broken Sword._
 
 Los pilares básicos de Dead Synchronicity se basan en ofrecer una aventura gráfica oscura, con un estilo narrativo serio, donde el diseño y la banda sonora acompañen al jugador en una aventura enmarcada en un escenario post-apocalíptico.
 
@@ -47,11 +48,11 @@ Para empezar os resumo los datos de su proyecto de Kickstarter
 ## **Kickstarter Dead Synchronicity:Tomorrows comes Today**
 
 - Fecha:12 de Marzo-12 de Abril 2014 (31 Días)
-- Objetivo: 45,000$ para el desarrollo del juego
-- Recaudado: 51,501$
+- Objetivo: 45,000\$ para el desarrollo del juego
+- Recaudado: 51,501\$
 - Porcentaje recaudado: 114,46%
 - Personas que han aportado al proyecto: 1606
-- Media de aporte por persona: 32,06$
+- Media de aporte por persona: 32,06\$
 
 ## **Análisis Kickstarter**
 
@@ -61,9 +62,7 @@ Vamos a dividir el análisis en 3 partes:
 2. Lanzamiento, desarrollo y final de la campaña
 3. Datos de la campaña
 
-Here we go!![![azpiri-dead-synchronicity](images/azpiri-dead-synchronicity-207x300.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/azpiri-dead-synchronicity.jpg)
-
- 
+Here we go!!![azpiri-dead-synchronicity](images/azpiri-dead-synchronicity-207x300.jpg)
 
 ## 1\. Antes de lanzar la campaña
 
@@ -89,7 +88,7 @@ Me gustaría destacar el arduo trabajo que representa crear una campaña de Kick
 
 Al iniciar la campaña de Kickstarter tenían una demo jugable , la colaboración de Alfonso Azpiri (ilustración de más arriba) que causó bastante repercusión en los medios españoles, y un trailer que podemos ver a continuación:
 
-**Trailer Dead Synchronicity: Tomorrows comes Today** 
+**Trailer Dead Synchronicity: Tomorrows comes Today**
 
 <iframe src="https://www.youtube.com/embed/a6lXZ9l8pvw" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
@@ -101,23 +100,23 @@ _“Si contribuyes a nuestro proyecto podremos hacer algo como esto… pero mejo
 
 Y parece que a la gente le gustó, si estáis interesados podéis descargar la demo aquí:
 
-**[http://www.deadsynchronicity.com/demo/](http://www.deadsynchronicity.com/demo/ "Dead Synchronicity Demo")**
+**[http://www.deadsynchronicity.com/demo/](http://www.deadsynchronicity.com/demo/ 'Dead Synchronicity Demo')**
 
 Al mismo tiempo que lanzaron la campaña en Kickstarter también pusieron el juego en Steam Greenlight para ver si el juego era aprobado, creando un flujo de tráfico desde Steam a Kickstarter. Finalmente el juego fue aceptado en Greenlight poco después de acabar la campaña de Kickstarter.
 
 Continuando con el desarrollo de la campaña y tras tener un buen inicio, la parte complicada es la mitad de la campaña donde es difícil mantener la atención de la comunidad, para ello crearon mucho contenido inédito e interesante con el fin de mantener la visibilidad alcanzada en el principio de la campaña, algunos ejemplos:
 
-**Composición de la banda sonora** 
+**Composición de la banda sonora**
 
 <iframe src="https://www.youtube.com/embed/FTKGlwU7Yfc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-**Un día en Fictiorama Studios** 
+**Un día en Fictiorama Studios**
 
 <iframe src="https://www.youtube.com/embed/TYi5lnMAGN0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 El momento de la verdad viene con el final de la campaña y es donde la mayoría de los proyectos deben apretar más para dar el empujón final y poder conseguir la financiación. En el caso de Fictiorama Studios usaron una serie de acciones que fomentaron el aumento del dinero recaudado.
 
-Una de ellas fue incluir un add-on de +5$ consistente en una pequeña aventura de texto, este add-on se puede añadir a la contribución que ya has hecho, y puesto que las personas que ya han aportado se intuyen amantes de las aventuras gráficas bastante gente estuvo interesada.
+Una de ellas fue incluir un add-on de +5\$ consistente en una pequeña aventura de texto, este add-on se puede añadir a la contribución que ya has hecho, y puesto que las personas que ya han aportado se intuyen amantes de las aventuras gráficas bastante gente estuvo interesada.
 
 Al mismo tiempo mandaron una nota de prensa anunciando los últimos días de la campaña con el fin de que los medios se hiciesen eco de la noticia, y así fue. Además Kickstarter avisa a las personas que estuvieron interesadas y no aportaron dinero para que aprovechen la oportunidad.
 
@@ -133,24 +132,24 @@ En la página **[Kicktrack](http://www.kicktraq.com)** podemos encontrar gráfic
 
 Visión General de la Campaña
 
-[![dead general](images/dead-general-1024x295.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/dead-general.jpg)
+![dead general](images/dead-general-1024x295.jpg)
 
- Podemos observar el impacto de los días finales en la campaña, que se refleja perfectamente en el siguiente gráfico donde se muestra la cantidad de dinero diaria obtenida y la cantidad de personas que aportaron por día.
+Podemos observar el impacto de los días finales en la campaña, que se refleja perfectamente en el siguiente gráfico donde se muestra la cantidad de dinero diaria obtenida y la cantidad de personas que aportaron por día.
 
-[![dead patrones](images/dead-patrones-1024x601.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/dead-patrones.jpg)
+![dead patrones](images/dead-patrones-1024x601.jpg)
 
-- Cantidad media conseguida por día: 1609$
+- Cantidad media conseguida por día: 1609\$
 - Backers o patrocinadores medios por día: 50
 
 El gráfico nos permite ver la importancia de un buen comienzo, la dificultad de conseguir aportaciones en la mitad de la campaña y el empujón final que representan las acciones a final de ésta.
 
 A continuación un desglose de los backers o patrocinadores por tier, cada tier representa un nivel de recompensas según la cantidad aportada al proyecto, varían desde los 5$ a 10,000$.
 
-[![dead tiers](images/dead-tiers.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/dead-tiers.jpg)
+![dead tiers](images/dead-tiers.jpg)
 
-Podemos observar que los tiers de 10$ a 35$ son los que más aportaciones han tenido y los tiers a partir de 4,000$ no tuvieron mucha aceptación.
+Podemos observar que los tiers de 10$ a 35$ son los que más aportaciones han tenido y los tiers a partir de 4,000\$ no tuvieron mucha aceptación.
 
-Nota:La diferencia existente entre el total recaudado en el gráfico anterior y el total mostrado en la página de Kickstarter se debe a que las aportaciones que no piden ninguna recompensa no son contabilizadas, algunos errores con tarjetas de crédito y la contabilización de los $ extra de los add-ons.
+Nota:La diferencia existente entre el total recaudado en el gráfico anterior y el total mostrado en la página de Kickstarter se debe a que las aportaciones que no piden ninguna recompensa no son contabilizadas, algunos errores con tarjetas de crédito y la contabilización de los \$ extra de los add-ons.
 
 ## Conclusión
 

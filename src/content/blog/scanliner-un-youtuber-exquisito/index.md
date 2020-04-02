@@ -1,9 +1,10 @@
 ---
-title: "Scanliner, un youtuber exquisito."
-date: "2015-04-28"
+title: 'Scanliner, un youtuber exquisito.'
+date: '2015-04-28'
 ---
 
-[![SCANLINER](images/SCANLINER-1024x632.jpg)](http://danielgguillen.com/wp-content/uploads/2015/04/SCANLINER.jpg)Hola a todos, tras un pequeño parón debido a unas vacaciones cortas pero productivas hoy me gustaría presentar un descubrimiento. Atentos porque lo que viene es de una calidad exquisita.
+![SCANLINER](images/SCANLINER-1024x632.jpg)
+Hola a todos, tras un pequeño parón debido a unas vacaciones cortas pero productivas hoy me gustaría presentar un descubrimiento. Atentos porque lo que viene es de una calidad exquisita.
 
 Quiero presentar a Rafael de las Cuevas ([Scanliner en YouTube](https://www.youtube.com/channel/UCWz51s7gd-p55UXY_xm69FQ)). Rafael es un periodista con una trayectoria de más de 15 años cuya pasión son los videojuegos, y con el que comparto algo muy importante, ambos creemos en el contenido de calidad, por ello quiero compartir con vosotros los vídeos que sube a [su canal de YouTube](https://www.youtube.com/channel/UCWz51s7gd-p55UXY_xm69FQ).
 

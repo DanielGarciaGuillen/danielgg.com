@@ -15,7 +15,7 @@ Git is a version control system that allows you to keep a constant log of the ch
 
 It can also save your ass if you delete your local files.
 
-[![](images/Capture-300x152.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/Capture.jpg)
+![](images/Capture-300x152.jpg)
 
 Together with Github, it is an amazing way to create your online presence as a developer.
 
@@ -27,7 +27,7 @@ First, we have to install Git.
 
 You can do it from this [link](https://git-scm.com/download/).
 
-[![](images/github-1024x614.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/github.jpg)
+![](images/github-1024x614.jpg)
 
 Choose your operating system and install it.
 
@@ -53,7 +53,7 @@ Now.
 
 Go to [Github](https://github.com) and register:
 
-[![](images/github2-1024x691.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/github2.jpg)
+![](images/github2-1024x691.jpg)
 
 Github will ask you to verify your email.
 
@@ -73,13 +73,13 @@ You can do this by login into Github and go to [github.com](https://github.com/)
 
 Then click on the green button that says **New repository**.
 
-[![](images/newrepo-1024x696.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/newrepo.jpg)
+![](images/newrepo-1024x696.jpg)
 
 After that, it's going to ask you to enter a name, this is how your repository is going to be called.
 
 Here you can see how I create a repository named **freebeer**.
 
-[![](images/repo1-1024x452.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo1.jpg)
+![](images/repo1-1024x452.jpg)
 
 BOOOM!
 
@@ -114,7 +114,7 @@ In the next screenshot you can see how I used:
 3. cd Daniel to access the Daniel folder (inside is freebeer folder)
 4. cd freebeer to access the freebeer folder
 
-[![](images/repo9-1024x576.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo9.jpg)
+![](images/repo9-1024x576.jpg)
 
 **On Mac:**
 
@@ -145,7 +145,7 @@ git push -u origin master
 
 In the next screenshot, I copy pasted the same text. The entire text.
 
-[![](images/repo4.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo4.jpg)
+![](images/repo4.jpg)
 
 I know there is a lot of stuff that you don't know there, but we will keep it simple for now.
 
@@ -155,13 +155,11 @@ When you push enter, you will have created a local repository on the folder and 
 
 I pressed enter, OMG.
 
-[![](images/repo5-1024x793.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo5.jpg)
-
+![](images/repo5-1024x793.jpg)
 Yeeeea!!
 
 Now go to GitHub and check the repository freebeer.
-
-[![](images/repo7-1024x648.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo7.jpg)
+![](images/repo7-1024x648.jpg)
 
 It worked,  we create a local document called README.md in our folder freeber and we sent it to GitHub.
 
@@ -175,7 +173,7 @@ In our example, we are going to create a basic website with a text.
 
 I create a file called index.html and I add the code to create the website with our text.
 
-[![](images/freebeer.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/freebeer.jpg)
+![](images/freebeer.jpg)
 
 Save the code in your code editor.
 
@@ -194,25 +192,25 @@ We will use the following workflow:
 
 You can see here how I used **git status** to see if the change was saved. It shows how we have an item called index.html that is not added.
 
-[![](images/git-status.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/git-status.jpg)
+![](images/git-status.jpg)
 
 Then I used **git add index.html** to add the document to our local repository.
 
-[![](images/git-add.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/git-add.jpg)
+![](images/git-add.jpg)
 
 After this step, I commit the change with **git commit -m "**added index to freebeer repository**"**.
 
-[![](images/gitcommit.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/gitcommit.jpg)
+![](images/gitcommit.jpg)
 
 And the last step, I used **git push** to send our local repository to our remote repository on GitHub.
 
-[![](images/gitpush.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/gitpush.jpg)
+![](images/gitpush.jpg)
 
 Done!
 
 Now if we check our Github repository we will see that index.html is there.
 
-[![](images/repo17-1024x615.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/repo17.jpg)
+![](images/repo17-1024x615.jpg)
 
 ## **Conclusion**
 
@@ -226,11 +224,11 @@ If you have any questions about this workflow, leave a comment and I will be hap
 
 Go to the Setting tab on your repo.
 
-[![](images/githubpage-1024x665.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/githubpage.jpg)
+![](images/githubpage-1024x665.jpg)
 
 Scroll down until you find GitHub Pages and select master branch.
 
-[![](images/githubpage2.jpg)](http://danielgguillen.com/wp-content/uploads/2017/12/githubpage2.jpg)
+![](images/githubpage2.jpg)
 
 Boom!
 

@@ -1,9 +1,9 @@
 ---
-title: "Un mes de marketing de videojuegos, el futuro mola y mucho."
-date: "2015-05-05"
+title: 'Un mes de marketing de videojuegos, el futuro mola y mucho.'
+date: '2015-05-05'
 ---
 
-[![keep-calm-and-happy-one-month-2](images/keep-calm-and-happy-one-month-2-257x300.png)](http://danielgguillen.com/wp-content/uploads/2015/05/keep-calm-and-happy-one-month-2.png)
+![keep-calm-and-happy-one-month-2](images/keep-calm-and-happy-one-month-2-257x300.png)
 
 Parece que fue hace mucho tiempo, pero el blog apenas ha cumplido un mes y me gustaría daros algunos datos interesantes.
 
@@ -56,7 +56,7 @@ La estrategia del blog como comenté antes se basa en la creación de contenido 
 
 #### Más contenido y mejor
 
-Como te acabo de decir, más contenido y mayor frecuencia, tengo pensando realizar al menos dos post semanales, uno largo al estilo La Cabra que generó 25$ para los lunes y otro post más corto y fácil de leer al estilo de Cómo crear marketing viral para los miércoles, de esta manera quiero analizar si mis tocho-post de verdad valen para algo, o preferís los posts cortos.
+Como te acabo de decir, más contenido y mayor frecuencia, tengo pensando realizar al menos dos post semanales, uno largo al estilo La Cabra que generó 25\$ para los lunes y otro post más corto y fácil de leer al estilo de Cómo crear marketing viral para los miércoles, de esta manera quiero analizar si mis tocho-post de verdad valen para algo, o preferís los posts cortos.
 
 #### Proyecto de lanzamiento de un videojuego
 

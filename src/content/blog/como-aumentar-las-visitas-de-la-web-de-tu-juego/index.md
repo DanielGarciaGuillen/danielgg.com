@@ -1,6 +1,6 @@
 ---
-title: "Cómo aumentar las visitas de la web de tu juego"
-date: "2015-09-17"
+title: 'Cómo aumentar las visitas de la web de tu juego'
+date: '2015-09-17'
 ---
 
 El post de hoy va de marketing de contenidos o Inbound Marketing, específicamente voy a explicar cómo crear contenido que te permitan aumentar las visitas de la web de tu juego y por ende conseguir mayor repercusión y posibles jugadores. Un muy buen ejemplo nos los dio Luis Oliván de Fictiorama Studios en el último episodio de Game Stuff, Luis fue capaz de crear contenidos útiles generando una comunidad que le ayudó a poder sacar adelante el primer título del estudio.
@@ -27,23 +27,25 @@ En la primera fase de la estrategia debemos focalizar nuestros esfuerzo en encon
 
 Topsy nos permite encontrar contenido con gran repercusión en las Redes Sociales de manera que seguramente contenga un montón de enlaces hacia dicho contenido.Para ello simplemente debemos poner los términos que queramos buscar en la caja de búsqueda.
 
-[![topsy](images/topsy.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/08/topsy.jpg)Tras realizar la búsqueda elegimos la opción de todos los tiempos.
+![topsy](images/topsy.jpg)
+Tras realizar la búsqueda elegimos la opción de todos los tiempos.
 
-[![topsy 1](images/topsy-1.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/08/topsy-1.jpg)
+![topsy 1](images/topsy-1.jpg)
 
 Ahora vemos como para el ejemplo de búsqueda juegos de carreras tenemos resultados que han tenido bastante repercusión y nos pueden valer.
 
-[![topsy 2](images/topsy-21.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/08/topsy-21.jpg)
+![topsy 2](images/topsy-21.jpg)
 
 - **[Menéame](https://www.meneame.net/)**
 
 Al igual que Topsy, Menéame es una fuente muy interesante de artículos que han sido muy compartidos por la comunidad y además nos permite conocer la cantidad de clicks que han tenido. Para realizar una búsqueda en Menéame pon el término que te interese en la caja de búsqueda y a continuación elige para todo el período tal como hicimos en Topsy.
 
-[![meneame 0](images/meneame-0.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/08/meneame-0.jpg)
+![meneame 0](images/meneame-0.jpg)
 
 Para el ejemplo de juegos de carreras vemos que en la primera página no hay nada relevante, sin embargo si vamos hacia la segunda página vemos esto:
 
-[![meneame](images/meneame.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/08/meneame.jpg)23157 Clicks tiene dicho enlace, debe tener bastantes enlaces entrantes también.
+![meneame](images/meneame.jpg)
+23157 Clicks tiene dicho enlace, debe tener bastantes enlaces entrantes también.
 
 - [**Búsqueda de Google**](https://www.google.es/)
 
@@ -77,7 +79,8 @@ En primer lugar debemos usar uno de los programas mencionados anteriormente para
 
 Tras tener la lista de páginas web que enlazaron el contenido que elegimos pasamos a la segunda fase, mandar un email a dichos sitios informándoles de que hemos mejorado ese contenido mediante un email de éste tipo:
 
-[![email](images/email.jpg "aumentar las visitas de la web de tu juego")](http://danielgguillen.com/wp-content/uploads/2015/09/email.jpg)Mediante éste email podrás conseguir enlaces a tu artículo de páginas que ya enlazaron el artículo anterior, no lo harán todas pero seguramente alguna página potente se haga eco y la estrategia funcione.
+![email](images/email.jpg)
+Mediante éste email podrás conseguir enlaces a tu artículo de páginas que ya enlazaron el artículo anterior, no lo harán todas pero seguramente alguna página potente se haga eco y la estrategia funcione.
 
 Próximamente tengo pensada probar ésta estrategia en el blog para comprobar si funciona y mostraros los resultados, mientras tanto me gustaría saber que os parece. Es una estrategia de marketing de contenidos que requiere mucho esfuerzo y trabajo, pero creo que haciéndolo bien puede suponer un buen influjo de visitas y de posicionamiento web para vuestras páginas.
 

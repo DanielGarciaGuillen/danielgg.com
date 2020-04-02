@@ -1,17 +1,15 @@
 ---
-title: "Próximo destino, Oh Canadá"
-date: "2015-06-15"
+title: 'Próximo destino, Oh Canadá'
+date: '2015-06-15'
 ---
 
-[![Oh Canada](images/canada-flags-1024x512.jpg)](http://danielgguillen.com/wp-content/uploads/2015/06/canada-flags.jpg)
+![Oh Canada](images/canada-flags-1024x512.jpg)
 
 La entrada de hoy es para comentarlos que mi situación personal va a cambiar, el próximo mes de Julio me voy a vivir a Canadá con mi novia y me gustaría que lo supieseis puesto que las entradas del blog tal vez sean más cortas por todo el lío que supone el viaje.
 
 Aunque el post sea un poco offtopic creo interesante dar un poco de información.
 
 ## Trabajar en Canadá
-
- 
 
 Canadá tiene una legislación bastante dura con el tema del trabajo. He conocido casos de personas que se han cogido un vuelo a Canadá con la intención de encontrar trabajo y en el aeropuerto les han mandado de vuelta a su país de origen. Si tienes pensado ir a Canadá a trabajar no se puede ir a lo loco, es muy complicado entrar al país con intención de trabajar si un permiso (en aduanas te hacen casi un interrogatorio) y ser contratado por una empresa sin papeles también es difícil debido a las multas que se pueden llevar.
 

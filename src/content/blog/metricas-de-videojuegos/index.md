@@ -1,11 +1,10 @@
 ---
-title: "Rework Guía Básica Métricas de Videojuegos"
-date: "2015-10-31"
+title: 'Rework Guía Básica Métricas de Videojuegos'
+date: '2015-10-31'
 ---
 
- 
-
-[![Métricas de videojuegos](images/GUIA-METRICAS-VIDEOJUEGOS-1024x606.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/GUIA-METRICAS-VIDEOJUEGOS.jpg)Si existe algo que no me canso de decir es que cuando realizamos acciones de marketing debemos medir, de ésta manera podemos conocer las estrategias que mejor funcionan. Creo de vital importancia hablar sobre métricas de videojuegos y me parece que la mejor manera es mediante una presentación muy sencilla.
+![Métricas de videojuegos](images/GUIA-METRICAS-VIDEOJUEGOS-1024x606.jpg)
+Si existe algo que no me canso de decir es que cuando realizamos acciones de marketing debemos medir, de ésta manera podemos conocer las estrategias que mejor funcionan. Creo de vital importancia hablar sobre métricas de videojuegos y me parece que la mejor manera es mediante una presentación muy sencilla.
 
 Ésta presentación es una actualización de una anterior que hice y que tenía algunos errores que he decidido retificar. Entiendo que para muchos las diferentes métricas que se explican aquí parecen muy complicadas, pero no es necesario empezar por algo así, se puede ir creando pequeños experimentos como comenté en la Guía de Growth Hacking para tu videjuego. Posteriormente y cuando nos veamos más sueltos podemos ir creando experimentos más grandes e incluso llegar a crear nuestro propio embudo de conversión.
 
@@ -27,7 +26,5 @@ Si tenéis ganas de aprender más sobre métricas os recomiendo leer dos artícu
 Si es así hacérmelo saber para crear contenido de éste tipo. Me parece muy interesante también analizar el modelo de métricas piratas  o incluso traer un invitado a [Game Stuff](http://www.ivoox.com/podcast-game-stuff_sq_f1174207_1.html) para conocer de primera mano las últimas estrategias o métricas que se usan.
 
 Un gran abrazo y me encantaría escuchar vuestros comentarios sobre el tema.
-
- 
 
 PD: ¿Qué os parece el restyle del Blog?

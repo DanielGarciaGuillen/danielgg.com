@@ -1,9 +1,11 @@
 ---
-title: "¿Qué encontrarás en este blog y quién es Daniel GG?"
-date: "2015-03-18"
+title: '¿Qué encontrarás en este blog y quién es Daniel GG?'
+date: '2015-03-18'
 ---
 
-[![1post](images/1post-1024x493.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/1post.jpg)Hola a todos!
+![1post](images/1post-1024x493.jpg)
+
+Hola a todos!
 
 Mi nombre es Daniel GG y este blog nace con la ilusión de enseñaros todo lo que estoy aprendiendo sobre el marketing de videojuegos, siguiendo la filosofía de:
 

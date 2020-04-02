@@ -1,9 +1,9 @@
 ---
-title: "Guía completa Community Manager de videojuegos"
-date: "2015-03-26"
+title: 'Guía completa Community Manager de videojuegos'
+date: '2015-03-26'
 ---
 
-[![Aprende a ser Community Manager de Videojuegos](images/CMA.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/CMA.jpg)
+![Aprende a ser Community Manager de Videojuegos](images/CMA.jpg)
 
 El post de hoy viene cargado de información relevante sobre qué se necesita para ser un buen **Community Manager de videojuegos** (a partir de ahora CM) . Vamos a ver qué es un CM, cual es su rol, qué aptitudes debe poseer y qué herramientas necesita conocer.
 
@@ -29,7 +29,7 @@ Otro aspecto importante de las comunidades es la posibilidad de recibir un feedb
 
 ###  **¿Rol de un Community Manager de videojuegos?**
 
-[![community-manager-appreciation-day](images/community-manager-appreciation-day.png)](http://danielgguillen.com/wp-content/uploads/2015/03/community-manager-appreciation-day.png)
+![community-manager-appreciation-day](images/community-manager-appreciation-day.png)
 
 El trabajo de CM es relativamente nuevo, es por ello que existe una desinformación bastante grande sobre su rol. La mayor parte de la gente piensa que es simplemente conseguir likes en Facebook o seguidores en Twitter, sin embargo se les escapan muchas cosas que son fundamentales.
 
@@ -48,66 +48,54 @@ El CM debe tener algunas habilidades que son básicas para la consecución de su
 ### Habilidades Personales
 
 - #### Sentido Común
-    
 
 El sentido común es algo básico, tener en cuenta que el CM está expuesto a toda la comunidad y una palabra mal dicha puede generar una reacción impresionante. Jamás debe entrar al trapo de posibles provocaciones o comentarios ofensivos debido a que es la imagen de la compañía la que se encuentra en juego. El 100% de las veces la contestación que des en caliente no será la mejor posible, por ello es necesario tener la **capacidad** de **calmarse** y **elaborar** una **respuesta adecuada** a una crítica.
 
 - #### Liderazgo
-    
 
 Si un CM es el encargado de gestionar una comunidad, también tiene que saber cómo hacer que la gente se involucre en ella para que ésta crezca. El CM debe saber **generar motivación** e interés en la comunidad.
 
 - ####  Escucha activa
-    
 
 Es muy importante que el CM sepa escuchar de manera que pueda **advertir** posibles **cambios** o **crisis** en la **comunidad**, esto ayudará a prevenir posibles problemas o aprovechar oportunidades que se pueden crear.
 
 - #### Comunicación oral y escrita
-    
 
 Debe saber cómo hablar a su comunidad, un Community Manager de videojuegos debe saber cómo **comunicarse** de una **forma eficiente** para hacer llegar su mensaje de manera óptima.
 
 - #### Inteligencia Emocional / Asertividad
-    
 
 La habilidad comunicativa de un Community Manager se debe complementar con la inteligencia emocional, de manera que pueda expresar de manera positiva sus mensajes hacia la comunidad y **entender** las emociones de los **jugadores**.
 
 ### Habilidades Técnicas
 
 - #### Redes sociales y programas para gestionarlas
-    
 
 Debes conocer **[Facebook](https://www.facebook.com/), [Twitter](http://www.twitter.com), [Linkedin](http://www.linkedin.com), [YouTube](https://www.youtube.com/), [Instagram](https://instagram.com/) y [Pinterest](https://es.pinterest.com/)** además de algunas secundarias más. También es necesario conocer los datos que nos pueden aportar en términos de analítica.
 
 Al tener que estar continuamente manejando más de una red social debemos usar programas de gestión que nos faciliten el trabajo.
 
 - ####  Programas para análisis de impacto en redes sociales.
-    
 
 Uno de los cometido de los Community Manager de videojuegos es **analizar** el **impacto** que genera el contenido que lanzamos por redes sociales, para ello se usan programas que nos muestran ratios sobre alcance, interacción etc..
 
 - #### Conocimientos básicos de HTLM/CSS
-    
 
 Tendremos que actualizar la web con contenido y realizar algunas tareas como crear anuncios para mandar a través de plataformas de mailing que requerirán saber algo de código.
 
 - #### Conocimientos básico de software para web y foros
-    
 
 Es muy recomendable saber manejar con cierta soltura algunos software como [Wordpress](http://www.wordpress.org) o [vBulletin](http://www.vbulletin.com/es/).
 
 - ####  Programas de diseño como Photoshop, Canva u otros editores de imágenes  (No vale Paint)
-    
 
 Cuando hagas **contenido** para lanzar en tus redes sociales o web siempre deberá de ir **acompañado** de **imágenes** que lo apoyen, es por ello que necesitarás conocimientos básicos de algún programa de retoque para mejorar tu contenido.
 
 - #### Programas para Streaming o grabación
-    
 
 Al igual que en Photoshop si en algún momento tenemos que grabar algún vídeo o hacer stream necesitamos conocer cómo funcionan estos programas.
 
 - #### Inglés mínimo B2
-    
 
 Es necesario tener un **conocimiento alto** de **Inglés**, prácticamente ningún videojuego esta únicamente enfocado al mercado español. Si te vas a encargar de las redes sociales de una franquicia para el mercado español es seguro que la comunicación interna de la compañía se realizará en Inglés.
 
@@ -137,7 +125,7 @@ A mi personalmente me gusta mucho HootSuite, tiene una versión gratuita donde p
 
 Como dijimos anteriormente los Community Manager de videojuegos necesitan herramientas que permitan ver las acciones o contenido que funciona mejorar para la comunidad, existe software que analiza estas acciones y mediante el cual podemos medir el alcance e impacto de nuestras campañas. El problema de estos software es que son bastante caros, sin embargo conviene tener conocimiento de su existencia.
 
-[Kissmetrics](https://www.kissmetrics.com/) y NinjaMetrics son algunos programas que nos ayudan a medir nuestra presencia en redes sociales y las interacciones de los usuarios con nuestro juego en ellas. La parte negativa es que son de pago, [Kissmetrics](https://www.kissmetrics.com/) tiene una prueba de un mes y luego cuesta 200$ mensuales y respecto a NinjaMetrics la cosa es más complicada ya que solo funciona para empresas de videojuegos, aún así podemos ver un vídeo [aquí](http://fast.wistia.net/embed/iframe/4bxfdp7k9q?popover=true) (Inglés) para poder entender en que consiste.
+[Kissmetrics](https://www.kissmetrics.com/) y NinjaMetrics son algunos programas que nos ayudan a medir nuestra presencia en redes sociales y las interacciones de los usuarios con nuestro juego en ellas. La parte negativa es que son de pago, [Kissmetrics](https://www.kissmetrics.com/) tiene una prueba de un mes y luego cuesta 200\$ mensuales y respecto a NinjaMetrics la cosa es más complicada ya que solo funciona para empresas de videojuegos, aún así podemos ver un vídeo [aquí](http://fast.wistia.net/embed/iframe/4bxfdp7k9q?popover=true) (Inglés) para poder entender en que consiste.
 
 - [Kissmetrics](https://www.kissmetrics.com/)
 - NinjaMetrics

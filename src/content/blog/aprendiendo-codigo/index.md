@@ -1,9 +1,11 @@
 ---
-title: "¿Por qué estoy aprendiendo código y tú también deberías?"
-date: "2015-10-22"
+title: '¿Por qué estoy aprendiendo código y tú también deberías?'
+date: '2015-10-22'
 ---
 
-[![Aprendiendo código](images/Aprende-a-programar.jpg "Aprendiendo código")](http://danielgguillen.com/wp-content/uploads/2015/10/Aprende-a-programar.jpg)El post de hoy se basa en algo en lo que he estado reflexionando últimamente y me gustaría compartir contigo:
+![Aprendiendo código](images/Aprende-a-programar.jpg)
+
+El post de hoy se basa en algo en lo que he estado reflexionando últimamente y me gustaría compartir contigo:
 
 ## ¿Por qué estoy aprendiendo código y tu también deberías?
 
@@ -21,9 +23,7 @@ Pensando en qué te puede beneficiar ahora mismo existen varias razones por las 
 
 ## 7 Razones para aprender a programar
 
- 
-
-\[caption id="attachment\_1277" align="aligncenter" width="300"\][![Porque estoy aprendiendo código y tu también deberías](images/programmer-300x286.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/programmer.jpg) Situación normal tras intentar entender PHP por primera vez\[/caption\]
+\[caption id="attachment_1277" align="aligncenter" width="300"\]![Porque estoy aprendiendo código y tu también deberías](images/programmer-300x286.jpg) Situación normal tras intentar entender PHP por primera vez\[/caption\]
 
 ### 1- Saber código es como saber de electricidad
 
@@ -61,29 +61,29 @@ Existen muchas más razones por las que aprender a escribir código me parece un
 
 Una duda que va a surgir una vez te has decidido a aprender es elegir el tipo de lenguaje de programación, existe muchos y cada uno de ellos se especializa en algo diferente, por ello me gustaría enseñaros las siguientes imágenes para que os os resulte más fácil decidiros.
 
-### PHP[![¿Por qué debes aprender a escribir código?](images/php.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/php.jpg)
+### PHP![¿Por qué debes aprender a escribir código?](images/php.jpg)
 
 ### OBJETIVE C![¿Por qué debes aprender a escribir código?](images/OBJETIVE-C.jpg)
 
-### SQL[![¿Por qué debes aprender a escribir código?](images/SQL.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/SQL.jpg)
+### SQL![¿Por qué debes aprender a escribir código?](images/SQL.jpg)
 
-### PYTHON  [![¿Por qué debes aprender a escribir código?](images/PHYTON.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/PHYTON.jpg)
+### PYTHON  ![¿Por qué debes aprender a escribir código?](images/PHYTON.jpg)
 
-### RUBY[![¿Por qué debes aprender a escribir código?](images/Ruby.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/Ruby.jpg)
+### RUBY![¿Por qué debes aprender a escribir código?](images/Ruby.jpg)
 
-### JAVASCRIPT [![¿Por qué debes aprender a escribir código?](images/javascript.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/javascript.jpg)
+### JAVASCRIPT ![¿Por qué debes aprender a escribir código?](images/javascript.jpg)
 
-### JAVA[![¿Por qué debes aprender a escribir código?](images/JAVA.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/JAVA.jpg)
+### JAVA![¿Por qué debes aprender a escribir código?](images/JAVA.jpg)
 
-### C++[![¿Por qué debes aprender a escribir código?](images/C-.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/C-.jpg)
+### C++![¿Por qué debes aprender a escribir código?](images/C-.jpg)
 
-### ASP[![¿Por qué debes aprender a escribir código?](images/ASP.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/ASP.jpg)
+### ASP![¿Por qué debes aprender a escribir código?](images/ASP.jpg)
 
-### AJAX[![¿Por qué debes aprender a escribir código?](images/AA.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/AA.jpg)
+### AJAX![¿Por qué debes aprender a escribir código?](images/AA.jpg)
 
 ### Como comentamos antes, dependido del tipo de cosas que quieres hacer se deben elegir un tipo de lenguaje u otro, en la siguiente imagen podéis ver según el camino que queráis seguir el lenguaje más conveniente.
 
-### [![¿Por qué debes aprender a escribir código?](images/What-Code-Should-You-Learn.jpg)](http://danielgguillen.com/wp-content/uploads/2015/10/What-Code-Should-You-Learn.jpg)Fuente infografías: [Whoishostingthis](http://www.whoishostingthis.com/blog/2014/09/04/learn-to-code/)
+### ![¿Por qué debes aprender a escribir código?](images/What-Code-Should-You-Learn.jpg)](http-You-Learn.jpg)Fuente infografías: [Whoishostingthis](http://www.whoishostingthis.com/blog/2014/09/04/learn-to-code/)
 
 Una vez elegido el lenguaje de programación que queremos aprender podemos acudir a diversas fuentes para empezar, en ésta lista encontraréis suficientes recursos como para aprender de manera básica el funcionamiento de los diferentes lenguajes de programación.
 

@@ -1,9 +1,9 @@
 ---
-title: "My first Startup 🚀 Empower Local Devs with OttawaTech.io"
-date: "2018-01-25"
+title: 'My first Startup 🚀 Empower Local Devs with OttawaTech.io'
+date: '2018-01-25'
 ---
 
-[![](images/Untitled-1.gif)](http://danielgguillen.com/wp-content/uploads/2018/01/Untitled-1.gif)
+![](images/Untitled-1.gif)
 
 Hello everybody!
 
@@ -25,7 +25,7 @@ When I was playing WoW, I organized raids to get equipment for lower-level chara
 
 After a few months, my shaman had the best gear possible, and a lot of people I helped had the same stuff, too.
 
-\[caption id="attachment\_2597" align="aligncenter" width="300"\][![](images/xaman-300x204.png)](http://danielgguillen.com/wp-content/uploads/2018/01/xaman.png) Best Shaman EU.\[/caption\]
+![](images/xaman-300x204.png)
 
 Then my character acquired fame in the community because I was the one person to go to if you wanted a level 70 item.
 
@@ -43,11 +43,11 @@ With the community united under TeamSpeak, we were able to do that. It was an am
 
 As we grow older, priorities change. But the philosophy I think still prevails.
 
-As I mentioned in [this blog post](http://danielgguillen.com/front-end-developer-soon/), I want to get a job as Software Developer in Ottawa, and I am going to do it by empowering other people to break into tech. With this purpose, I created:
+As I mentioned in [this blog post](http://danielgg.com/front-end-developer-soon/), I want to get a job as Software Developer in Ottawa, and I am going to do it by empowering other people to break into tech. With this purpose, I created:
 
 ## [OttawaTech.io](http://ottawatech.io)
 
-[![](images/Untitled-1-1024x557.jpg)](http://danielgguillen.com/wp-content/uploads/2018/01/Untitled-1.jpg)
+![](images/Untitled-1-1024x557.jpg)
 
 This side project helps me find companies that are looking for front-end developer jobs in Ottawa and I believe it will also help thousands of people who want to break into tech.
 

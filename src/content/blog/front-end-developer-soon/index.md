@@ -1,9 +1,9 @@
 ---
-title: "A new start as a Front-End Developer in Ottawa"
-date: "2018-01-09"
+title: 'A new start as a Front-End Developer in Ottawa'
+date: '2018-01-09'
 ---
 
-[![](images/1_YjcPGzby8LtCorOKW4ozLQ-1024x576.jpeg)](http://danielgguillen.com/wp-content/uploads/2017/11/1_YjcPGzby8LtCorOKW4ozLQ.jpeg)
+![](images/1_YjcPGzby8LtCorOKW4ozLQ-1024x576.jpeg)
 
 I am learning Front-End Development.
 

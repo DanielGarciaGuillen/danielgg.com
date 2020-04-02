@@ -1,9 +1,9 @@
 ---
-title: "Podcast sobre la industria de Videojuegos"
-date: "2015-05-25"
+title: 'Podcast sobre la industria de Videojuegos'
+date: '2015-05-25'
 ---
 
-[![Podcast sobre la Industria de Videojuegos](images/anuncio-podcast-1024x516.jpg)](http://danielgguillen.com/wp-content/uploads/2015/05/anuncio-podcast.jpg)
+![Podcast sobre la Industria de Videojuegos](images/anuncio-podcast-1024x516.jpg)
 
 ¿Os acordáis del post sobre el primer mes del blog?
 

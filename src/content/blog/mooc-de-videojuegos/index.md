@@ -1,9 +1,9 @@
 ---
-title: "10 MOOC de videojuegos gratis"
-date: "2015-03-23"
+title: '10 MOOC de videojuegos gratis'
+date: '2015-03-23'
 ---
 
-[![10 MOOC de videojuegos](images/10-MOOC-1024x578.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/10-MOOC.jpg)
+![10 MOOC de videojuegos](images/10-MOOC-1024x578.jpg)
 
 Hoy me gustaría enseñaros unos cuantos MOOC de videojuegos que os permitan mejorar el conocimiento que tenéis.
 
@@ -67,7 +67,7 @@ Te pones el la piel de un leñador loco atacado por un Ovni
 
 En el juego tienes que destruir 20 cajas sin que el Ovni te coja, si te coge mueres. Si consigues destruir 20 cajas puedes matar al Ovni pero éste se alejará de ti, si se escapa también mueres. Hardcore eee!! El juego era super frenético, bueno todo lo que podía serlo.
 
-[![Logger VS Ovni](images/Logger-VS-Ovni.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/Logger-VS-Ovni.jpg)
+![Logger VS Ovni](images/Logger-VS-Ovni.jpg)
 
 Mi opinión como podéis imaginar es que este MOOC es muy recomendable si quieres ver como se hace un juego sencillo y no tienes ni idea de programación como yo.
 
@@ -107,7 +107,7 @@ Este MOOC trata la temática de la retórica y la persuasión en los videojuegos
 
 Este curso intenta explicar como las mecánicas de los videojuegos se pueden usar para enseñar, entrenar, publicitar o cualquier otro fin más serio a parte del entretenimiento.Como en el curso del [MIT](http://web.mit.edu/) el alumno tendrá que construir su propio videojuego a lo largo de las clases contando con el apoyo de la comunidad.
 
-* * *
+---
 
 Como vemos existen varios MOOC de videojuegos sin embargo la mayoría son en inglés y puede suponer un problema, si además alguien conoce algún curso relacionado con videojuegos que me avise por los comentarios y lo añadiré.
 

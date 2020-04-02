@@ -1,15 +1,15 @@
 ---
-title: "Videojuegos en Montreal, MIGS15."
-date: "2015-11-12"
+title: 'Videojuegos en Montreal, MIGS15.'
+date: '2015-11-12'
 ---
 
-[![videojuegos montreal](images/migs151.jpg)](http://danielgguillen.com/wp-content/uploads/2015/11/migs151.jpg)
+![videojuegos montreal](images/migs151.jpg)
 
 Hola a todos, en el post de hoy quiero daros un poco de info sobre la conferencia a la que voy a asistir la próxima semana.
 
 La [Montreal International Game Summit](http://migs15.com/en/) es una conferencia de videojuegos dedicada a profesionales que se celebrará del 15 al 17 de Noviembre. He tenido la oportunidad de conseguir un pase de prensa y tengo la intención de realizar una cobertura del evento para que podáis conocer tanto la organización como las novedades que se presenten en la feria.
 
-[![videojuegos montreal](images/migs-logo-horiz-1024x403.jpg)](http://danielgguillen.com/wp-content/uploads/2015/11/migs-logo-horiz.jpg)
+![videojuegos montreal](images/migs-logo-horiz-1024x403.jpg)
 
 La página web del evento se encuentra [aquí](http://migs15.com/en/).
 

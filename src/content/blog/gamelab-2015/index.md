@@ -1,9 +1,9 @@
 ---
-title: "Gamelab 2015, la oportunidad de conocer la industria de videojuegos."
-date: "2015-05-19"
+title: 'Gamelab 2015, la oportunidad de conocer la industria de videojuegos.'
+date: '2015-05-19'
 ---
 
-## [![Gamelab 2015](images/Logo2015FondoBlancoSalamandra-1024x582.jpg "Gamelab 2015")](http://danielgguillen.com/wp-content/uploads/2015/05/Logo2015FondoBlancoSalamandra.jpg)
+## ![Gamelab 2015](images/Logo2015FondoBlancoSalamandra-1024x582.jpg)
 
 # Gamelab 2015 Barcelona 24-26 de Junio
 

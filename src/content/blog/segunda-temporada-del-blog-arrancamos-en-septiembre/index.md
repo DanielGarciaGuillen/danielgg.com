@@ -1,9 +1,9 @@
 ---
-title: "Segunda temporada del blog, arrancamos en Septiembre."
-date: "2015-08-31"
+title: 'Segunda temporada del blog, arrancamos en Septiembre.'
+date: '2015-08-31'
 ---
 
-[![lol-1](images/lol-1-1024x623.jpg)](http://danielgguillen.com/wp-content/uploads/2015/08/lol-1.jpg)
+![lol-1](images/lol-1-1024x623.jpg)
 
 Hola a todos!
 

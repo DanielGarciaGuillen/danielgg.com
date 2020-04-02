@@ -1,9 +1,11 @@
 ---
 title: "You don't know JS series. Up & Running"
-date: "2018-04-21"
+date: '2018-04-21'
 ---
 
-[![](images/1_7UAKs86_jTQGWe-Ieqr2qQ.jpeg)](http://danielgguillen.com/wp-content/uploads/2018/04/1_7UAKs86_jTQGWe-Ieqr2qQ.jpeg)Hey!
+![](images/1_7UAKs86_jTQGWe-Ieqr2qQ.jpeg)
+
+Hey!
 
 I am giving the second lecture to this books, [You don't know JS by Kyle Simpson.](https://github.com/getify/You-Dont-Know-JS)
 
@@ -21,11 +23,7 @@ And hopefully, you will find it useful too.
 
 In case you want to check the series, you can read it for free on [GitHub](https://github.com/getify/You-Dont-Know-JS).
 
- 
-
 ## JS: Up and Going
-
- 
 
 ### **Executing a program**
 
@@ -54,7 +52,7 @@ You can use typeof to examine a value and check what type it is.
 
 _var a = 2;_
 
-typeof_ a  "number"_
+typeof* a  "number"*
 
 When using typeof, it doesn't ask for the type of the value a is, but rather for the type of value currently in a.
 

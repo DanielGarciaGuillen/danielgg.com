@@ -1,6 +1,6 @@
 ---
-title: "El ZeroUno, networking perfecto en Madrid."
-date: "2015-05-13"
+title: 'El ZeroUno, networking perfecto en Madrid.'
+date: '2015-05-13'
 ---
 
 Esta entrada va de marketing, pero no de videojuegos, sino del marketing que se debe hacer sobre uno mismo para poder entrar en la industria o mejor dicho, esto va de [ZeroUno](http://www.meetup.com/Amigos-del-Videojuego-por-Madrid/) networking.
@@ -25,7 +25,7 @@ Hablando específicamente sobre el [ZeroUno](http://www.meetup.com/Amigos-del-Vi
 
 Víctor nos hablo sobre la revolución que va suponer la Realidad Virtual a corto plazo, existe un mercado enorme y según nos expuso ahora es el momento de subirse al carro para aprovechar la oportunidad. Tuve la oportunidad de hablar con él durante unos cuantos minutos y pude ver la experiencia, el saber hacer y la capacidad productiva de Víctor, una persona con más de 20 años de experiencia en el sector y que se mostró totalmente accesible.
 
-\[caption id="attachment\_797" align="aligncenter" width="300"\][![Derechos imagen: El ZeroUno](images/victor-300x169.jpeg "ZeroUno networking")](http://danielgguillen.com/wp-content/uploads/2015/05/victor.jpeg) Derechos imagen: El ZeroUno\[/caption\]
+![Derechos imagen: El ZeroUno](images/victor-300x169.jpeg)
 
 \- **Fernando Piquer  CEO de [Bitoon Games](http://www.bitoon.com/)**
 
@@ -33,13 +33,13 @@ Fernando nos expuso su visión del emprendedor, fijándose en las motivaciones q
 
 Al igual que con Víctor tuve la oportunidad de hablar detenidamente con Fernando, totalmente accesible y una persona que tiene la capacidad de hacerte sentir cómodo al instante. Totalmente colaborador y atento. Un placer.
 
-\[caption id="attachment\_798" align="aligncenter" width="300"\][![Derechos imagen: El ZeroUno](images/Fernando-pique-300x222.jpeg "ZeroUno networking")](http://danielgguillen.com/wp-content/uploads/2015/05/Fernando-pique.jpeg) Derechos imagen: El ZeroUno\[/caption\]
+![Derechos imagen: El ZeroUno](images/Fernando-pique-300x222.jpeg)
 
 \- **Fran Gálvez  CEO de [Unusual Studios](http://www.unusualstudios.com/)**
 
 Fran realizó la que personalmente fue la exposición más interesante, y no porque las otras no lo fuesen, sino porque para mi sorpresa tocó un tema que me apasiona, el apartado de negocio de las empresas de videojuegos. Este aspecto es algo que no suele tratarse y nos dio unos consejos que son oro en paño. He creado un slideshare de la misma presentación que hizo Fran para que podáis verla, por supuesto todos los derechos son suyos.
 
-\[sociallocker\] 
+\[sociallocker\]
 
 <iframe style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/key/AZx6KkeCIQfu3C" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
 
@@ -55,11 +55,11 @@ Me pareció muy profesional la forma en la que Luis presentó el juego, claro, c
 
 <iframe src="https://www.youtube.com/embed/NcrJoWwMV_o" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-  - Pablo J. Beneyto del estudio [DamnCode](http://damncode.com) presentando [Golden Midas](http://damncode.com/es/games/golden-midas/).
+- Pablo J. Beneyto del estudio [DamnCode](http://damncode.com) presentando [Golden Midas](http://damncode.com/es/games/golden-midas/).
 
 Aunque la presentación de Pablo me pareció algo mas floja que la de Luis, me encantó la sonrisa que no se le borró en ningún momento. Por el simplemente hecho de subir al escenario y contarnos sobre su juego se mereció mi aplauso.
 
-[![Pablo Golden Midas](images/IMG-20150513-WA0029-300x224.jpg "ZeroUno networking")](http://danielgguillen.com/wp-content/uploads/2015/05/IMG-20150513-WA0029.jpg)
+![Pablo Golden Midas](images/IMG-20150513-WA0029-300x224.jpg)
 
 \- Carlos Molina de [89 bits](http://www.89bits.es/) presentando PitLane Manager.
 
@@ -71,15 +71,13 @@ Me pareció increíble el producto que presento Carlos, una mezcla de simulador 
 
 Pablo fue el ganador de Game Glory (quien tenga más aplausos gana), lo que le da el derecho a poder presentar su juego en el próximo [ZeroUno](http://www.meetup.com/Amigos-del-Videojuego-por-Madrid/), lo presentó bastante bien y el juego entra por lo ojos gracias a un bonito aspecto artístico.
 
-[![Pablo Astra](images/IMG-20150513-WA0011-300x224.jpg "ZeroUno networking")](http://danielgguillen.com/wp-content/uploads/2015/05/IMG-20150513-WA0011.jpg)
-
- 
+![Pablo Astra](images/IMG-20150513-WA0011-300x224.jpg)
 
 \- Jorge Augusto de [Ubikware](https://twitter.com/ubikware)  presentando Polygo!
 
 Finalmente Jorge nos presentó su proyecto Polygo! que tenía buena pinta y espero poder ver más información dentro de poco.
 
-[![Jorge Augusto Polygo!](images/Jorge-Augusto-Polygo-222x300.jpg "ZeroUno networking")](http://danielgguillen.com/wp-content/uploads/2015/05/Jorge-Augusto-Polygo.jpg)
+![Jorge Augusto Polygo!](images/Jorge-Augusto-Polygo-222x300.jpg)
 
 En resumen, me encantó asistir al [ZeroUno](http://www.meetup.com/Amigos-del-Videojuego-por-Madrid/), a pesar de ser más corta de lo habitual por enmarcarse dentro de otro evento pude ver que si quieres entrar en la industria es el camino a seguir. Asistir, hablar con los desarrolladores, interesarte por ellos y conocer en que puedes ayudarlos es realmente importante.
 

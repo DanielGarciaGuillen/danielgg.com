@@ -1,9 +1,10 @@
 ---
-title: "Guía creación Kit de Prensa de videojuego"
-date: "2015-05-11"
+title: 'Guía creación Kit de Prensa de videojuego'
+date: '2015-05-11'
 ---
 
-[![Kit de Prensa de videojuego](images/Guia-Kit-de-Prensa1-1024x576.jpg)](http://danielgguillen.com/wp-content/uploads/2015/05/Guia-Kit-de-Prensa1.jpg)En el mundo de los videojuegos es normal que tras una noche de descontrol con los amigos surja la idea de la creación de un videojuego, la mayoría de las veces el grupo se crea a partir de programadores o diseñadores. Cuando llega el momento de promocionar el juego los integrantes desconocen totalmente el mundo del marketing y suele ocurrir que se convierte en una tarea que implica mucho más tiempo del que se pensaba.
+![Kit de Prensa de videojuego](images/Guia-Kit-de-Prensa1-1024x576.jpg)
+En el mundo de los videojuegos es normal que tras una noche de descontrol con los amigos surja la idea de la creación de un videojuego, la mayoría de las veces el grupo se crea a partir de programadores o diseñadores. Cuando llega el momento de promocionar el juego los integrantes desconocen totalmente el mundo del marketing y suele ocurrir que se convierte en una tarea que implica mucho más tiempo del que se pensaba.
 
 Por ello hoy vamos a ver como crear un Kit de Prensa de videojuego de forma sencilla entendiendo cual es su función, que debemos incluir en él y los aspectos que debemos cuidar al realizarlo. El Kit de Prensa de videojuego que vamos a ver es online.
 
@@ -56,11 +57,11 @@ Es un apartado fundamental, como pudimos ver en el post de El combate MOBA del S
 
 <iframe src="https://www.youtube.com/embed/lE8dfwSRsW0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
--  **[Imágenes y Screenshots](http://www.towerofguns.com/presskit/sheet.php?p=Tower_of_Guns#screenshots)**
+- **[Imágenes y Screenshots](http://www.towerofguns.com/presskit/sheet.php?p=Tower_of_Guns#screenshots)**
 
 Otro apartado muy importante, es necesario que las imágenes estén cuidadas y representen la esencia del juego. Los medios las usarán en sus comunicados y queremos dar una imagen acorde al juego.  Las imágenes deben estar renombradas para ser legibles por cualquier persona, además es recomendable crear un .zip para poder descargarlas todas en un click. Podeís ver un ejemplo de como lo ha hecho [Tower of Guns](http://www.towerofguns.com/presskit/sheet.php?p=Tower_of_Guns) a continuación:
 
-\[sociallocker id=770\][www.towerofguns.com/presskit/Tower\_of\_Guns/images/images.zip](http://www.towerofguns.com/presskit/Tower_of_Guns/images/images.zip)\[/sociallocker\]
+\[sociallocker id=770\][www.towerofguns.com/presskit/Tower_of_Guns/images/images.zip](http://www.towerofguns.com/presskit/Tower_of_Guns/images/images.zip)\[/sociallocker\]
 
 - **[Logo e Iconos](http://www.towerofguns.com/presskit/sheet.php?p=Tower_of_Guns#logo)**
 
@@ -92,7 +93,7 @@ Email de contacto de la persona encargada de las relaciones públicas.
 
 ## ¿Cómo hacer un Kit de Prensa de Videojuego?
 
-Existe dos opciones principales, la primera sería crear un Kit de Prensa de videojuego propio haciendo el diseño y la programación nosotros mismo, implicaría mucho tiempo y en un principio no es recomendable. La segunda opción es usar **[presskit()](http://dopresskit.com/)** creado por Rami Ismail ([@tha\_rami](http://twitter.com/tha_rami)) del estudio indie [Vlambeer](http://www.vlambeer.com/). Mediante este Kit de Prensa de videojuego podremos crear uno en muy poco tiempo y con un diseño profesional, éste Kit se ha hecho muy famoso entre los desarrolladores indie y se puede ver que lo usan muy a menudo.
+Existe dos opciones principales, la primera sería crear un Kit de Prensa de videojuego propio haciendo el diseño y la programación nosotros mismo, implicaría mucho tiempo y en un principio no es recomendable. La segunda opción es usar **[presskit()](http://dopresskit.com/)** creado por Rami Ismail ([@tha_rami](http://twitter.com/tha_rami)) del estudio indie [Vlambeer](http://www.vlambeer.com/). Mediante este Kit de Prensa de videojuego podremos crear uno en muy poco tiempo y con un diseño profesional, éste Kit se ha hecho muy famoso entre los desarrolladores indie y se puede ver que lo usan muy a menudo.
 
 #### **Ventajas de presskit()**
 
@@ -106,7 +107,7 @@ Como vemos es una opción muy buena, gratuita y sencilla.
 
 ## Instalación de presskit()
 
-1-**Descargamos presskit()** desde [su página](http://dopresskit.com/) y obtendremos un archivo .zip llamado dopresskit\_install.zip que debemos **descomprimir**. Al descomprimirlo obtendremos un único archivo denominado **install.php**
+1-**Descargamos presskit()** desde [su página](http://dopresskit.com/) y obtendremos un archivo .zip llamado dopresskit_install.zip que debemos **descomprimir**. Al descomprimirlo obtendremos un único archivo denominado **install.php**
 
 2-**Creamos** una **carpeta** vacía en nuestro servidor y **subimos** mediante **FTP** el archivo **install.php** a nuestro servidor.
 
@@ -118,7 +119,7 @@ Como vemos es una opción muy buena, gratuita y sencilla.
 
 5- **Añade nuevos proyectos**. Cuando hayas terminado de crear tu página de prensa puedes añadir proyectos. Para crear un nuevo proyecto **duplica el archivo \_template** que el script ha creado y **renombralo con el nombre del proyecto**. El nombre del proyecto debe tener las letras minúsculas y los espacios en blanco deben ser sustituidos por barras bajas.
 
-**Tip**: Si tu proyecto se llama **Resume Wars**, debemos renombrar la carpeta duplicada con el nombre **\`\`resume\_wars´´**. El proyecto aparecerá y clikando sobre él podremos completar los pasos necesarios para crear nuestro kit de prensa.
+**Tip**: Si tu proyecto se llama **Resume Wars**, debemos renombrar la carpeta duplicada con el nombre **\`\`resume_wars´´**. El proyecto aparecerá y clikando sobre él podremos completar los pasos necesarios para crear nuestro kit de prensa.
 
 6-**Actualiza tu presskit()**, puedes añadir nuevos ajustes continuamente, para ello puedes **repetir los pasos del 1 al 3**. En vez de encontrarte con la pantalla de instalación te será presentada la **pantalla de actualización** para tus nuevos ajustes.
 

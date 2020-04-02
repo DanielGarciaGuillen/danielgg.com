@@ -1,9 +1,11 @@
 ---
-title: "Metodologías Ágiles en videojuegos, con Pablo Domingo"
-date: "2015-09-04"
+title: 'Metodologías Ágiles en videojuegos, con Pablo Domingo'
+date: '2015-09-04'
 ---
 
-[![Pablo](images/Pablo.jpg)](http://danielgguillen.com/wp-content/uploads/2015/09/Pablo.jpg)Muy buenas a todos!
+![Pablo](images/Pablo.jpg)
+
+Muy buenas a todos!
 
 Estoy muy contento de retomar **[Game Stuff](http://www.ivoox.com/ep-5-metodologias-agiles-videojuegos-pablo-audios-mp3_rf_7761362_1.html)**, el podcast en el que entrevisto a profesionales del sector de los videojuegos. Para el episodio número 5 tengo el placer de contar con la presencia de **[Pablo Domingo](https://twitter.com/pavleras)**, Agile Coach y Scrum Master de [King](https://king.com/es/) (creadores de uno de los mayores éxitos en la industria de videojuegos móviles, [Candy Crush](http://candycrushsaga.com/)).
 
@@ -32,29 +34,23 @@ También puedes escucharlo aquí escucharlo [aquí.](http://www.ivoox.com/ep-5-m
 **LEAN Y KANBAN**
 
 - [Kanban: Successful Evolutionary Change for Your Technology Business](http://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402/ref=sr_1_4?ie=UTF8&qid=1441175631&sr=8-4&keywords=donald+reinertsen) de David J.Anderson
-    
 - [Lean Software Development: An Agile Toolkit](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783/ref=sr_1_1?ie=UTF8&qid=1441175732&sr=8-1&keywords=poppendieck) de Tom Poppendieck y Marie Poppendieck
-    
 
 **AGILE**
 
 - [Agile Kaizen: Managing Continuous Improvement Far Beyond Retrospectives](http://www.amazon.com/Agile-Kaizen-Continuous-Improvement-Retrospectives/dp/364254990X/ref=sr_1_1?ie=UTF8&qid=1441175811&sr=8-1&keywords=angel+medinilla) de Ángel Medenilla
 - [Management 3.0: Leading Agile Developers, Developing Agile Leaders](http://www.amazon.com/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471/ref=sr_1_2?ie=UTF8&qid=1441175765&sr=8-2&keywords=jurgen+appelo) de Jurgen Appelo
-    
 
-- [Essential Scrum: A Practical Guide to the Most Popular Agile Process](http://www.amazon.com/Essential-Scrum-Practical-Addison-Wesley-Signature/dp/0137043295/ref=pd_sim_sbs_14_2?ie=UTF8&refRID=08CCKJJX3PHHXJWSKTAS&dpSrc=sims&dpST=_AC_UL160_SR123%2C160_) de Kenneth S. Rubin
+* [Essential Scrum: A Practical Guide to the Most Popular Agile Process](http://www.amazon.com/Essential-Scrum-Practical-Addison-Wesley-Signature/dp/0137043295/ref=pd_sim_sbs_14_2?ie=UTF8&refRID=08CCKJJX3PHHXJWSKTAS&dpSrc=sims&dpST=_AC_UL160_SR123%2C160_) de Kenneth S. Rubin
 
 **COACHING**
 
 - [Co-Active Coaching: Changing Business, Transforming Lives](http://www.amazon.com/Co-Active-Coaching-Changing-Business-Transforming/dp/1857885678/ref=sr_1_8?s=books&ie=UTF8&qid=1441175874&sr=1-8&keywords=coaching) de Henry Kimsey-House
-    
 
 **DESARROLLO DE SOFTWARE**
 
 - [Agile Software Development, Principles, Patterns, and Practices](http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445/ref=sr_1_3?ie=UTF8&qid=1441176186&sr=8-3&keywords=robert+c+martin) de Robert C. Martín
-    
 - [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/ref=sr_1_3?ie=UTF8&qid=1441176232&sr=8-3&keywords=martin+fowler&pebp=1441176234989&perid=1GBXQKAY3NQFT3GM8W68) de Martín Fowler
-    
 
 **MOB PROGRAMMING**
 

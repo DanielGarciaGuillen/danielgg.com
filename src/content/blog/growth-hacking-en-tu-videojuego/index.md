@@ -1,9 +1,9 @@
 ---
-title: "Cómo hacer Growth Hacking en tu videojuego"
-date: "2015-05-28"
+title: 'Cómo hacer Growth Hacking en tu videojuego'
+date: '2015-05-28'
 ---
 
-[![Growth Hacking en tu Videojuego](images/Growth-hacking-test-1024x549.jpg)](http://danielgguillen.com/wp-content/uploads/2015/05/Growth-hacking-test.jpg)
+![Growth Hacking en tu Videojuego](images/Growth-hacking-test-1024x549.jpg)
 
 Hoy te voy a enseñar a llevar el marketing de tu videojuego al siguiente nivel. Te mostraré técnicas de marketing empleadas por **Growth Hackers** que harán aumentar la difusión de tu videojuego a costo reducido. El tema de hoy me apasiona y espero que os sirva para adentraros en un territorio que está en auge actualmente.
 
@@ -16,7 +16,7 @@ Aunque el **Growth Hacking** lleva desde 2010 haciéndose un hueco en la escena 
 3. **Herramientas de Growh Hacking para tu videojuego**
 4. **Bibliografía de Growh Hacking aplicable a tu videojuego**
 
-# [![ready](images/ready-300x190.png)](http://danielgguillen.com/wp-content/uploads/2015/05/ready.png)
+# ![ready](images/ready-300x190.png)
 
 # 1\. Growth Hacking en tu videojuego
 
@@ -50,7 +50,7 @@ El **Marketing de contenidos** o **Inbound Marketing** consiste en **crear conte
 
 **[Los 10 mejores juegos de carreras](http://www.wincarsracer.com/es/content/los-10-mejores-juegos-de-carreras)**
 
-[![WincarsRacer12](images/WincarsRacer12-1024x630.png)](http://www.wincarsracer.com/es)
+![WincarsRacer12](images/WincarsRacer12-1024x630.png)](http://www.wincarsracer.com/es)
 
 El post mencionado no trata de promocionar su juego, sin embargo aporta información útil para su audiencia y por supuesto ayuda en el SEO. De hecho una de las mejores maneras de conseguir tener un buen SEO es la creación de un blog de desarrollo donde actualices con regularidad con buen contenido.
 
@@ -69,7 +69,6 @@ A parte de las herramientas me he permitido el lujo de añadir otro apartado de 
 ## **SEO para tu videojuego (página web del videojuego)**
 
 - ### **Herramientas de SEO para tu videojuego**
-    
 
 \-[**Google Keyword Tool**](https://adwords.google.com/KeywordPlanner): el planificador de palabras clave de Google nos puede dar indicaciones claras sobre que términos tienen búsquedas relevantes.
 
@@ -84,7 +83,6 @@ A parte de las herramientas me he permitido el lujo de añadir otro apartado de 
 **\-[SEMRush](http://es.semrush.com)**: nos permite ver información muy completa como las palabras clave posicionadas de páginas web de nuestros competidores.
 
 - ### **Aprendizaje de SEO para tu videojuego**
-    
 
 Recomiendo encarecidamente leer o escuchar estos contenidos, tendrás una idea clara en menos de 2 horas de lo que es el SEO.
 
@@ -94,7 +92,6 @@ Recomiendo encarecidamente leer o escuchar estos contenidos, tendrás una idea c
 ## **ASO para tu videojuego (aplicación móvil)**
 
 - ### **Herramientas de ASO para tu aplicación**
-    
 
 **\-[Mobiledevhq](http://www.mobiledevhq.com/)** es una herramienta que nos permite analizar las palabras clave de nuestra app y descubrir otras palabras clave que nos pueden interesar.
 
@@ -103,7 +100,6 @@ Recomiendo encarecidamente leer o escuchar estos contenidos, tendrás una idea c
 **\-[Sensor Tower](https://sensortower.com/)** al igual que [**Apptweak**](https://www.apptweak.com/) nos permite realizar informes sencillos de ASO de forma gratuita.
 
 - ### **Aprendizaje de ASO para tu aplicación**
-    
 
 Recopilación de algunas guías y artículos que os pueden ser de utilidad:
 
@@ -114,7 +110,6 @@ Recopilación de algunas guías y artículos que os pueden ser de utilidad:
 ## **Analítica para tu videojuego**
 
 - ### **Herramientas de analítica para tu videojuego**
-    
 
 **\-[Google Analytics](https://www.google.es/intl/es/analytics/)**, si no lo conoces todavía es que estás en la brecha digital. Analytics nos provee con una cantidad de información impresionante que nos ayudará a conocer desde donde nos proviene el tráfico con la finalidad de identificar posibles problemas. Además tienes la posibilidad de integrarlo con nuestro **Kit de Prensa** como mencioné en **éste post**.
 
@@ -127,9 +122,8 @@ Recopilación de algunas guías y artículos que os pueden ser de utilidad:
 **\-[Flurry](http://www.flurry.com/)** al igual que **Ninja Metrics** nos permite analizar las métricas de nuestro juego para conocer más sobre el comportamiento de los jugadores.
 
 - ### **Aprendizaje de analítica para tu videojuego**
-    
 
-**\-****[Analytics Academy](https://analyticsacademy.withgoogle.com/explorer) (Inglés)** la plataforma de aprendizaje de Google tiene cursos gratuitos muy recomendados como **[Mobile App Analytics Fundamentals](https://analyticsacademy.withgoogle.com/course04)** o **[Digital Analytics Fundamentals](https://analyticsacademy.withgoogle.com/course01)**.
+**\-\*\***[Analytics Academy](https://analyticsacademy.withgoogle.com/explorer) (Inglés)** la plataforma de aprendizaje de Google tiene cursos gratuitos muy recomendados como **[Mobile App Analytics Fundamentals](https://analyticsacademy.withgoogle.com/course04)** o **[Digital Analytics Fundamentals](https://analyticsacademy.withgoogle.com/course01)\*\*.
 
 **\- [Certificación de Google Analytics](https://support.google.com/partners/answer/6089738?hl=en)**, si queréis ir un paso más allá de la **[Analytics Academy](https://analyticsacademy.withgoogle.com/explorer)** podéis sacaros este certificado que os valdrá para demostrar vuestros conocimientos sobre analítica web en todo el mundo.
 
@@ -138,7 +132,6 @@ Recopilación de algunas guías y artículos que os pueden ser de utilidad:
 La principal tarea del marketing de contenidos es crear precisamente contenido de calidad relevante para tus seguidores, para ello debemos identificar que tipo de artículos pueden funcionar mejor para nuestra audiencia.
 
 - ### **Herramientas de marketing de contenidos para tu videojuego**
-    
 
 **\-[BuzzSumo](http://buzzsumo.com/)**: nos permite analizar los contenidos que más han sido compartidos en redes sociales para poder conocer de antemano los contenidos que tiene mayor probabilidad de funcionar.
 
@@ -147,7 +140,6 @@ La principal tarea del marketing de contenidos es crear precisamente contenido d
 **\-[Feedly](https://feedly.com/)**: al estilo del antiguo Google Reader lo que nos permite **[Feedly](https://feedly.com/)** es organizar según categorías las páginas web que nos interesen para tenerlas todas centralizadas en un solo sitio. Gracias a **[Feedly](https://feedly.com/)** podremos dar un vistazo rápido a muchas publicaciones y coger ideas.
 
 - ### **Aprendizaje de marketing de contenidos para tu videojuego**
-    
 
 **\-[Advanced Guide to Content Marketing](http://www.quicksprout.com/the-advanced-guide-to-content-marketing/) (Inglés)**, **[Neil Patel](http://neilpatel.com/)** es un crack y esta guía es obligatoria para entender como generar contenido y promocionarlo.
 
@@ -158,14 +150,12 @@ La principal tarea del marketing de contenidos es crear precisamente contenido d
 ## **Test A/B para tu videojuego o web**
 
 - ### Herramientas para hacer Test A/B a tu videojuego
-    
 
 **\-[Optimizely](https://www.optimizely.es)** nos permite crear variaciones de nuestra web con la finalidad de mejorar nuestros objetivos, ya sea aumentar la lista de suscriptores o que hagan click en un botón determinado.
 
 **\-[Instapage](https://www.instapage.com/)** es una herramienta que utilicé antes de lanzar el blog y me funcionó muy bien, la podemos usar antes de lanzar el juego para ir creando una lista de correo o generar páginas de aterrizaje. Además podemos crear variaciones de dichas páginas para conocer las que funcionan mejor.
 
 - ### Aprendizaje para hacer Test A/B a tu videojuego
-    
 
 **\-[Entrevista de Víctor Martin a Alex Kei](http://victormartinp.com/2014/07/como-optimizar-la-conversion-de-tu-web-con-alex-kei/) (Podcast)**, muy recomendable escucharlo, nos da claves sobre lo que significan los Test A/B y la conversión.
 
@@ -192,7 +182,7 @@ En primer lugar mencionar algunas páginas dedicadas al Growth Hacking.
 **Inglés**
 
 - [**Growth Hackers**](https://growthhackers.com/), sin duda la biblia en inglés sobre el Growth Hacking, funciona como un agregador de noticias donde podréis ver los diferentes contenidos que los profesionales suben a sus respectivas webs.
-- **[Quicksprout](http://www.quicksprout.com/),** el blog de **[Neil Patel](http://neilpatel.com/)** (que le generá alrededor de **1M de $ anuales**) es una fuente inagotable de contenidos de mucha calidad, en especial quiero recomendaros su **[Definitive Guide to Growth Hacking](http://www.quicksprout.com/the-definitive-guide-to-growth-hacking/)**.
+- **[Quicksprout](http://www.quicksprout.com/),** el blog de **[Neil Patel](http://neilpatel.com/)** (que le generá alrededor de **1M de \$ anuales**) es una fuente inagotable de contenidos de mucha calidad, en especial quiero recomendaros su **[Definitive Guide to Growth Hacking](http://www.quicksprout.com/the-definitive-guide-to-growth-hacking/)**.
 
 En segundo lugar resaltar páginas que tienen contenido de interés en este caso aplicado a videojuego y aunque no estén centradas en el Growth Hacking podemos aprender aspectos como la monetización, el uso de métricas o estrategias creativas para aumentar nuestra tasa de crecimiento o difusión.
 

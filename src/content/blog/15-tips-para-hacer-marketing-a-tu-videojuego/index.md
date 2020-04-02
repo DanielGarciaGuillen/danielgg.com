@@ -1,9 +1,9 @@
 ---
-title: "15 Tips para hacer marketing a tu videojuego"
-date: "2015-09-30"
+title: '15 Tips para hacer marketing a tu videojuego'
+date: '2015-09-30'
 ---
 
-[![Tips para hacer marketing a tu videojuego](images/15-tips-para-marketing-de-videojuegos.jpg "Tips para hacer marketing a tu videojuego")](http://danielgguillen.com/wp-content/uploads/2015/09/15-tips-para-marketing-de-videojuegos.jpg)
+![Tips para hacer marketing a tu videojuego](images/15-tips-para-marketing-de-videojuegos.jpg)
 
 En el post de hoy quiero hacer un pequeño repaso a algunos consejos que debes tener en cuenta para mejorar la promoción de tu videojuego, espero que os sean de ayuda y estaré encantado de contestar a cualquier duda que tengáis o ampliar la información.
 

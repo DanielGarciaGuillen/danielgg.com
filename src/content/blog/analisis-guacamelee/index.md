@@ -1,11 +1,11 @@
 ---
-title: "Análisis Guacamelee! El marketing de Juan Aguacate"
-date: "2015-03-30"
+title: 'Análisis Guacamelee! El marketing de Juan Aguacate'
+date: '2015-03-30'
 ---
 
-[![Análisis Guacamelee! Marketing](images/Guacamelee-front-1024x576.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/Guacamelee-front.jpg)¡Hola jugones!
+![Análisis Guacamelee! Marketing](images/Guacamelee-front-1024x576.jpg)
 
-Hoy es el día de ver algunos aspectos de la campaña de marketing de [_Guacamelee!_](http://guacamelee.com/)  juego creado por el estudio [DrinkBox](http://www.drinkboxstudios.com/).
+Hoy es el día de ver algunos aspectos de la campaña de marketing de [_Guacamelee!_](http://guacamelee.com/) juego creado por el estudio [DrinkBox](http://www.drinkboxstudios.com/).
 
 ## Introducción: DrinkBox Studios y _Guacamelee!_
 
@@ -18,7 +18,7 @@ En el año 2008 se funda [DrinkBox Studios](http://www.drinkboxstudios.com/) en 
 
 En este post vamos a conocer cómo realizaron la campaña de marketing en su último juego lanzado. [_Guacamelee!_](http://guacamelee.com/) es un juego tipo Metroid/ Castlevania que toma elementos del folklore mejicano, en él tendremos que pasar por diferentes fases derrotando a enemigos y jefes finales usando nuestros poderes de luchador de wrestling.
 
-_      Trailer Guacamelee!_ 
+_      Trailer Guacamelee!_
 
 <iframe src="https://www.youtube.com/embed/_CRsdiEICFI" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
@@ -26,7 +26,7 @@ _      Trailer Guacamelee!_
 
 Ajustando más al caso que hoy nos ocupa, [DrinkBox Studios](http://www.drinkboxstudios.com/) es una **desarrolladora Indie**, cuando hablamos de Indie nos referimos a un estudio relativamente pequeño con **recursos** bastante **limitados**. Esta limitación hace que la labor de comunicación del videojuego tenga como objetivo **conseguir la mayor repercusión al menor coste monetario posible**.
 
-[![Análisis Guacamelee! El marketing de Juan Aguacate.](images/guac_poster_smaller-194x300.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/guac_poster_smaller.jpg)
+![Análisis Guacamelee! El marketing de Juan Aguacate.](images/guac_poster_smaller-194x300.jpg)
 
 ## Análisis Guacamelee! El marketing de Juan Aguacate
 
@@ -41,7 +41,7 @@ Como veremos las métricas son parte imprescindible al realizar una campaña y n
 
 **Here we go!!**
 
-[![Guacamelee!](images/Guac_screens_A.jpeg.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/Guac_screens_A.jpeg.jpg)
+![Guacamelee!](images/Guac_screens_A.jpeg.jpg)
 
 ### **Medios (IGN, Gamespot, Kotaku etc...)**
 
@@ -68,7 +68,7 @@ Otro aspecto de los medios es referido a las **convenciones de videojuegos** y c
 - No poner un puesto de juego libre, sino crear un puesto privado donde se invite a la gente a probar el videojuego.
 - **Analizar el coste por artículo**, esta medida refleja el coste total de asistir a la convención dividido por los artículos referentes a tu juego creados por los medios.
 
-\[caption id="attachment\_434" align="aligncenter" width="1024"\][![guacamelee](images/guacamelee1-1024x572.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/guacamelee1.jpg) Coste por Artículo Guacamelee!\[/caption\]
+\[caption id="attachment_434" align="aligncenter" width="1024"\]![guacamelee](images/guacamelee1-1024x572.jpg) Coste por Artículo Guacamelee!\[/caption\]
 
 Como vemos los anteriores puntos les han funcionado bastante bien reduciendo el coste por artículo a lo largo de la vida del estudio.
 
@@ -86,7 +86,7 @@ Nos referimos a empresas que nos ayuden en la comunicación de nuestro videojueg
 
 Para identificar un poco como colaboraron con la agencia de relaciones públicas he creado esta tabla que nos muestra las fortalezas de cada uno:
 
-**DrinkBox**     **Agencias de Relaciones Públicas**
+**DrinkBox** **Agencias de Relaciones Públicas**
 
 Notas Prensa/Press Kits
 
@@ -104,7 +104,7 @@ Negociar exclusivas
 
 El estudio se ve reforzado
 
-<Añadir legitimidad a la campaña
+Añadir legitimidad a la campaña
 
 Según comentan la contratación de la firma de relaciones públicas fue muy buena idea ya que se beneficiaron de la experiencia y los contactos que las firmas tienen ya establecidos.
 
@@ -112,9 +112,9 @@ Según comentan la contratación de la firma de relaciones públicas fue muy bue
 
 La creación de un diálogo bidireccional con la comunidad es especialmente importante para conseguir mayor repercusión. Aprovechar el contenido que tus fans crean como pueden ser [cosplays](http://es.wikipedia.org/wiki/Cosplay) o dibujos y recompensarlos por su fidelidad mediante la difusión de dicho contenido es otra acción importante.
 
-Relacionado con las convenciones invitar a tus fans a pasar por el stand, por ejemplo para _[Guacamelee!](http://guacamelee.com/)_ [DrinkBox Studios](http://www.drinkboxstudios.com/) recreó una villa mejicana y se vistieron de fiesta, esto hacía que la gente se interesase por conocer el videojuego.
+Relacionado con las convenciones invitar a tus fans a pasar por el stand, por ejemplo para *[Guacamelee!](http://guacamelee.com/)* [DrinkBox Studios](http://www.drinkboxstudios.com/) recreó una villa mejicana y se vistieron de fiesta, esto hacía que la gente se interesase por conocer el videojuego.
 
-[![guaca box](images/guaca-box.jpg)](http://danielgguillen.com/wp-content/uploads/2015/03/guaca-box.jpg)
+![guaca box](images/guaca-box.jpg)
 
 Además crearon un hashtag para twitter con el nombre de [#foodeogames](https://twitter.com/search?src=typd&q=%23foodeogames) donde enlazaban nombres de videojuegos con comida, se volvió bastante viral y ayudo en la promoción. Algunos ejemplos graciosos que he encontrado:
 
@@ -123,11 +123,9 @@ Además crearon un hashtag para twitter con el nombre de [#foodeogames](https://
 - Spice of Invaders
 - Calamario Kart
 
- 
+---
 
-* * *
-
-Como vemos la visión de marketing que he hecho es muy generalista, sin embargo da algunos consejos muy buenos que no debemos dejar de tener en cuenta. Gracias a ellos _[Guacamelee!](http://guacamelee.com/)_ se ha convertido en un título muy conocido y ha puesto a [DrinkBox Studios](http://www.drinkboxstudios.com/) en el panorama internacional de desarrolladores.
+Como vemos la visión de marketing que he hecho es muy generalista, sin embargo da algunos consejos muy buenos que no debemos dejar de tener en cuenta. Gracias a ellos *[Guacamelee!](http://guacamelee.com/)* se ha convertido en un título muy conocido y ha puesto a [DrinkBox Studios](http://www.drinkboxstudios.com/) en el panorama internacional de desarrolladores.
 
 El contenido descrito anteriormente se encuentra en un vídeo muy interesante donde Chris McQuinn, encargado de marketing de [DrinkBox Studios](http://www.drinkboxstudios.com/) nos hace un repaso de cómo ha realizado su compañía marketing a lo largo de su historia. Totalmente recomendable de ver. Esta en inglés.
 

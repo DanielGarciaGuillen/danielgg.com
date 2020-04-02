@@ -1,13 +1,14 @@
 ---
-title: "Cómo crear una marca de calidad con Luis Oliván de Fictiorama Studios"
-date: "2015-09-10"
+title: 'Cómo crear una marca de calidad con Luis Oliván de Fictiorama Studios'
+date: '2015-09-10'
 ---
 
-[![Cómo crear una marca de calidad con Luis Oliván de Fictiorama Studios](images/Luis-Olivan.jpg "Cómo crear una marca de calidad con Luis Oliván de Fictiorama Studios")](http://danielgguillen.com/wp-content/uploads/2015/09/Luis-Olivan.jpg)En el episodio número 6 de [Game Stuff](http://www.ivoox.com/podcast-game-stuff_sq_f1174207_1.html) entrevisto a Luis Oliván, PR y Producer de [Fictiorama Studios](http://www.deadsynchronicity.com/en/). Éste episodio es especial puesto que gracias a Luis tuve la oportunidad de inaugurar el blog con un artículo muy interesante sobre la creación de una campaña Kickstarter de éxito.
+![Cómo crear una marca de calidad con Luis Oliván de Fictiorama Studios](images/Luis-Olivan.jpg)
+En el episodio número 6 de [Game Stuff](http://www.ivoox.com/podcast-game-stuff_sq_f1174207_1.html) entrevisto a Luis Oliván, PR y Producer de [Fictiorama Studios](http://www.deadsynchronicity.com/en/). Éste episodio es especial puesto que gracias a Luis tuve la oportunidad de inaugurar el blog con un artículo muy interesante sobre la creación de una campaña Kickstarter de éxito.
 
 En ésta ocasión podremos disfrutar de una entrevista en la que Luis nos va a dar las claves que ha utilizado para conseguir hacer una marca de calidad internacional de [Fictiorama Studios](http://www.deadsynchronicity.com/en/). Lo más curioso es que ésta marca de calidad ha sido creada mediante una serie de estrategias de comunicación aplicadas al lanzamiento de su reciente videojuego [Dead Synchronicity: Tommorows comes Today](http://www.deadsynchronicity.com/en/).
 
-Os aconsejo escuchar la entrevista porque Luis nos ofrece una master class de comunicación de forma gratuita en la entrevista. 
+Os aconsejo escuchar la entrevista porque Luis nos ofrece una master class de comunicación de forma gratuita en la entrevista.
 
 <iframe id="audio_8255727" style="border: 1px solid #EEE; box-sizing: border-box; width: 100%;" src="https://www.ivoox.com/player_ej_8255727_4_1.html?c1=ff6600" width="300" height="200" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
 

@@ -1,6 +1,6 @@
 ---
-title: "I am working as a remote Junior Front End Developer!"
-date: "2018-10-20"
+title: 'I am working as a remote Junior Front End Developer!'
+date: '2018-10-20'
 ---
 
 ![remote junior front end developer](images/silas-hao-1088788-unsplash.jpg)
@@ -9,7 +9,7 @@ I am super happy to announce that since last August I am working as a remote jun
 
 A quick update!
 
-After more than a year learning HTML, CSS, [JavaScript](https://danielgguillen.com/you-dont-know-js-series-up-running/) and React, I joined an amazing startup.
+After more than a year learning HTML, CSS, [JavaScript](https://danielgg.com/you-dont-know-js-series-up-running/) and React, I joined an amazing startup.
 
 Honestly, it hasn't been easy. The interview process to get a job as a junior developer is full of rejection and self doubt. The key is to keep going.
 

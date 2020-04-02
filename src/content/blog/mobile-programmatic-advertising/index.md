@@ -1,11 +1,11 @@
 ---
-title: "Guide to Programmatic Advertising Part 2"
-date: "2016-03-10"
+title: 'Guide to Programmatic Advertising Part 2'
+date: '2016-03-10'
 ---
 
-![Mobile Programmatic Advertising](images/programmatic-ads-part-2-1024x681.jpg "Mobile Programmatic Advertising")I am sure that you are excited to know more about programmatic advertising.
+![Mobile Programmatic Advertising](images/programmatic-ads-part-2-1024x681.jpg)I am sure that you are excited to know more about programmatic advertising.
 
-**_I recommend you to read [Part 1](http://danielgguillen.com/guide-to-programmatic-advertising/) before continue reading._**
+**_I recommend you to read [Part 1](http://danielgg.com/guide-to-programmatic-advertising/) before continue reading._**
 
 In this second part, I am going to talk about some key components that you must know regards programmatic advertising.
 
@@ -103,9 +103,9 @@ This campaign has a lower prize because the advertiser is no longer working with
 
 _Pretty crazy right?_
 
-Finally, I would like talk specifically about Mobile Programmatic Advertising.![Mobile Programmatic Advertising](images/programmatic-ads-part-2-mobile-1-1024x438.jpg "Mobile Programmatic Advertising")
+Finally, I would like talk specifically about Mobile Programmatic Advertising.![Mobile Programmatic Advertising](images/programmatic-ads-part-2-mobile-1-1024x438.jpg 'Mobile Programmatic Advertising')
 
-Is pretty much the same ecosystem, where companies do the same role you learned in [Part 1](http://danielgguillen.com/guide-to-programmatic-advertising/).
+Is pretty much the same ecosystem, where companies do the same role you learned in [Part 1](http://danielgg.com/guide-to-programmatic-advertising/).
 
 But it is newer like it was programmatic advertising 10 years ago.
 
@@ -119,7 +119,7 @@ Google + Facebook make almost 70% of the mobile ad market.
 
 Another important thing to notice is that **there are no cookies on apps.**
 
-You can only use them in web browsers.![Mobile Programmatic Advertising](images/cockies-mobile.jpg "Mobile Programmatic Advertising")
+You can only use them in web browsers.![Mobile Programmatic Advertising](images/cockies-mobile.jpg 'Mobile Programmatic Advertising')
 
 There is no collaboration between Google and Apple regards tracking in mobile devices.
 

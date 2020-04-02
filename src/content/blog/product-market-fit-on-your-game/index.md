@@ -1,9 +1,9 @@
 ---
-title: "3 ways to measure Product Market Fit on your game"
-date: "2016-05-24"
+title: '3 ways to measure Product Market Fit on your game'
+date: '2016-05-24'
 ---
 
-![Product Market Fit on your game](images/photo-1442551382982-e59a4efb3c86-e1464110435235-1024x545.jpg "Product Market Fit on your game")
+![Product Market Fit on your game](images/photo-1442551382982-e59a4efb3c86-e1464110435235-1024x545.jpg 'Product Market Fit on your game')
 
 Let me tell you something interesting about the F2P industry.
 
@@ -47,7 +47,7 @@ What action are players are doing that aligns with the core value of the game?
 
 In a game like Hearthstone could be complete the daily missions.
 
-![Product Market Fit on your game](images/300px-Todays_quests_only_the_mighty.jpg "Product Market Fit on your game")
+![Product Market Fit on your game](images/300px-Todays_quests_only_the_mighty.jpg 'Product Market Fit on your game')
 
 This lead the players to play more games and get gold to increase the progression in the game, both of them related to the core value that the company wants you to experience.
 
@@ -55,7 +55,7 @@ The third indicator gives companies a very useful insight about the behavior of 
 
 **3-Retention Curve**
 
-This curve represents the % of active of players over time on a game. If the curve flats at one point, you have found a market or audience for your game.![Product Market Fit on your game](images/graph-e1463787043849.jpg "Product Market Fit on your game")Most companies focus on achieve a retention curve that reduces the chunk of players, that means you have a product that will become easier to grow later on.
+This curve represents the % of active of players over time on a game. If the curve flats at one point, you have found a market or audience for your game.![Product Market Fit on your game](images/graph-e1463787043849.jpg 'Product Market Fit on your game')Most companies focus on achieve a retention curve that reduces the chunk of players, that means you have a product that will become easier to grow later on.
 
 To increase retention there is many mechanics that you can use, I recommend you check this post by Deconstructionoffun.
 
@@ -69,6 +69,6 @@ Congrats!
 
 You have Product Market Fit and you are ready to get thousand or hopefully millions of players to your game.
 
-As we saw in the [last post](http://danielgguillen.com/growth-f2p/), growth is never done, after reach product market fit your audience is going to be constantly changing, you must keep up working on improving the game.
+As we saw in the [last post](http://danielgg.com/growth-f2p/), growth is never done, after reach product market fit your audience is going to be constantly changing, you must keep up working on improving the game.
 
 _What do you think about product market fit? Please share your thoughts in a comments bellow._

@@ -1,9 +1,10 @@
 ---
-title: "¿Qué camino quieres que te cuente?"
-date: "2015-07-14"
+title: '¿Qué camino quieres que te cuente?'
+date: '2015-07-14'
 ---
 
-[![¿Qué camino quieres que te cuente?](images/que-camino.jpg "¿Qué camino quieres que te cuente?")](http://danielgguillen.com/wp-content/uploads/2015/07/que-camino.jpg)Me gustaría actualizaros un poco sobre como van las cosas por Canadá, algunos cambios que va a surgir el blog y sobre que os gustaría que hablase en los próximos meses.
+![¿Qué camino quieres que te cuente?](images/que-camino.jpg '¿Qué camino quieres que te cuente?')
+Me gustaría actualizaros un poco sobre como van las cosas por Canadá, algunos cambios que va a surgir el blog y sobre que os gustaría que hablase en los próximos meses.
 
 ## Llegada a Canadá y puesta a punto
 

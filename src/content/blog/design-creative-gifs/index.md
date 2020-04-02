@@ -1,9 +1,11 @@
 ---
-title: "DEsign.!. Creative GIFs"
-date: "2018-03-27"
+title: 'DEsign.!. Creative GIFs'
+date: '2018-03-27'
 ---
 
-[![](images/Screenshot-2018-3-27-sign-.png)](http://danielgguillen.com/wp-content/uploads/2018/03/Screenshot-2018-3-27-sign-.png)Hi guys!
+![](images/Screenshot-2018-3-27-sign-.png)
+
+Hi guys!
 
 I am in the process of applying for jobs as a Front-End Dev.
 
@@ -29,9 +31,7 @@ I got sucked in on the test and even though the test only asked for a list of gi
 
 Meet [DEsign.!.](http://dedd.co)
 
-[![](images/dedd.gif)](http://dedd.co)
-
- 
+![](images/dedd.gif)](http://dedd.co)
 
 [DEsign.!.](http://dedd.co) is meant to be a source of inspiration to creative people.
 
@@ -73,7 +73,7 @@ I decided to create two different menus depending if you are using the site on m
 
 On mobile devices, the menu will hide and the gifs will show up when you click on a theme.
 
-[![](images/dedd-mobile-menu.gif)](http://danielgguillen.com/wp-content/uploads/2018/03/dedd-mobile-menu.gif)
+![](images/dedd-mobile-menu.gif)
 
 The way this is implement right now is not ideal, but it works.
 

@@ -41,7 +41,6 @@ const TitlePost = styled.div`
 `
 
 const PostView = (props) => {
-  console.log(props)
   const {
     data: {
       markdownRemark: {

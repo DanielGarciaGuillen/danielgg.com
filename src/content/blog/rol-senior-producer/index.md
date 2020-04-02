@@ -1,13 +1,13 @@
 ---
-title: "El rol de Senior Producer con José Raluy"
-date: "2015-06-04"
+title: 'El rol de Senior Producer con José Raluy'
+date: '2015-06-04'
 ---
 
-[![Game Stuff Podcast](images/Game-stuff-ep-1-1024x678.jpg)](http://danielgguillen.com/wp-content/uploads/2015/06/Game-stuff-ep-1.jpg)
+![Game Stuff Podcast](images/Game-stuff-ep-1-1024x678.jpg)
 
 Es un placer poder anunciarte el estreno del **primer episodio** de [**Game Stuff**](http://www.ivoox.com/ep-1-game-stuff-jose-raluy-de-audios-mp3_rf_4592987_1.html).
 
-[**Game Stuff**](http://www.ivoox.com/ep-1-game-stuff-jose-raluy-de-audios-mp3_rf_4592987_1.html) es un **podcast semanal** dedicado a **entrevistar a profesionales de la industria de los videojuegos** con un fin, aprender de primera mano sus conocimientos, motivaciones, herramientas y visión sobre la industria de los videojuegos.[![Game Stuff Podcast sobre la industria de videojuegos](images/game-stuff2-01-1000X10001-300x300.jpg)](http://danielgguillen.com/wp-content/uploads/2015/06/game-stuff2-01-1000X10001.jpg)
+[**Game Stuff**](http://www.ivoox.com/ep-1-game-stuff-jose-raluy-de-audios-mp3_rf_4592987_1.html) es un **podcast semanal** dedicado a **entrevistar a profesionales de la industria de los videojuegos** con un fin, aprender de primera mano sus conocimientos, motivaciones, herramientas y visión sobre la industria de los videojuegos.![Game Stuff Podcast sobre la industria de videojuegos](images/game-stuff2-01-1000X10001-300x300.jpg).
 
 En el podcast me gustaría abarcar desde los aspectos más profesionales a los personales. Para ello tengo pensado ir entrevistando a diferentes perfiles siempre con la intención de hacer de [**Game Stuff**](http://www.ivoox.com/ep-1-game-stuff-jose-raluy-de-audios-mp3_rf_4592987_1.html) un podcast que nos permita aprender nuevos conocimientos y herramientas que podamos usar para nuestro crecimiento profesional y personal.
 
@@ -40,7 +40,7 @@ En el episodio de hoy de [**Game Stuff**](http://www.ivoox.com/ep-1-game-stuff-j
 - [Deux Ex. Human Revolution](http://es.wikipedia.org/wiki/Deus_Ex:_Human_Revolution)
 - [Wolfestein The New Order](http://es.wikipedia.org/wiki/Wolfenstein:_The_New_Order)
 
-Podéis encontrar a José en su twitter [@Jose\_Raluy](https://twitter.com/Jose_Raluy)
+Podéis encontrar a José en su twitter [@Jose_Raluy](https://twitter.com/Jose_Raluy)
 
 Si os ha gustado el podcast y pensáis que merece la pena la mejor manera que tenéis de ayudarme es compartirlo en redes sociales.¡Mil gracias!
 
