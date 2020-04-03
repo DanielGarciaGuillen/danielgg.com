@@ -36,19 +36,21 @@ const PaginationButton = styled.button`
 
 const BlogList = ({ pageContext }) => {
   const { group, index, pathPrefix } = pageContext
+
   const previousUrl =
-    index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
+    index - 1 === 0 ? '/' : `${pathPrefix}/${(index - 1).toString()}`
+  const correctPreviousUrl = previousUrl === 'blog/1' ? 'blog' : previousUrl
   const nextUrl = `${pathPrefix}/${(index + 1).toString()}`
 
   return (
     <Layout>
       <BlogPosts>
         {group.map(({ node }) => (
-          <PostItem post={node} key={node.slug} />
+          <PostItem post={node} key={node.id} />
         ))}
       </BlogPosts>
       <Pagination>
-        <Link to={previousUrl}>
+        <Link to={correctPreviousUrl}>
           <PaginationButton>Previous </PaginationButton>
         </Link>
         <Link to={nextUrl}>

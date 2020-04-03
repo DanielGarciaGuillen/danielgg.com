@@ -13,6 +13,7 @@ const PortfolioItem = styled.div`
   }
   @media (max-width: 700px) {
     width: 400px;
+    margin-bottom: 20px;
   }
   @media (max-width: 400px) {
     width: 300px;

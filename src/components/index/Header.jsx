@@ -6,9 +6,6 @@ const HeaderDiv = styled.div`
   grid-area: header;
   display: flex;
   place-content: space-between;
-  @media (max-width: 900px) {
-    place-content: space-evenly;
-  }
 `
 
 const Title = styled.div`
@@ -32,13 +29,23 @@ const Subtitle = styled.div`
 const Menu = styled.div`
   display: flex;
   flex-direction: column;
+  place-content: space-around;
 `
 const LinkMenu = styled.a`
-  pointer: hand;
+  cursor: pointer;
   padding-bottom: 30px;
   opacity: 0.8;
   :hover {
     opacity: 1;
+  }
+`
+
+const LinkImg = styled.img`
+  height: 36px;
+  width: 36px;
+  @media (max-width: 900px) {
+    height: 30px;
+    width: 30px;
   }
 `
 
@@ -58,20 +65,16 @@ const Header = () => (
     </Link>
     <Menu>
       <LinkMenu href="https://github.com/DanielGarciaGuillen">
-        <img
-          height="36"
-          width="36"
+        <LinkImg
           alt="github"
           src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
         />
       </LinkMenu>
       <LinkMenu href="https://twitter.com/dangguillen?lang=en">
-        <img
-          height="36"
-          width="36"
+        <LinkImg
           alt="twitter"
           src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg"
-        />{' '}
+        />
       </LinkMenu>
     </Menu>
   </HeaderDiv>

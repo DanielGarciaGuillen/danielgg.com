@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import Icon from '../../images/icons/favicon.png'
 
 const FooterDiv = styled.div`
-  grid-area: footer;
+  grid-row: 3;
+  grid-column: 1/4;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,6 @@ const FooterDiv = styled.div`
 
 const LineGradient = styled.div`
   background-color: pink;
-  text-aling: center;
   width: 1000px;
   height: 10px;
   justify-self: center;
@@ -33,34 +32,28 @@ const LineGradient = styled.div`
       background-position: 0% 50%;
     }
   }
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     width: 300px;
   }
 `
 const Footer2Div = styled.div`
   align-self: end;
-  color: #aec7e2;
   display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 15px;
   align-self: flex-end;
+  font-weight: 900;
+  font-family: 'Tajawal', sans-serif;
+  color: rgb(51, 51, 51);
+  opacity: 0.9;
 `
-const StyledEmoji = styled.img`
-  width: 20px;
-  height: 20px;
-`
-const Footer = () => {
-  const year = new Date().getFullYear()
 
+const Footer = () => {
   return (
     <FooterDiv>
       <LineGradient />
-      <Footer2Div>
-        <b>
-          {year} - <StyledEmoji src={Icon} />: Daniel GG
-        </b>
-      </Footer2Div>
+      <Footer2Div>Daniel GG</Footer2Div>
     </FooterDiv>
   )
 }

@@ -28,12 +28,11 @@ export default Layout
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 2fr 5fr 2fr;
-  grid-template-rows: 180px auto 80px 30px;
+  grid-template-rows: 180px auto 80px;
   grid-template-areas:
     '... header ...'
     '... blog ...'
-    '... footer ...'
-    '... footer2 ...';
+    'footer footer footer';
   grid-column-gap: 30px;
   grid-row-gap: 10px;
   background-color: #fff;
@@ -46,7 +45,7 @@ const Grid = styled.div`
   }
 
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
   h1,
   h2,
@@ -54,7 +53,7 @@ const Grid = styled.div`
   h4 {
     font-size: 25px;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   a {
     text-decoration: none;

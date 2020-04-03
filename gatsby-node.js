@@ -51,7 +51,7 @@ exports.createPages = ({ actions, graphql }) => {
       pageLength: 4, // This is optional and defaults to 10 if not used
       pathPrefix: 'blog',
       buildPath: (index, pathPrefix) =>
-        index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`,
+        index > 0 ? `${pathPrefix}/${index}` : `/${pathPrefix}`,
     })
 
     // Create pages for each markdown file.

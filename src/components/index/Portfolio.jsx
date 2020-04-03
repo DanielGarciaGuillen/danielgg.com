@@ -39,6 +39,9 @@ const Projects = styled.div`
   width: 100%;
   flex-direction: row;
   place-content: space-around;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
 `
 
 const Portfolio = () => (
