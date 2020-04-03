@@ -4,7 +4,9 @@ import styled from 'styled-components'
 const PortfolioItem = styled.div`
   box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  width: 700px;
+  width: 400px;
+  font-size: 16px;
+
   &:hover {
     transform: scale(1.02);
     border: 4px solid aliceblue;
@@ -20,7 +22,7 @@ const Title = styled.a`
   text-decoration: none;
   color: #6bd2ed;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 24px;
   :visited,
   :hover {
     color: #48abd4;
@@ -32,7 +34,7 @@ const TitleDiv = styled.div`
 `
 
 const SubtitleDiv = styled.div`
-  padding: 15px 0 0 20px;
+  padding: 10px 0 0 20px;
 `
 
 const CreatedWith = styled.div`
@@ -46,12 +48,12 @@ const IconDiv = styled.div`
 `
 
 const TechIcon = styled.img`
-  width: 50px;
+  width: 40px;
   border-radius: 3px;
 `
 
 const ProjectImage = styled.img`
-  width: 700px;
+  width: 400px;
   border-radius: 10px;
   @media (max-width: 700px) {
     width: 400px;
@@ -72,7 +74,7 @@ const Project = ({ project: { title, subTitle, url, image, tech } }) => (
     <SubtitleDiv>{subTitle}</SubtitleDiv>
     <CreatedWith>Using</CreatedWith>
     <IconDiv>
-      {tech.map(item => (
+      {tech.map((item) => (
         <a href={item.url} key={item.url}>
           <TechIcon src={item.image} />
         </a>

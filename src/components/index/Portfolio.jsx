@@ -7,7 +7,7 @@ const PortfolioGrid = styled.div`
   grid-area: portfolio;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 1fr 1fr;
+  grid-template-rows: 100px 1fr;
   grid-gap: 30px;
   font-size: 22px;
   background-color: #fff;
@@ -16,8 +16,7 @@ const PortfolioGrid = styled.div`
   place-items: center;
   grid-template-areas:
     'title'
-    'project1'
-    'project2';
+    'projects';
   @media (max-width: 900px) {
     padding: 40px;
   }
@@ -34,14 +33,24 @@ const TitleDiv = styled.div`
   }
 `
 
+const Projects = styled.div`
+  grid-area: 'projects';
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  place-content: space-around;
+`
+
 const Portfolio = () => (
   <PortfolioGrid>
     <TitleDiv>
       <h1>Portfolio</h1>
     </TitleDiv>
-    {portfolioList.map(project => (
-      <Project project={project} key={project.url} />
-    ))}
+    <Projects>
+      {portfolioList.map((project) => (
+        <Project project={project} key={project.url} />
+      ))}
+    </Projects>
   </PortfolioGrid>
 )
 

@@ -1,27 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
-
-const Excerpt = styled.div`
-  padding: 15px 0 0 20px;
-  line-height: 1.5;
-  margin-top: -25px;
-  margin-bottom: -25px;
-`
-const Title = styled.div`
-  padding: 15px 0 0 20px;
-  font-size: 33px;
-  color: #5bc0eb;
-  font-weight: bold;
-  line-height: 40px;
-  &:hover {
-    color: #9c6ccc;
-  }
-  @media (max-width: 700px) {
-    font-size: 25px;
-  }
-`
 
 const FeaturedImage = styled.img`
   width: 900px;
@@ -56,12 +35,30 @@ const PostListContainer = styled.div`
     }
   }
 `
+
+const Title = styled.div`
+  padding: 15px 0 15px 20px;
+  font-size: 33px;
+  color: #5bc0eb;
+  font-weight: bold;
+  line-height: 40px;
+  &:hover {
+    color: #9c6ccc;
+  }
+  @media (max-width: 700px) {
+    font-size: 25px;
+  }
+`
+
+const Excerpt = styled.div`
+  padding: 0px 0 0px 20px;
+  line-height: 1.5;
+`
 const ReadMoreDiv = styled.div`
-  padding: 0 0 5px 12px;
+  padding: 0px 0 5px 20px;
 `
 
 const PostItem = ({ post }) => {
-  console.log(post)
   return (
     <PostListContainer key={post.fields.slug}>
       <Link to={post.fields.slug} key={post.frontmatter.title}>
