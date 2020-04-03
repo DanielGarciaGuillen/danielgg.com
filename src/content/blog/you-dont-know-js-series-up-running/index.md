@@ -1,6 +1,7 @@
 ---
 title: "You don't know JS series. Up & Running"
 date: '2018-04-21'
+featuredImage: './images/1_7UAKs86_jTQGWe-Ieqr2qQ.jpeg'
 ---
 
 ![](images/1_7UAKs86_jTQGWe-Ieqr2qQ.jpeg)

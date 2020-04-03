@@ -1,5 +1,6 @@
 const path = require('path')
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const createPaginatedPages = require('gatsby-paginate')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -22,6 +23,13 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               date
               title
+              featuredImage {
+                childImageSharp {
+                  fluid {
+                    src
+                  }
+                }
+              }
             }
           }
         }
@@ -33,6 +41,18 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+
+    const blogPageTemplate = path.resolve(`./src/templates/BlogList.jsx`)
+
+    createPaginatedPages({
+      edges: posts,
+      createPage,
+      pageTemplate: blogPageTemplate,
+      pageLength: 4, // This is optional and defaults to 10 if not used
+      pathPrefix: 'blog',
+      buildPath: (index, pathPrefix) =>
+        index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`,
+    })
 
     // Create pages for each markdown file.
     posts.forEach(({ node }, index) => {

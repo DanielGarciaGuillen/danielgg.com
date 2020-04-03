@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 const Excerpt = styled.div`
   padding: 15px 0 0 20px;
@@ -59,22 +60,27 @@ const ReadMoreDiv = styled.div`
   padding: 0 0 5px 12px;
 `
 
-const PostItem = ({ post }) => (
-  <PostListContainer key={post.slug}>
-    <Link to={post.slug} key={post.title}>
-      {post.featured_media !== '' ? (
-        <FeaturedImage src={post.featured_media.source_url} alt="" />
-      ) : null}
-      <Title dangerouslySetInnerHTML={{ __html: post.title }} />
-    </Link>
-
-    <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-    <ReadMoreDiv>
-      <Link to={post.slug}>
-        <h4>Read More</h4>
+const PostItem = ({ post }) => {
+  console.log(post)
+  return (
+    <PostListContainer key={post.fields.slug}>
+      <Link to={post.fields.slug} key={post.frontmatter.title}>
+        {post.frontmatter.featuredImage !== null ? (
+          <FeaturedImage
+            src={post.frontmatter.featuredImage.childImageSharp.fluid.src}
+          />
+        ) : null}
+        <Title dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
       </Link>
-    </ReadMoreDiv>
-  </PostListContainer>
-)
+
+      <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+      <ReadMoreDiv>
+        <Link to={post.fields.slug}>
+          <h4>Read More</h4>
+        </Link>
+      </ReadMoreDiv>
+    </PostListContainer>
+  )
+}
 
 export default PostItem

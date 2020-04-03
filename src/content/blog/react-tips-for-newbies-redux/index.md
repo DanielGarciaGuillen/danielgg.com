@@ -1,6 +1,7 @@
 ---
 title: 'React Tips for Newbies: Redux'
 date: '2018-10-28'
+featuredImage: './images/Copy-of-REACT-TIPS-e1538793434382.png'
 ---
 
 ![React Tips for Newbies: Redux](images/Copy-of-REACT-TIPS-e1538793434382.png)

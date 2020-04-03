@@ -1,6 +1,7 @@
 ---
 title: 'I am working as a remote Junior Front End Developer!'
 date: '2018-10-20'
+featuredImage: './images/silas-hao-1088788-unsplash.jpg'
 ---
 
 ![remote junior front end developer](images/silas-hao-1088788-unsplash.jpg)

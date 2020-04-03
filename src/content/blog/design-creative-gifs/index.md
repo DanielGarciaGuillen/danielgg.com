@@ -1,6 +1,7 @@
 ---
 title: 'DEsign.!. Creative GIFs'
 date: '2018-03-27'
+featuredImage: './images/Screenshot-2018-3-27-sign-.png'
 ---
 
 ![](images/Screenshot-2018-3-27-sign-.png)

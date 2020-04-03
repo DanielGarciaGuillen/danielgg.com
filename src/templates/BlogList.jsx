@@ -23,19 +23,20 @@ const Pagination = styled.div`
 `
 
 const PaginationButton = styled.button`
-  background: ${props => (props.primary ? '#4392f1' : 'white')};
+  background: ${(props) => (props.primary ? '#4392f1' : 'white')};
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 800;
-  color: ${props => (props.primary ? 'white' : '#4392f1')};
+  color: ${(props) => (props.primary ? 'white' : '#4392f1')};
   width: 150px;
   height: 40px;
-  border: ${props => (props.primary ? 'none' : '1px solid #4392f1')};
+  border: ${(props) => (props.primary ? 'none' : '1px solid #4392f1')};
   border-radius: 3px;
 `
 
 const BlogList = ({ pageContext }) => {
   const { group, index, pathPrefix } = pageContext
+  console.log(pageContext)
   const previousUrl =
     index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
   const nextUrl = `${pathPrefix}/${(index + 1).toString()}`
