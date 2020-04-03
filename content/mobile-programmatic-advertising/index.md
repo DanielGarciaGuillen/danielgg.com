@@ -1,7 +1,7 @@
 ---
 title: 'Guide to Programmatic Advertising Part 2'
-date: '2016-03-10'\
-featuredImage: './images/programmatic-ads-part-2-1024x681.jpg'
+date: '2016-03-10'
+featuredImage: './images/programmatic-ads-part-2.jpg'
 ---
 
 I am sure that you are excited to know more about programmatic advertising.
