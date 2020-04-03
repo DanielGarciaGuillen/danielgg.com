@@ -1,6 +1,6 @@
-const path = require('path')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const createPaginatedPages = require('gatsby-paginate')
+const path = require('path')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
