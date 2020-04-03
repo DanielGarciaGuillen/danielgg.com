@@ -36,7 +36,6 @@ const PaginationButton = styled.button`
 
 const BlogList = ({ pageContext }) => {
   const { group, index, pathPrefix } = pageContext
-  console.log(pageContext)
   const previousUrl =
     index - 1 === 1 ? '' : `${pathPrefix}/${(index - 1).toString()}`
   const nextUrl = `${pathPrefix}/${(index + 1).toString()}`
