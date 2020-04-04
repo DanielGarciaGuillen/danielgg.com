@@ -32,7 +32,7 @@ const Grid = styled.div`
   grid-template-areas:
     '... header ...'
     '... blog ...'
-    'footer footer footer';
+    '... footer ...';
   grid-column-gap: 30px;
   grid-row-gap: 10px;
   background-color: #fff;

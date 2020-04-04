@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterDiv = styled.div`
-  grid-row: 3;
-  grid-column: 1/4;
+  grid-area: footer;
   align-self: center;
   display: flex;
   flex-direction: column;
