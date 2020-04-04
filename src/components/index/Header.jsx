@@ -5,7 +5,10 @@ import Link from 'gatsby-link'
 const HeaderDiv = styled.div`
   grid-area: header;
   display: flex;
-  place-content: space-around;
+  place-content: space-between;
+  @media (max-width: 900px) {
+    place-content: space-around;
+  }
 `
 
 const Title = styled.div`

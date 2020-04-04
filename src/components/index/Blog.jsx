@@ -1,5 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Link from 'gatsby-link'
+import { motion } from 'framer-motion'
+
 import { useStaticQuery, graphql } from 'gatsby'
 
 import styled from 'styled-components'
@@ -21,7 +23,7 @@ const BlogDiv = styled.div`
   }
 `
 
-const Triangles = styled.div`
+const Triangles = styled(motion.div)`
   background-image: url(${trian3});
   height: 100px;
   border-radius: 2px;
@@ -43,7 +45,7 @@ const Triangles = styled.div`
   }
 `
 
-const ReadBlog = styled.button`
+const ReadBlog = styled(motion.button)`
   cursor: pointer;
   background: white;
   font-size: 22px;
@@ -56,55 +58,15 @@ const ReadBlog = styled.button`
   border-color: 0px solid;
   border-radius: 3px;
   background: #4392f1;
-  background: -webkit-linear-gradient(to left, #4392f1, #6dd5ed);
-  background: linear-gradient(to left, #4392f1, #6dd5ed);
-
-  background-size: 200% 200%;
-  -webkit-animation: Gradient 10s ease infinite;
-  -moz-animation: Gradient 10s ease infinite;
-  animation: Gradient 10s ease infinite;
-  @-webkit-keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-  @-moz-keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-    @keyframes Gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-  }
 `
 
 const Blog = () => {
   return (
     <BlogDiv>
-      <Triangles>
+      <Triangles
+        whileHover={{ width: '1000px', height: '400px' }}
+        whileTap={{ scale: 0.9 }}
+      >
         <Link
           style={{
             textDecoration: 'none',
@@ -112,7 +74,7 @@ const Blog = () => {
           }}
           to="/blog"
         >
-          <ReadBlog>Read Blog</ReadBlog>
+          <ReadBlog whileTap={{ scale: 0.9 }}>Read Blog</ReadBlog>
         </Link>
       </Triangles>
     </BlogDiv>

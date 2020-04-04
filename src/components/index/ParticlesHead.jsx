@@ -1,9 +1,21 @@
 import React, { Component } from 'react'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
+
 import './particles.css'
 
-const Parti = styled.div`
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      delay: 2,
+    },
+  },
+}
+
+const Parti = styled(motion.div)`
   grid-area: particles;
   justify-self: end;
   align-self: center;
@@ -19,7 +31,7 @@ const Parti = styled.div`
 class ParticlesHead extends Component {
   render() {
     return (
-      <Parti>
+      <Parti variants={container} initial="hidden" animate="show">
         <Particles
           params={{
             particles: {
@@ -52,7 +64,7 @@ class ParticlesHead extends Component {
             },
             interactivity: {
               detect_on: 'canvas',
-              events: {               
+              events: {
                 onclick: { enable: true, mode: 'bubble' },
                 resize: true,
               },

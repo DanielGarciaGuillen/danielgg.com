@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 const FeaturedImage = styled.img`
   width: 900px;
@@ -12,7 +13,7 @@ const FeaturedImage = styled.img`
     width: 350px;
   }
 `
-const PostListContainer = styled.div`
+const PostListContainer = styled(motion.div)`
   width: 900px;
   @media (max-width: 900px) {
     width: 500px;
@@ -22,10 +23,6 @@ const PostListContainer = styled.div`
   }
   box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    transform: scale(1.05);
-  }
   margin-bottom: 100px;
   a {
     text-decoration: none;
@@ -60,7 +57,14 @@ const ReadMoreDiv = styled.div`
 
 const PostItem = ({ post }) => {
   return (
-    <PostListContainer key={post.fields.slug}>
+    <PostListContainer
+      whileHover={{
+        scale: 1.05,
+        transition: { duration: 0.2 },
+      }}
+      whileTap={{ scale: 0.9 }}
+      key={post.fields.slug}
+    >
       <Link to={post.fields.slug} key={post.frontmatter.title}>
         {post.frontmatter.featuredImage !== null ? (
           <FeaturedImage

@@ -1,16 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
-const PortfolioItem = styled.div`
+const PortfolioItem = styled(motion.div)`
   box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   width: 400px;
   font-size: 16px;
-
-  &:hover {
-    transform: scale(1.02);
-    border: 4px solid aliceblue;
-  }
   @media (max-width: 700px) {
     width: 400px;
     margin-bottom: 20px;
@@ -65,7 +61,13 @@ const ProjectImage = styled.img`
 `
 
 const Project = ({ project: { title, subTitle, url, image, tech } }) => (
-  <PortfolioItem>
+  <PortfolioItem
+    whileHover={{
+      scale: 1.1,
+      transition: { duration: 1 },
+    }}
+    whileTap={{ scale: 0.9 }}
+  >
     <a href={url}>
       <ProjectImage src={image} />
     </a>
