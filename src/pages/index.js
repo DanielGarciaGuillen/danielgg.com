@@ -5,6 +5,7 @@ import Intro from '../components/index/Intro'
 import ParticlesHead from '../components/index/ParticlesHead'
 import Blog from '../components/index/Blog'
 import Portfolio from '../components/index/Portfolio'
+import BlogList from '../components/index/BlogList'
 import Footer from '../components/index/Footer'
 import Header from '../components/index/Header'
 import favicon from '../images/icons/favicon.png'
@@ -20,6 +21,7 @@ const IndexPage = () => (
     <Header />
     <ParticlesHead />
     <Intro />
+    <BlogList />
     <Blog />
     <Portfolio />
     <Footer />
@@ -31,10 +33,12 @@ export default IndexPage
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 2fr 5fr 2fr;
-  grid-template-rows: 180px 600px 80px 400px 80px auto 80px 30px 10px;
+  grid-template-rows: 180px 600px 100px 800px 80px 400px 80px auto 80px 30px 10px;
   grid-template-areas:
     '... header ...'
     'particles intro ...'
+    '... ... ...'
+    '... blogList ...'
     '... ... ...'
     '... blog ...'
     '... ... ...'

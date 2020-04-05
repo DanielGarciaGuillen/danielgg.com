@@ -50,6 +50,8 @@ const Title = styled.div`
 const Excerpt = styled.div`
   padding: 0px 0 0px 20px;
   line-height: 1.5;
+  font-size: 18px;
+  color: black;
 `
 const ReadMoreDiv = styled.div`
   padding: 0px 0 5px 20px;
@@ -57,30 +59,30 @@ const ReadMoreDiv = styled.div`
 
 const PostItem = ({ post }) => {
   return (
-    <PostListContainer
-      whileHover={{
-        scale: 1.05,
-        transition: { duration: 0.2 },
-      }}
-      whileTap={{ scale: 0.9 }}
-      key={post.fields.slug}
-    >
-      <Link to={post.fields.slug} key={post.frontmatter.title}>
+    <Link to={post.fields.slug} key={post.frontmatter.title}>
+      <PostListContainer
+        whileHover={{
+          scale: 1.05,
+          transition: { duration: 0.2 },
+        }}
+        whileTap={{ scale: 0.9 }}
+        key={post.fields.slug}
+      >
         {post.frontmatter.featuredImage !== null ? (
           <FeaturedImage
             src={post.frontmatter.featuredImage.childImageSharp.fluid.src}
           />
         ) : null}
         <Title dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
-      </Link>
 
-      <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-      <ReadMoreDiv>
-        <Link to={post.fields.slug}>
-          <h4>Read More</h4>
-        </Link>
-      </ReadMoreDiv>
-    </PostListContainer>
+        <Excerpt dangerouslySetInnerHTML={{ __html: post.excerpt }} />
+        <ReadMoreDiv>
+          <Link to={post.fields.slug}>
+            <h4>Read More</h4>
+          </Link>
+        </ReadMoreDiv>
+      </PostListContainer>
+    </Link>
   )
 }
 

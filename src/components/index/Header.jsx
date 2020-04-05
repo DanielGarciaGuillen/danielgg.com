@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 import Link from 'gatsby-link'
 
 const HeaderDiv = styled.div`
@@ -38,12 +39,9 @@ const LinkMenu = styled.a`
   cursor: pointer;
   padding-bottom: 30px;
   opacity: 0.8;
-  :hover {
-    opacity: 1;
-  }
 `
 
-const LinkImg = styled.img`
+const LinkImg = styled(motion.img)`
   height: 36px;
   width: 36px;
   @media (max-width: 900px) {
@@ -69,12 +67,21 @@ const Header = () => (
     <Menu>
       <LinkMenu href="https://github.com/DanielGarciaGuillen">
         <LinkImg
+          whileHover={{
+            scale: 1.2,
+          }}
+          whileTap={{ scale: 0.9 }}
           alt="github"
           src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
         />
       </LinkMenu>
       <LinkMenu href="https://twitter.com/dangguillen?lang=en">
         <LinkImg
+          whileHover={{
+            scale: 1.2,
+            opacity: 1,
+          }}
+          whileTap={{ scale: 0.9, opacity: 1 }}
           alt="twitter"
           src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg"
         />

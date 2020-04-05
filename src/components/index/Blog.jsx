@@ -1,9 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { motion } from 'framer-motion'
-
-import { useStaticQuery, graphql } from 'gatsby'
-
 import styled from 'styled-components'
 import trian3 from '../../images/assets/trianglify.png'
 
@@ -17,7 +14,6 @@ const BlogDiv = styled.div`
   align-items: center;
   align-self: center;
   justify-self: center;
-
   @media (max-width: 800px) {
     width: 300px;
   }
@@ -74,7 +70,7 @@ const Blog = () => {
           }}
           to="/blog"
         >
-          <ReadBlog whileTap={{ scale: 0.9 }}>Read Blog</ReadBlog>
+          <ReadBlog whileTap={{ scale: 0.9 }}>BLOG</ReadBlog>
         </Link>
       </Triangles>
     </BlogDiv>

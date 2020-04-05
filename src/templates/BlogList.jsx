@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import Layout from '../components/Layout'
 import PostItem from './PostItem'
@@ -22,7 +23,7 @@ const Pagination = styled.div`
   place-content: space-evenly;
 `
 
-const PaginationButton = styled.button`
+const PaginationButton = styled(motion.button)`
   background: ${(props) => (props.primary ? '#4392f1' : 'white')};
   cursor: pointer;
   text-transform: uppercase;
@@ -51,10 +52,26 @@ const BlogList = ({ pageContext }) => {
       </BlogPosts>
       <Pagination>
         <Link to={correctPreviousUrl}>
-          <PaginationButton>Previous </PaginationButton>
+          <PaginationButton
+            whileHover={{
+              scale: 1.02,
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Previous
+          </PaginationButton>
         </Link>
         <Link to={nextUrl}>
-          <PaginationButton primary>Next </PaginationButton>
+          <PaginationButton
+            whileHover={{
+              scale: 1.05,
+              transition: { duration: 0.2 },
+            }}
+            whileTap={{ scale: 0.9 }}
+            primary
+          >
+            Next
+          </PaginationButton>
         </Link>
       </Pagination>
     </Layout>
