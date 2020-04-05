@@ -12,7 +12,8 @@ const BlogItemContainer = styled(motion.div)`
   margin-bottom: 50px;
   font-size: 16px;
   @media (max-width: 700px) {
-    width: 180px;
+    width: 280px;
+    height: 300px;
     margin-bottom: 20px;
   }
 `
@@ -37,7 +38,7 @@ const ProjectImage = styled.img`
   border-radius: 10px;
   object-fit: cover;
   @media (max-width: 700px) {
-    width: 180px;
+    width: 280px;
   }
 `
 

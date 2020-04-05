@@ -8,7 +8,7 @@ const PortfolioItem = styled(motion.div)`
   width: 400px;
   font-size: 16px;
   @media (max-width: 700px) {
-    width: 400px;
+    width: 350px;
     margin-bottom: 20px;
   }
   @media (max-width: 400px) {
@@ -53,7 +53,7 @@ const ProjectImage = styled.img`
   width: 400px;
   border-radius: 10px;
   @media (max-width: 700px) {
-    width: 400px;
+    width: 350px;
   }
   @media (max-width: 400px) {
     width: 300px;

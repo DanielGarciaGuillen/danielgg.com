@@ -55,11 +55,12 @@ const Grid = styled.div`
 
   @media (max-width: 900px) {
     grid-template-columns: 20px 1fr 20px;
-    grid-template-rows: 180px 100px 600px 300px auto 100px;
+    grid-template-rows: 180px 100px 600px auto 300px auto 100px;
     grid-template-areas:
       '... header ...'
       '... particles ...'
       '... intro ...'
+      '... blogList ...'
       '... blog ...'
       '... portfolio ...'
       '... footer ...';
