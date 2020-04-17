@@ -7,6 +7,7 @@ const PortfolioItem = styled(motion.div)`
   border-radius: 10px;
   width: 400px;
   font-size: 16px;
+  margin-bottom: 50px;
   @media (max-width: 700px) {
     width: 350px;
     margin-bottom: 20px;

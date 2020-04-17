@@ -14,6 +14,7 @@ const PortfolioGrid = styled.div`
   font-family: 'Catamaran', sans-serif;
   place-content: center;
   place-items: center;
+
   grid-template-areas:
     'title'
     'projects';
@@ -37,6 +38,9 @@ const Projects = styled.div`
   grid-area: 'projects';
   display: flex;
   width: 100%;
+
+  flex-wrap: wrap;
+
   flex-direction: row;
   place-content: space-around;
   @media (max-width: 900px) {
