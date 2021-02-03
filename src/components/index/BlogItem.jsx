@@ -8,7 +8,7 @@ const BlogItemContainer = styled(motion.div)`
   box-shadow: 6px 2px 44px 10px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   width: 350px;
-  height: 320px;
+  height: 350px;
   margin-bottom: 50px;
   font-size: 16px;
   @media (max-width: 700px) {
@@ -21,7 +21,7 @@ const Title = styled.a`
   text-decoration: none;
   color: #6bd2ed;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   :visited,
   :hover {
     color: #48abd4;

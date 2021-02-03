@@ -45,13 +45,12 @@ const Grid = styled.div`
   }
 
   p {
-    font-size: 18px;
+    font-size: 22px;
   }
   h1,
   h2,
   h3,
   h4 {
-    font-size: 25px;
     font-weight: bold;
     padding-top: 10px;
   }

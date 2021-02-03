@@ -10,8 +10,19 @@ const Post = styled.div`
 
 const ContentPost = styled.div`
   padding: 20px 0px 20px 0;
-  line-height: 1.5;
+  line-height: 1.8;
   width: 900px;
+  p, li, code {
+    font-size: 22px;
+  }
+  code{
+    background: #8080802e;
+    padding: 3px;
+  }
+  pre {
+    background: #8080802e;
+    padding: 10px;
+  }
   img {
     max-width: 100%;
     height: auto;
