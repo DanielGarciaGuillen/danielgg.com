@@ -12,7 +12,7 @@ On my last performance review, my boss suggested that I should focus this year o
 
 I agreed with him, being self taught has it's pros and cons.
 
-I don't enjoy much the technical aspects of front end development, so lean more to learn the desing parts of the job.
+I don't enjoy much the technical aspects of front end development, so I usually lean more towards learning the design parts of the job.
 
 But...
 
@@ -68,11 +68,11 @@ Ok, so now we have the building blocks to understand a basic example on how JS w
 
 This is the code that we are going to analyze.
 
-It is a pretty simple code where we create a const a with value 2.
+It is a pretty simple code where we create a `const a` with value 2.
 
-Then we create a function where the value passed as parament is going to be multiplied by 2 and returned. 
+Then we create `function multiplyBy2` where the parameter pass is going to be multiplied by 2 and returned. 
 
-Last, we assigning the result of running the function to the const newValue.
+Last, we assigning the result of running the function to the `const newValue`.
 
 
 ```javascript
