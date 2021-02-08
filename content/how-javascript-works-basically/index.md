@@ -20,7 +20,7 @@ I want to push myself, so there are no excuses.
 
 I payed for the yearly subscription on [Front End Masters](https://frontendmasters.com/), that's 600$, so I have to make it worth it!
 
-The first course I picked is this [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2), taught by [Will Sentance](https://frontendmasters.com/teachers/will-sentance/).
+The first course I picked is [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2), taught by [Will Sentance](https://frontendmasters.com/teachers/will-sentance/).
 Three hours in and I can say this course alone is worth those 600$ bucks.
 
 On this post I am going to use pretty similar explanations to the one's Will use on the course.
