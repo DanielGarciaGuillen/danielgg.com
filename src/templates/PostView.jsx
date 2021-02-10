@@ -14,10 +14,14 @@ const ContentPost = styled.div`
   width: 900px;
   p, li, code {
     font-size: 22px;
+    
   }
   code{
     background: #8080802e;
     padding: 3px;
+    @media (max-width: 900px) {
+      font-size: 12px;
+    }
   }
   pre {
     background: #8080802e;
