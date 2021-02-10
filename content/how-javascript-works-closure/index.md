@@ -10,7 +10,7 @@ featuredImage: './images/how-JS-works-closure.png'
 
 Continuing to improve my understanding of JS, I want to take a look at how closure works.
 
-I think not many people junior/mid-level developers understand the concept of closure.
+I think not many junior/mid-level developers understand the concept of closure.
 
 I want to create on this post a reference for it, so whenever you want to refresh what was closure about, you can check it!
 
@@ -69,7 +69,7 @@ The execution context for `wow()` gets deleted and JS pop out `wow()` from the c
 ![Execution Context!](images/closure3.png)
 
 
-<b>Step 3</b>: At line 9, JS executes `example()`, since we know this is an invocation, we push it to the call stack and we create a brand new execution context. We know that invoking an example is the same as invoking what used to be `duplicateNumber`.
+<b>Step 3</b>: At line 9, JS executes `example()`, since we know this is an invocation, we push it to the call stack and we create a brand new execution context. We know that invoking `example` is the same as invoking what used to be `duplicateNumber`.
 
 The key to understanding closure is coming, hang on tight.
 
@@ -96,7 +96,7 @@ On the `example` identifier, not only the function f was saved, but also the att
 
 ![Execution Context!](images/closure5.png)
 
-JS looks for the score value on the <b>BACKPACK</b> and multiply it by 2, the value `score` is updated on the <b>BACKPACK</b> to 10, and finally the example execution context gets deleted and `example()` is push out from the stack.
+JS looks for the score value on the <b>BACKPACK</b> and multiply it by 2, the value `score` is updated on the <b>BACKPACK</b> to 10, the example execution context gets deleted and `example()` is push out from the stack.
 
 ![Execution Context!](images/closure6.png)
 
