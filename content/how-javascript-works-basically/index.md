@@ -76,14 +76,14 @@ Last, we assigning the result of running the function to the `const newValue`.
 
 
 ```javascript
-const a = 2
-
-function multiplyBy2(inputNumber) {
-    const result = inputNumber * 2;
-    return result;
-}
-
-const newValue = multiplyBy2(a)
+1: const a = 2
+2:
+3: function multiplyBy2(inputNumber) {
+4:    const result = inputNumber * 2;
+5:    return result;
+6: }
+7:
+8: const newValue = multiplyBy2(a)
 ```
 
 This diagram is going to guide us step by step on what going on under the hood when JS is executing the code.
@@ -95,23 +95,22 @@ Remember, JS executes the code line by line, and that's what we are going to do!
 
 <br/>
 
-<b>Step 1</b>: Starting with the first line, Identifier `'a'` is store in memory with the value `2` and the Call Stack gets initialize with Global().
+<b>Step 1</b>: At line 1, identifier `'a'` is store in memory with the value `2`.
 
-<b>Step 2</b>: Identifier `multiplyBy2` is store on memory with the function f. We are defining the function, not invoking it yet.
+<b>Step 2</b>: At line 3, identifier `multiplyBy2` is store on memory with the function f. We are defining the function, not invoking it yet.
 
-<b>Step 3</b>: Identifier `newValue` is store on memory with no value until Step 7 (forget there is a red 4 in there for now please).
+<b>Step 3</b>: At line 8, `multiplyBy2(a)` is now invoked, and is going to
+create a new execution context, `multiplyBy2(a)` also gets added to the call stack and it takes priority to get executed.
 
-<b>Step 4</b>: `multiplyBy2(a)` is now invoked, and is going to
-create a <b>new Execution Context</b>. 
-Also `multiplyBy2(a)` gets added to the Call Stack and it takes priority to get executed.
+Note: Identifier `newValue` is store not in memory until `multiplyBy2(a)` is resolved.
 
-<b>Step 5</b>: Now we are inside the multiplyBy2 Execution Context. The parameter `inputNumber` is assigned the argument `a` stored on global memory.
+<b>Step 4</b>: Now we are inside the multiplyBy2 Execution Context. The parameter `inputNumber` is assigned the argument `a` stored on global memory.
 
-<b>Step 6</b>: The identifier `result` is stored in memory with no value until `inputNumber * 2` is evaluated, then the value 4 is assigned to it.
+<b>Step 5</b>: The identifier `result` is not stored in memory until `inputNumber * 2` is evaluated, then the value 4 is assigned to it.
 
-<b>Step 7</b>: When `result` is returned, the execution context looks on the local memory for the result value (result: 4). Then the evaluation of newValue is resolve with the value 4. The use of return in a function indicates that the thread of execution of the function is done and can be removed from the call stack.
+<b>Step 6</b>: When `result` is returned, the execution context looks on the local memory for the result value (result: 4). Then the evaluation of newValue is resolve with the value 4. The use of return in a function indicates that the thread of execution of the function is done and can be removed from the call stack.
 
-<b>Step 8</b>: The End
+<b>Step 7</b>: Identifier `newValue` is store in memory with the value of 4.    
 
 ## Conclusion
 

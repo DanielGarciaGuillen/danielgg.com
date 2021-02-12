@@ -10,9 +10,9 @@ featuredImage: './images/how-JS-works-closure.png'
 
 Continuing to improve my understanding of JS, I want to take a look at how closure works.
 
-I think not many junior/mid-level developers understand the concept of closure.
+I think many junior/mid-level developers don't understand fully the concept of closure.
 
-I want to create on this post a reference for it, so whenever you want to refresh what was closure about, you can check it!
+I want to create a reference on this post, so whenever you want to refresh what was closure about, you can check it!
 
 This is part of my How JS works series, to understand this post, I recommend you first read [Part 1](https://danielgg.com/how-javascript-works-basically/) if you haven't done it.
 
@@ -58,11 +58,11 @@ Remember, JS executes the code line by line, and that's what we are going to do!
 
 This function `wow()` goes on top of the call stack and it creates a brand new execution context.
 
-In wow execution context, we first create an identifier `score` with the value `5` and an identifier `duplicateNumber` with the function f as value. 
+In wow's execution context, we first create an identifier `score` with the value `5` and an identifier `duplicateNumber` with the function f as value. 
 
 ![Execution Context!](images/closure2.png)
 
-JS then jumps to the thread of execution and returns `duplicateNumber`. On the local memory of wow execution context, JS find `duplicateNumber`, identifier `example` gets created with the function f as value. 
+JS then jumps to the thread of execution and returns `duplicateNumber`. On the local memory of wow's execution context, JS find `duplicateNumber`, identifier `example` gets created with the function f as value. 
 
 The execution context for `wow()` gets deleted and JS pop out `wow()` from the call stack.
 
