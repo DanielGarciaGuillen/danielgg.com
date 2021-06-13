@@ -10,7 +10,8 @@ featuredImage: './images/how-JS works-asynchronous.png'
 
 On this post we are continuing to learn how JS works. 
 
-From [previous post](https://danielgg.com/how-javascript-works-basically/), we know 3 core pieces of the Javascript engine are:
+From [How JS works, basics](https://danielgg.com/how-javascript-works-basically//)
+, we know 3 core pieces of the Javascript engine are:
 
 -   Thread of Execution
 -   Memory
@@ -23,10 +24,9 @@ It doesn't seems like the best idea.
 
 How does JS handle it?
 
-We are going to learn how JS manages asyncrhonus code.
+We are going to learn how JS manages asynchronus code.
 
-Apart from the previous 3 core pieces of the JS engine, we need some <b>new components</b>, some of them wich aren't Javascript at all!
-
+Apart from the previous 3 core pieces of the JS engine, we need some <b>new components</b>.
 - Web Browser API's/Node background API's
 - Promises
 - Event loop, Callback/Task queue and micro task queue.
@@ -37,7 +37,7 @@ These are some examples of the features that the Web Browser API provides with i
 - Network request => fetch
 - Timer => setTimeout
 
-Let's take a look at a basic example, to see how Javascript manages Asynchronous code.
+Let's create a basic example to see how Javascript manages asynchronous code.
 
 # JS Asynchronous Basics
 
@@ -51,31 +51,31 @@ Let's take a look at a basic example, to see how Javascript manages Asynchronous
 
 What do you think will log first `Hello` of `Me first`?
 
-Our intuition says that `Me first` , because we see a `setTimeout` of one second for the `printHello` function.
+Our intuition says `Me first`, because we see a `setTimeout` of one second for the `printHello` function.
 
 But...
 
-If JS runs code line by line, how can this be possible?
+If JS runs code line by line, how could it be possible?
 
 Let's take a look to a Web API example.
 
 On blue, things that are happening on the Web Browser.
-On green, the fictional time where things are happening.
+
+On green, the time (just for ilustration purposes) where code executes.
+
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code.png)
-Lets go step by step.
-<br/>
-'
+ 
 <b>Step 1</b>: At line 1, identifier `'printHello'` is store in memory with the function f.
 
-<b>Step 2</b>: At line 3, `setTimeout(printHello(), 1000)` is invoked, this is a command for the Web Browser's feature Timer. The job of the function `setTimeOut` is then <b>done!</b>.
+<b>Step 2</b>: At line 3, `setTimeout(printHello(), 1000)` is invoked, this is a command for the Web Browser's feature Timer. The job of the function `setTimeOut` is then <b>done!</b>
 
 <b>Step 3</b>: Timer is invoked on the Web Browser with two arguments, the callback function to run on completion, and the time to wait. At 0ms, the timer is not yet complete.
 
 <b>Step 4</b>: At line 5, the execution context executes `console.log("Me first")` at 1ms time mark. As mentioned on Step 2, `setTimeOut` function job is done, so the execution context is free to continue executing line by line.
 
-<b>Step 5</b>: When time passes and we get to 1000ms, the Timer knows the onCompletion clause is now valid, and the callback function can gets returned, `printHello()` function gets added to the Call Stack.
- Then `printHello()` is executed on the execution context and gets deleted from the Call Stack.
+<b>Step 5</b>: When time passes and we get to 1000ms, the Timer knows the onCompletion clause is now valid, and the callback function gets returned, `printHello()` function gets added to the Call Stack.
+Then `printHello()` is executed on the execution context and gets deleted from the Call Stack.
 
 Wow.
 
@@ -117,16 +117,22 @@ Ok, but how does JS know when is time to move `printHello()` from the Callback Q
 
 <b>The Event Loop</b>
 
-The Event Loop checks if the Call Stack is empty and if there is any code to execute on the global execution context. If so, then checks the Callback Queue, if the Callback Queue has code to execute, it pops it to the Call Stack.
+The Event Loop checks if the Call Stack is empty and if there is no code to execute on the global execution context. If so, then checks the Callback Queue, if the Callback Queue has code to execute, it pops it to the Call Stack.
 
-
-
-
-
+And that's was the basics for asynchronous code until [es6](https://www.w3schools.com/js/js_es6.asp), where promises where introduced.
 
 ## Conclusion
 
-I hope this explanation gives you an idea of how JS works under the hood for a simple block of code. I am am going to create more content as I advance on the course.
+I am amaze how JS being a synchronous language, manages to execute asynchronous code.
 
-If you are interested on the topic, I recommend you to grab a subscription on [Front End Master](https://frontendmasters.com/) and give it a chance!
+On the next post we are going to take a dive into promises.
 
+This is part 3 of the <b>How JS works series</b>.
+
+Check out the other post of the series:
+
+[Part 1 - How JS works, basics](https://danielgg.com/how-javascript-works-basically//)
+
+[Part 2 - How JS works, closure](https://danielgg.com/how-javascript-works-closure/)
+
+Thanks for reading!
