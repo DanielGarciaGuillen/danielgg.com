@@ -63,34 +63,30 @@ On blue, things that are happening on the Web Browser.
 
 On green, the time (just for illustration purposes) where code executes.
 
-
- <ol>
-<li></li> <p>At line 1, identifier `'printHello'` is store in memory with the function f.</p>
-
+<b>Step 1</b>: At line 1, identifier `'printHello'` is store in memory with the function f.
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code1.png)
 
 
-<li></li> <p>At line 3, `setTimeout(printHello(), 1000)` is invoked, this is a command for the Web Browser's feature Timer. The job of the function `setTimeOut` is then <b>done!</b></p>
+<b>Step 2</b>: At line 3, `setTimeout(printHello(), 1000)` is invoked, this is a command for the Web Browser's feature Timer. The job of the function `setTimeOut` is then <b>done!</b>
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code2.png)
 
 
-<li></li> <p>Timer is invoked on the Web Browser with two arguments, the callback function to run on completion, and the time to wait. At 0ms, the timer is not yet complete.</p>
+<b>Step 3</b>: Timer is invoked on the Web Browser with two arguments, the callback function to run on completion, and the time to wait. At 0ms, the timer is not yet complete.
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code3.png)
 
-<li></li> <p>At line 5, the execution context executes `console.log("Me first")` at 1ms time mark. As mentioned on Step 2, `setTimeOut` function job is done, so the execution context is free to continue executing line by line.</p>
+<b>Step 4</b>: At line 5, the execution context executes `console.log("Me first")` at 1ms time mark. As mentioned on Step 2, `setTimeOut` function job is done, so the execution context is free to continue executing line by line.
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code4.png)
 
 
-<li></li> <p>When time passes and we get to 1000ms, the Timer knows the onCompletion clause is now valid, and the callback function gets returned, `printHello()` function gets added to the Call Stack.
-Then `printHello()` is executed on the execution context and gets deleted from the Call Stack.</p>
+<b>Step 5</b>: When time passes and we get to 1000ms, the Timer knows the onCompletion clause is now valid, and the callback function gets returned, `printHello()` function gets added to the Call Stack.
+Then `printHello()` is executed on the execution context and gets deleted from the Call Stack.
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code5.png)
 
-</ol>
 
 Wow.
 
