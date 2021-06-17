@@ -65,7 +65,7 @@ On green, the time (just for illustration purposes) where code executes.
 
 
  <ol>
-<li>Step</li> <p>At line 1, identifier `'printHello'` is store in memory with the function f.</p>
+<li>At line 1, identifier `'printHello'` is store in memory with the function f.</li>
 
 
 ![JS Asynchronous.png!](images/how-Javascript-handles-Asynchronous-Code1.png)
