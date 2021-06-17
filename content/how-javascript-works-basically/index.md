@@ -50,7 +50,7 @@ Any JS code is always run on an execution context.
 
 The execution context consist on two parts:
 
-- Tread of execution
+- Thread of execution
 - Memory
 
 ### The Call Stack
