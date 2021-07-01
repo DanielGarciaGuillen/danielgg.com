@@ -85,7 +85,7 @@ This line will print `I am here` to the console, then it gets removed from the c
 
 ![How JS works, Promises!](images/how-js-works-promises-6.png)
 
-<b>Step 7</b> Finally, the information that we were waiting from the API call to `https://danielgg.com/info` has returned at the timestamp 300ms!
+<b>Step 7</b> Finally, the information that we were waiting from the API call to `https://danielgg.com` has returned at the timestamp 300ms!
 
  🥳  🥳  🥳 
 
