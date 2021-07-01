@@ -22,6 +22,9 @@ const ContentPost = styled.div`
     @media (max-width: 900px) {
       font-size: 12px;
     }
+    @media (max-width: 500px) {
+      font-size: 10px;
+    }
   }
   pre {
     background: #8080802e;
